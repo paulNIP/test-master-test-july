@@ -1,0 +1,507 @@
+19-02-2024 
+18:06:34.418 I: (SafetyTestApplication:347) ===== START ===== Test Master DUMPNOBUF SFT ver O07 21.11.2023 3.680, DEVICE API=31, Release=<12>, Manufacturer=<samsung>, Model=<SM-T220> RAM=3001782272 FREE=930783232
+18:06:34.422 I: (SafetyTestApplication:432) deviceScreen Width=1340 Height=736 orientation=LANDSCAPE
+18:06:34.432 I: (SafetyTestApplication:450)  schemaDrawable IntrinsicWidth=1203 .Height=684
+18:06:34.473 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <StartMenuActivity>
+18:06:34.479 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:06:34.489 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:06:34.492 I: (StartMenuActivity:114) === onCreate NEW
+18:06:34.496 I: (StartMenuActivity:155) onCreate continue1
+18:06:34.515 I: (SafetyTestApplication:1048) readProfileInfos currLanguage=GER
+18:06:34.517 I: (SafetyTestApplication:1050) readProfileInfos currOrientation=LANDSCAPE
+18:06:34.519 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:06:34.521 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:06:34.880 I: (StartMenuActivity:1807) checkCurrentDate: now=19.02.2024 18:06:34 build=21.11.2023 21:24:09 dayDiff=89
+18:06:34.881 I: (StartMenuActivity:1642) checkPermissions
+18:06:34.884 I: (StartMenuActivity:1713) checkPermissions -> finalInit
+18:06:34.885 I: (StartMenuActivity:231) finalInit, isInitialized=false
+18:06:34.940 I: (SafetyTestApplication:1048) readProfileInfos currLanguage=GER
+18:06:34.941 I: (SafetyTestApplication:1050) readProfileInfos currOrientation=LANDSCAPE
+18:06:34.947 I: (SafetyTestApplication:1059) readProfileInfos anwender_standard=false
+18:06:34.948 I: (SafetyTestApplication:1061) readProfileInfos ablauf_auto=false
+18:06:34.948 I: (SafetyTestApplication:1063) readProfileInfos sLastCustomerNumber=
+18:06:34.949 I: (SafetyTestApplication:1065) readProfileInfos sLastIDNumber=
+18:06:34.960 I: (SafetyTestApplication:1067) readProfileInfos login_on=true
+18:06:34.961 I: (SafetyTestApplication:1070) readProfileInfos verdrPolarity_on=true
+18:06:34.962 I: (SafetyTestApplication:1315) valCalibrateRpe_RSL_200=0.073
+18:06:34.963 I: (SafetyTestApplication:1322) valCalibrateRpe_RSL_10A=0.053
+18:06:34.964 I: (SafetyTestApplication:1329) valCalibrateRpe_RSV_200=0.07
+18:06:34.965 I: (SafetyTestApplication:1336) valCalibrateRpe_RSV_10A=0.05
+18:06:34.966 I: (SafetyTestApplication:1345) valCalibrateRpe_RSC_200=-10.0
+18:06:34.967 I: (SafetyTestApplication:1352) valCalibrateRpe_RSC_10A=-10.0
+18:06:34.968 I: (SafetyTestApplication:1358) snCalibrateRpe=T0200303
+18:06:34.972 I: (SafetyTestApplication:1369) dateCalibrateRpe=Mon Feb 19 13:24:26 GMT+01:00 2024
+18:06:34.973 I: (SafetyTestApplication:1081) readProfileInfos sManualDevType=
+18:06:34.974 I: (SafetyTestApplication:1083) readProfileInfos sManualDevSN=
+18:06:34.975 I: (SafetyTestApplication:1086) readProfileInfos sSynchRemdirDIR=
+18:06:34.976 I: (SafetyTestApplication:1088) readProfileInfos SynchRemdirON=false
+18:06:34.977 I: (SafetyTestApplication:1090) readProfileInfos sSynchRemdirDOMAIN=
+18:06:34.978 I: (SafetyTestApplication:1093) readProfileInfos sSynchCloudURL=
+18:06:34.979 I: (SafetyTestApplication:1095) readProfileInfos SynchCloudON=false
+18:06:34.980 I: (SafetyTestApplication:1098) readProfileInfos bAutoPDF=true
+18:06:34.981 I: (SafetyTestApplication:1101) readProfileInfos bJsonOn=false
+18:06:34.982 I: (SafetyTestApplication:1104) readProfileInfos bUniqueIdOn=false
+18:06:34.983 I: (SafetyTestApplication:1107) readProfileInfos bLastDigBarcodeOn=false
+18:06:34.984 I: (SafetyTestApplication:1112) readProfileInfos iFixedIdLength=0
+18:06:35.165 I: (SafetyTestApplication:1159) readProfileInfos MeterType=METERTYPE_TGO
+18:06:35.167 D: (DevOptions:334) Active Options: RCD, Schutz10A, Clamp, VerlSocket, Schutz10Acal
+18:06:35.168 D: (DevActivation:192) CheckDA OK -256 days
+18:06:35.170 D: (DevActivation:192) CheckDA OK -256 days +calib
+18:06:35.171 I: (SafetyTestApplication:1180) readProfileInfos ActivationInfo = <Pro 01.11.2024>
+18:06:35.177 I: (SafetyTestApplication:3162) read BigDatabaseIDNumbers n=6 date=Mon Feb 19 00:00:00 GMT+01:00 2024
+18:06:35.178 I: (SafetyTestApplication:3165)     BigDatabaseIDNumbers[0] cust=<00001> ID=<00001>
+18:06:35.179 I: (SafetyTestApplication:3165)     BigDatabaseIDNumbers[1] cust=<00001> ID=<00002>
+18:06:35.180 I: (SafetyTestApplication:3165)     BigDatabaseIDNumbers[2] cust=<00001> ID=<00009>
+18:06:35.181 I: (SafetyTestApplication:3165)     BigDatabaseIDNumbers[3] cust=<00001> ID=<00003>
+18:06:35.182 I: (SafetyTestApplication:3165)     BigDatabaseIDNumbers[4] cust=<00001> ID=<00004>
+18:06:35.183 I: (SafetyTestApplication:3165)     BigDatabaseIDNumbers[5] cust=<00001> ID=<00005>
+18:06:35.195 I: (SafetyTestApplication:1188) readProfileInfos eupGridON=true
+18:06:35.196 I: (SafetyTestApplication:1201) dateOfLastTestSaved=Mon Feb 19 11:48:43 GMT+01:00 2024
+18:06:35.197 I: (SafetyTestApplication:1204) nTestDaysFromLastSync=3
+18:06:35.227 I: (SafetyTestApplication:1207) nTestDaysFromLastDbPurge=3
+18:06:35.229 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:06:35.232 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:06:35.234 I: (EupDevGroupSelActivity:448) readEupDevGroups()
+18:06:35.305 I: (Util:786) getAppDirectoryAPI29 not present
+18:06:35.314 I: (StartMenuActivity:295) InitVariables2 clear crash flag
+18:06:35.403 I: (SafetyTestApplication:953) ===== TestFairy START ===== Test Master SFT ver O07 21.11.2023 3.680, DEVICE API=31, Release=<12>, Manufacturer=<samsung>, Model=<SM-T220> RAM=3001782272 FREE=922996736
+18:06:35.439 I: (DefaultRepository:83) new DefaultRepository db: <pcdrdata.sqlite3>
+18:06:35.461 I: (DefaultRepository:514) checkDatabaseContents()
+18:06:35.463 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+18:06:35.466 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+18:06:35.468 I: (DefaultRepository:483) setDatabaseVersion=9
+18:06:35.471 I: (DefaultRepository:502) setDatabaseVersion OK
+18:06:35.548 I: (StartMenuActivity:925) === onResume
+18:06:35.550 I: (FullScreenActivity:118) FullScreenActivity - onResume <StartMenuActivity>
+18:06:35.553 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:06:35.555 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:06:42.874 I: (StartMenuActivity:566) [MEMORY]
+18:06:42.912 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <MemoryActivity>
+18:06:42.916 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:06:42.918 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:06:42.920 I: (MemoryActivity:53) === onCreate NEW
+18:06:42.993 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+18:06:42.996 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:06:42.997 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:06:48.325 I: (MemoryActivity:113) [DATABASE]
+18:06:48.370 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <DatabaseActivity>
+18:06:48.374 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:06:48.376 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:06:48.377 I: (DatabaseActivity:72) === onCreate NEW
+18:06:48.446 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:06:48.448 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:06:48.450 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:06:51.828 I: (DatabaseActivity:131) [EXPORT DB]
+18:06:51.830 I: (AlertBuilderMod:86) AlertBuilderMod message=<Datenbank exportieren.>
+18:06:51.832 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Exportieren>
+18:06:51.833 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Datei senden>
+18:06:51.848 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:06:55.393 I: (DatabaseActivity:137) [EXPORT]
+18:06:55.394 I: (DefaultRepository:322) exportDatabase autoBackup=false inSync=false
+18:06:55.422 I: (Util:1256) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/pcdrdata_2024_02_19_18_06_55_7554ec7b773995be.sqlite3>, moveFile=false
+18:06:55.424 I: (Util:1261) copyFile inputFile date=19.02.2024 18:06:35, size=208896
+18:06:55.463 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/pcdrdata_2024_02_19_18_06_55_7554ec7b773995be.sqlite3
+18:06:55.466 I: (Util:2316) Toast - Datenbank-Datei exportiert. pcdrdata_2024_02_19_18_06_55_7554ec7b773995be.sqlite3
+18:06:55.539 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:06:55.578 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <FilesActivity>
+18:06:55.583 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:06:55.586 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:06:55.588 I: (FilesActivity:66) === onCreate NEW
+18:06:55.631 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:06:55.635 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:06:55.636 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:07:17.928 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:07:17.947 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:07:17.949 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:07:24.522 I: (FullScreenActivity:143) [BACK] <FilesActivity>
+18:07:24.554 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:07:24.556 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:07:24.558 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:07:24.984 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <FilesActivity>
+18:07:24.984 log FLUSH
+18:07:27.203 I: (DatabaseActivity:131) [EXPORT DB]
+18:07:27.204 I: (AlertBuilderMod:86) AlertBuilderMod message=<Datenbank exportieren.>
+18:07:27.206 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Exportieren>
+18:07:27.207 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Datei senden>
+18:07:27.216 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:07:31.391 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:07:32.227 I: (DatabaseActivity:101) [IMPORT DB]
+18:07:42.641 I: (DatabaseActivity:662) importSelectedDB PathName: pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3
+18:07:42.671 I: (Util:1313) copyFile using inputStream, outputPath=<> outputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata_temp.sqlite3>
+18:07:42.697 E: (Util:1351) copyFile OK n=208896
+18:07:42.713 I: (DefaultRepository:514) checkDatabaseContents()
+18:07:42.716 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+18:07:42.719 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+18:07:42.721 I: (DefaultRepository:599) checkDatabaseContents = DB_OK
+18:07:42.724 I: (AlertBuilderMod:86) AlertBuilderMod message=<Wollen Sie die Datenbank aus einer Datei laden? pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3>
+18:07:42.726 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+18:07:42.728 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+18:07:42.737 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:07:42.799 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:07:42.802 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:07:42.805 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:07:45.369 I: (DatabaseActivity:700) [YES]
+18:07:45.371 I: (DefaultRepository:322) exportDatabase autoBackup=true inSync=false
+18:07:45.415 I: (Util:1256) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_07_45_7554ec7b773995be.sqlite3>, moveFile=false
+18:07:45.416 I: (Util:1261) copyFile inputFile date=19.02.2024 18:06:35, size=208896
+18:07:45.449 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_07_45_7554ec7b773995be.sqlite3
+18:07:45.547 I: (SafetyTestApplication:886) setLastIDNumber <> to <>
+18:07:45.563 I: (AlertBuilderMod:86) AlertBuilderMod message=<Datenbank-Datei exportiert. pcdrdata_autoBackup__2024_02_19_18_07_45_7554ec7b773995be.sqlite3 Datenbank-Datei geladen.>
+18:07:45.567 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+18:07:45.575 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:07:45.577 I: (AlertWrapper:41) DatabaseActivity AlertWrapper dismiss by next .start dlgAlert=android.app.AlertDialog@76f6e37
+18:07:45.579 I: (AlertWrapper:51) DatabaseActivity AlertWrapper dismiss dlgAlert = null
+18:07:46.906 I: (DatabaseActivity:527) [OK]
+18:07:46.909 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:07:48.482 I: (DatabaseActivity:101) [IMPORT DB]
+18:07:56.760 I: (DatabaseActivity:662) importSelectedDB PathName: pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3
+18:07:56.784 I: (Util:1313) copyFile using inputStream, outputPath=<> outputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata_temp.sqlite3>
+18:07:56.807 E: (Util:1351) copyFile OK n=208896
+18:07:56.826 I: (DefaultRepository:514) checkDatabaseContents()
+18:07:56.829 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+18:07:56.833 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+18:07:56.836 I: (DefaultRepository:599) checkDatabaseContents = DB_OK
+18:07:56.837 I: (AlertBuilderMod:86) AlertBuilderMod message=<Wollen Sie die Datenbank aus einer Datei laden? pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3>
+18:07:56.839 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+18:07:56.840 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+18:07:56.851 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:07:56.898 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:07:56.903 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:07:56.905 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:07:59.020 I: (DatabaseActivity:700) [YES]
+18:07:59.023 I: (DefaultRepository:322) exportDatabase autoBackup=true inSync=false
+18:07:59.066 I: (Util:1256) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_07_59_7554ec7b773995be.sqlite3>, moveFile=false
+18:07:59.067 I: (Util:1261) copyFile inputFile date=19.02.2024 18:07:42, size=208896
+18:07:59.100 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_07_59_7554ec7b773995be.sqlite3
+18:07:59.198 I: (SafetyTestApplication:886) setLastIDNumber <> to <>
+18:07:59.215 I: (AlertBuilderMod:86) AlertBuilderMod message=<Datenbank-Datei exportiert. pcdrdata_autoBackup__2024_02_19_18_07_59_7554ec7b773995be.sqlite3 Datenbank-Datei geladen.>
+18:07:59.217 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+18:07:59.226 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:07:59.227 I: (AlertWrapper:41) DatabaseActivity AlertWrapper dismiss by next .start dlgAlert=android.app.AlertDialog@80d064
+18:07:59.229 I: (AlertWrapper:51) DatabaseActivity AlertWrapper dismiss dlgAlert = null
+18:08:00.215 I: (DatabaseActivity:527) [OK]
+18:08:00.217 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:08:02.232 I: (DatabaseActivity:101) [IMPORT DB]
+18:08:13.395 I: (DatabaseActivity:662) importSelectedDB PathName: pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3
+18:08:13.418 I: (Util:1313) copyFile using inputStream, outputPath=<> outputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata_temp.sqlite3>
+18:08:13.443 E: (Util:1351) copyFile OK n=208896
+18:08:13.458 I: (DefaultRepository:514) checkDatabaseContents()
+18:08:13.461 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+18:08:13.465 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+18:08:13.467 I: (DefaultRepository:599) checkDatabaseContents = DB_OK
+18:08:13.468 I: (AlertBuilderMod:86) AlertBuilderMod message=<Wollen Sie die Datenbank aus einer Datei laden? pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3>
+18:08:13.470 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+18:08:13.471 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+18:08:13.481 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:08:13.526 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:08:13.530 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:08:13.532 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:08:14.900 I: (DatabaseActivity:700) [YES]
+18:08:14.902 I: (DefaultRepository:322) exportDatabase autoBackup=true inSync=false
+18:08:14.947 I: (Util:1256) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_08_14_7554ec7b773995be.sqlite3>, moveFile=false
+18:08:14.949 I: (Util:1261) copyFile inputFile date=19.02.2024 18:07:56, size=208896
+18:08:14.982 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_08_14_7554ec7b773995be.sqlite3
+18:08:15.072 I: (SafetyTestApplication:886) setLastIDNumber <> to <>
+18:08:15.089 I: (AlertBuilderMod:86) AlertBuilderMod message=<Datenbank-Datei exportiert. pcdrdata_autoBackup__2024_02_19_18_08_14_7554ec7b773995be.sqlite3 Datenbank-Datei geladen.>
+18:08:15.093 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+18:08:15.100 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:08:15.102 I: (AlertWrapper:41) DatabaseActivity AlertWrapper dismiss by next .start dlgAlert=android.app.AlertDialog@14493ea
+18:08:15.104 I: (AlertWrapper:51) DatabaseActivity AlertWrapper dismiss dlgAlert = null
+18:08:16.132 I: (DatabaseActivity:527) [OK]
+18:08:16.135 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:08:17.046 I: (DatabaseActivity:101) [IMPORT DB]
+18:08:25.287 I: (DatabaseActivity:662) importSelectedDB PathName: pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3
+18:08:25.315 I: (Util:1313) copyFile using inputStream, outputPath=<> outputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata_temp.sqlite3>
+18:08:25.339 E: (Util:1351) copyFile OK n=208896
+18:08:25.356 I: (DefaultRepository:514) checkDatabaseContents()
+18:08:25.359 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+18:08:25.364 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+18:08:25.365 I: (DefaultRepository:599) checkDatabaseContents = DB_OK
+18:08:25.367 I: (AlertBuilderMod:86) AlertBuilderMod message=<Wollen Sie die Datenbank aus einer Datei laden? pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3>
+18:08:25.369 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+18:08:25.370 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+18:08:25.380 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:08:25.425 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:08:25.428 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:08:25.430 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:08:26.784 I: (DatabaseActivity:700) [YES]
+18:08:26.787 I: (DefaultRepository:322) exportDatabase autoBackup=true inSync=false
+18:08:26.829 I: (Util:1256) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_08_26_7554ec7b773995be.sqlite3>, moveFile=false
+18:08:26.831 I: (Util:1261) copyFile inputFile date=19.02.2024 18:08:13, size=208896
+18:08:26.864 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_08_26_7554ec7b773995be.sqlite3
+18:08:26.960 I: (SafetyTestApplication:886) setLastIDNumber <> to <>
+18:08:26.979 I: (AlertBuilderMod:86) AlertBuilderMod message=<Datenbank-Datei exportiert. pcdrdata_autoBackup__2024_02_19_18_08_26_7554ec7b773995be.sqlite3 Datenbank-Datei geladen.>
+18:08:26.981 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+18:08:26.989 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:08:26.991 I: (AlertWrapper:41) DatabaseActivity AlertWrapper dismiss by next .start dlgAlert=android.app.AlertDialog@f3488d9
+18:08:26.992 I: (AlertWrapper:51) DatabaseActivity AlertWrapper dismiss dlgAlert = null
+18:08:30.190 I: (DatabaseActivity:527) [OK]
+18:08:30.193 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:08:31.828 I: (DatabaseActivity:101) [IMPORT DB]
+18:08:44.911 I: (DatabaseActivity:662) importSelectedDB PathName: pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3
+18:08:44.934 I: (Util:1313) copyFile using inputStream, outputPath=<> outputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata_temp.sqlite3>
+18:08:44.954 E: (Util:1351) copyFile OK n=208896
+18:08:44.970 I: (DefaultRepository:514) checkDatabaseContents()
+18:08:44.972 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+18:08:44.977 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+18:08:44.980 I: (DefaultRepository:599) checkDatabaseContents = DB_OK
+18:08:44.982 I: (AlertBuilderMod:86) AlertBuilderMod message=<Wollen Sie die Datenbank aus einer Datei laden? pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3>
+18:08:44.983 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+18:08:44.984 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+18:08:44.994 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:08:45.040 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:08:45.043 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:08:45.045 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:08:46.394 I: (DatabaseActivity:700) [YES]
+18:08:46.397 I: (DefaultRepository:322) exportDatabase autoBackup=true inSync=false
+18:08:46.440 I: (Util:1256) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_08_46_7554ec7b773995be.sqlite3>, moveFile=false
+18:08:46.441 I: (Util:1261) copyFile inputFile date=19.02.2024 18:08:25, size=208896
+18:08:46.475 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_08_46_7554ec7b773995be.sqlite3
+18:08:46.577 I: (SafetyTestApplication:886) setLastIDNumber <> to <>
+18:08:46.598 I: (AlertBuilderMod:86) AlertBuilderMod message=<Datenbank-Datei exportiert. pcdrdata_autoBackup__2024_02_19_18_08_46_7554ec7b773995be.sqlite3 Datenbank-Datei geladen.>
+18:08:46.600 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+18:08:46.607 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:08:46.608 I: (AlertWrapper:41) DatabaseActivity AlertWrapper dismiss by next .start dlgAlert=android.app.AlertDialog@5825447
+18:08:46.610 I: (AlertWrapper:51) DatabaseActivity AlertWrapper dismiss dlgAlert = null
+18:08:48.378 I: (DatabaseActivity:527) [OK]
+18:08:48.380 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:08:54.941 I: (DatabaseActivity:101) [IMPORT DB]
+18:09:12.286 I: (DatabaseActivity:662) importSelectedDB PathName: pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3
+18:09:12.309 I: (Util:1313) copyFile using inputStream, outputPath=<> outputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata_temp.sqlite3>
+18:09:12.331 E: (Util:1351) copyFile OK n=208896
+18:09:12.346 I: (DefaultRepository:514) checkDatabaseContents()
+18:09:12.349 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+18:09:12.353 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+18:09:12.355 I: (DefaultRepository:599) checkDatabaseContents = DB_OK
+18:09:12.357 I: (AlertBuilderMod:86) AlertBuilderMod message=<Wollen Sie die Datenbank aus einer Datei laden? pcdrdata_autoBackup__2024_02_07_09_59_29_7554ec7b773995be.sqlite3>
+18:09:12.359 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+18:09:12.360 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+18:09:12.368 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:09:12.414 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:09:12.417 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:09:12.419 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:09:14.801 I: (DatabaseActivity:700) [YES]
+18:09:14.803 I: (DefaultRepository:322) exportDatabase autoBackup=true inSync=false
+18:09:14.853 I: (Util:1256) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_09_14_7554ec7b773995be.sqlite3>, moveFile=false
+18:09:14.854 I: (Util:1261) copyFile inputFile date=19.02.2024 18:08:44, size=208896
+18:09:14.885 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_02_19_18_09_14_7554ec7b773995be.sqlite3
+18:09:14.970 I: (SafetyTestApplication:886) setLastIDNumber <> to <>
+18:09:14.987 I: (AlertBuilderMod:86) AlertBuilderMod message=<Datenbank-Datei exportiert. pcdrdata_autoBackup__2024_02_19_18_09_14_7554ec7b773995be.sqlite3 Datenbank-Datei geladen.>
+18:09:14.989 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+18:09:14.997 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:09:14.999 I: (AlertWrapper:41) DatabaseActivity AlertWrapper dismiss by next .start dlgAlert=android.app.AlertDialog@619ec2b
+18:09:15.001 I: (AlertWrapper:51) DatabaseActivity AlertWrapper dismiss dlgAlert = null
+18:09:16.218 I: (DatabaseActivity:527) [OK]
+18:09:16.220 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:09:17.007 I: (DatabaseActivity:131) [EXPORT DB]
+18:09:17.008 I: (AlertBuilderMod:86) AlertBuilderMod message=<Datenbank exportieren.>
+18:09:17.009 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Exportieren>
+18:09:17.010 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Datei senden>
+18:09:17.014 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:09:18.609 I: (DatabaseActivity:137) [EXPORT]
+18:09:18.610 I: (DefaultRepository:322) exportDatabase autoBackup=false inSync=false
+18:09:18.636 I: (Util:1256) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/pcdrdata_2024_02_19_18_09_18_7554ec7b773995be.sqlite3>, moveFile=false
+18:09:18.637 I: (Util:1261) copyFile inputFile date=19.02.2024 18:09:12, size=208896
+18:09:18.668 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/pcdrdata_2024_02_19_18_09_18_7554ec7b773995be.sqlite3
+18:09:18.670 I: (Util:2316) Toast - Datenbank-Datei exportiert. pcdrdata_2024_02_19_18_09_18_7554ec7b773995be.sqlite3
+18:09:18.717 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:09:18.758 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <FilesActivity>
+18:09:18.763 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:09:18.767 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:09:18.770 I: (FilesActivity:66) === onCreate NEW
+18:09:18.811 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:09:18.815 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:09:18.817 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:09:39.738 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:09:39.758 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:09:39.762 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:09:55.280 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:09:55.298 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:09:55.301 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:14:49.191 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:14:49.205 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:14:49.206 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:15:10.540 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:15:10.567 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:15:10.568 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:15:34.463 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:15:34.482 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:15:34.484 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:16:06.378 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:16:06.392 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:16:06.395 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:16:56.463 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:16:56.488 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:16:56.491 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:16:56.721 I: (FullScreenActivity:143) [BACK] <FilesActivity>
+18:16:56.762 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:16:56.764 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:16:56.766 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:16:57.227 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <FilesActivity>
+18:16:57.227 log FLUSH
+18:17:54.543 I: (DatabaseActivity:725) [BACK]
+18:17:54.554 I: (FullScreenActivity:143) [BACK] <DatabaseActivity>
+18:17:54.582 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+18:17:54.584 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:17:54.585 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:17:55.007 I: (DatabaseActivity:737) -- onDestroy --
+18:17:55.010 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <DatabaseActivity>
+18:17:55.011 log FLUSH
+18:18:01.562 I: (MemoryActivity:82) [PROTOCOL]
+18:18:01.610 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <FilesActivity>
+18:18:01.617 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:18:01.618 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:18:01.619 I: (FilesActivity:66) === onCreate NEW
+18:18:01.668 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:18:01.672 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:18:01.674 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:18:07.428 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+18:18:08.568 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+18:18:16.219 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:18:16.222 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:18:16.224 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:18:50.084 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+18:19:12.673 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:19:12.691 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:19:12.693 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:19:53.267 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+18:20:40.892 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:20:40.905 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:20:40.907 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:20:41.801 I: (FullScreenActivity:143) [BACK] <FilesActivity>
+18:20:41.834 I: (MemoryActivity:274) onActivityResult requestCode=905, resultCode=0, data=null
+18:20:41.836 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+18:20:41.838 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:20:41.840 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:20:42.248 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <FilesActivity>
+18:20:42.248 log FLUSH
+18:20:45.845 I: (MemoryActivity:264) [BACK]
+18:20:45.846 I: (FullScreenActivity:143) [BACK] <MemoryActivity>
+18:20:45.868 I: (StartMenuActivity:925) === onResume
+18:20:45.872 I: (FullScreenActivity:118) FullScreenActivity - onResume <StartMenuActivity>
+18:20:45.875 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:20:45.876 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:20:46.294 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <MemoryActivity>
+18:20:46.294 log FLUSH
+18:20:47.971 I: (StartMenuActivity:566) [MEMORY]
+18:20:48.010 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <MemoryActivity>
+18:20:48.015 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:20:48.018 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:20:48.020 I: (MemoryActivity:53) === onCreate NEW
+18:20:48.089 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+18:20:48.091 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:20:48.093 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:21:20.071 I: (MemoryActivity:113) [DATABASE]
+18:21:20.112 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <DatabaseActivity>
+18:21:20.115 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:21:20.117 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:21:20.119 I: (DatabaseActivity:72) === onCreate NEW
+18:21:20.193 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:21:20.196 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:21:20.197 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:23:58.358 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:23:58.372 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:23:58.374 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:00.528 I: (DatabaseActivity:725) [BACK]
+18:24:00.530 I: (FullScreenActivity:143) [BACK] <DatabaseActivity>
+18:24:00.556 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+18:24:00.559 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:00.560 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:00.975 I: (DatabaseActivity:737) -- onDestroy --
+18:24:00.976 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <DatabaseActivity>
+18:24:00.977 log FLUSH
+18:24:02.670 I: (MemoryActivity:264) [BACK]
+18:24:02.671 I: (FullScreenActivity:143) [BACK] <MemoryActivity>
+18:24:02.694 I: (StartMenuActivity:925) === onResume
+18:24:02.696 I: (FullScreenActivity:118) FullScreenActivity - onResume <StartMenuActivity>
+18:24:02.700 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:02.702 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:03.102 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <MemoryActivity>
+18:24:03.103 log FLUSH
+18:24:07.464 I: (StartMenuActivity:576) [PLAY]
+18:24:07.509 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <TesterDevicesActivity>
+18:24:07.513 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:07.515 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:07.517 I: (TesterDevicesActivity:80) === onCreate NEW
+18:24:07.548 I: (TesterDevicesActivity:575) Bluetooth startDiscovery
+18:24:07.551 I: (ConnectionAdapter:227) CloseConnectionAdapter()
+18:24:07.551 I: (ConnectionAdapter:233) CloseConnectionAdapter ignored - thisConnectionAdapter = null
+18:24:07.561 I: (TesterDevicesActivity:592) Bluetooth discovery starting
+18:24:07.594 D: (TesterDevicesActivity:614) DetectUSB device count : 0
+18:24:07.595 I: (TesterDevicesActivity:654) stopBleScan...
+18:24:07.609 I: (FullScreenActivity:118) FullScreenActivity - onResume <TesterDevicesActivity>
+18:24:07.612 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:07.614 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:07.812 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+18:24:07.814 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@8f972ae
+18:24:07.817 I: (TesterDevicesActivity:162) BT BroadcastReceiver name=<[TV] Home>
+18:24:08.839 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+18:24:08.842 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@2c9da6b
+18:24:08.847 I: (TesterDevicesActivity:162) BT BroadcastReceiver name=<DESKTOP-OTIV2SV>
+18:24:09.454 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+18:24:09.457 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@1a9b247
+18:24:09.462 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+18:24:09.470 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+18:24:09.472 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@1c52be3
+18:24:09.476 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+18:24:10.037 I: (TesterDevicesActivity:489) [BACK]
+18:24:10.039 I: (AlertBuilderMod:100) AlertBuilderMod title=<Prüfgerät>
+18:24:10.040 I: (AlertBuilderMod:86) AlertBuilderMod message=<Bitte selektieren Sie ein Prüfgerät oder den Demo-Modus.>
+18:24:10.042 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Wiederholen>
+18:24:10.045 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Abbrechen>
+18:24:10.057 I: (AlertWrapper:39) TesterDevicesActivity AlertWrapper start dlg
+18:24:11.929 I: (TesterDevicesActivity:507) [CANCEL]
+18:24:11.931 I: (FullScreenActivity:143) [BACK] <TesterDevicesActivity>
+18:24:11.938 I: (AlertWrapper:62) TesterDevicesActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:24:11.957 I: (StartMenuActivity:973) StartMenuActivity onActivityResult requestCode=1, resultCode=0, data=null
+18:24:11.960 I: (StartMenuActivity:925) === onResume
+18:24:11.963 I: (FullScreenActivity:118) FullScreenActivity - onResume <StartMenuActivity>
+18:24:11.965 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:11.968 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:12.357 I: (TesterDevicesActivity:654) stopBleScan...
+18:24:12.411 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <TesterDevicesActivity>
+18:24:12.411 log FLUSH
+18:24:12.419 I: (TesterDevicesActivity:571) Bluetooth discovery cancelled
+18:24:14.223 I: (StartMenuActivity:566) [MEMORY]
+18:24:14.256 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <MemoryActivity>
+18:24:14.261 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:14.263 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:14.265 I: (MemoryActivity:53) === onCreate NEW
+18:24:14.312 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+18:24:14.314 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:14.316 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:16.122 I: (MemoryActivity:82) [PROTOCOL]
+18:24:16.163 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <FilesActivity>
+18:24:16.166 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:16.170 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:16.171 I: (FilesActivity:66) === onCreate NEW
+18:24:16.199 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:24:16.201 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:16.203 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:19.433 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+18:24:45.383 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:24:45.395 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:45.397 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:46.162 I: (FullScreenActivity:143) [BACK] <FilesActivity>
+18:24:46.184 I: (MemoryActivity:274) onActivityResult requestCode=905, resultCode=0, data=null
+18:24:46.188 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+18:24:46.190 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:46.192 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:46.595 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <FilesActivity>
+18:24:46.595 log FLUSH
+18:24:47.030 I: (MemoryActivity:264) [BACK]
+18:24:47.031 I: (FullScreenActivity:143) [BACK] <MemoryActivity>
+18:24:47.052 I: (StartMenuActivity:925) === onResume
+18:24:47.055 I: (FullScreenActivity:118) FullScreenActivity - onResume <StartMenuActivity>
+18:24:47.057 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:24:47.059 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:24:47.463 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <MemoryActivity>
+18:24:47.464 log FLUSH
+18:24:47.881 I: (StartMenuActivity:956) [BACK]
+18:24:47.883 I: (StartMenuActivity:1014) quit()
+18:24:47.884 I: (ConnectionAdapter:227) CloseConnectionAdapter()
+18:24:47.885 I: (ConnectionAdapter:233) CloseConnectionAdapter ignored - thisConnectionAdapter = null
+18:24:47.906 I: (StartMenuActivity:1031) =====STOP LOG & END APP =====
+18:24:47.906 log FLUSH
+18:24:47.913 I: (StartMenuActivity:1033) ===== STOP LOG =====
+18:24:47.913 log FLUSH

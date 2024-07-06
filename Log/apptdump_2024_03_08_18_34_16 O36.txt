@@ -1,0 +1,430 @@
+08-03-2024 
+18:34:16.426 I: (SafetyTestApplication:350) ===== START ===== Test Master DUMPNOBUF SFT ver O36 15.02.2024 3.689, DEVICE API=33, Release=<13>, Manufacturer=<samsung>, Model=<SM-T220> RAM=2996883456 FREE=1271185408
+18:34:16.429 I: (SafetyTestApplication:435) deviceScreen Width=1340 Height=736 orientation=LANDSCAPE
+18:34:16.437 I: (SafetyTestApplication:453)  schemaDrawable IntrinsicWidth=1203 .Height=684
+18:34:16.472 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <StartMenuActivity>
+18:34:16.479 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:34:16.496 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:34:16.499 I: (StartMenuActivity:114) === onCreate NEW
+18:34:16.503 I: (StartMenuActivity:155) onCreate continue1
+18:34:16.523 I: (SafetyTestApplication:1051) readProfileInfos currLanguage=GER
+18:34:16.524 I: (SafetyTestApplication:1053) readProfileInfos currOrientation=LANDSCAPE
+18:34:16.527 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:34:16.529 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:34:17.086 I: (StartMenuActivity:1807) checkCurrentDate: now=08.03.2024 18:34:17 build=15.02.2024 18:01:20 dayDiff=22
+18:34:17.087 I: (StartMenuActivity:1642) checkPermissions
+18:34:17.090 I: (StartMenuActivity:1713) checkPermissions -> finalInit
+18:34:17.091 I: (StartMenuActivity:231) finalInit, isInitialized=false
+18:34:17.137 I: (SafetyTestApplication:1051) readProfileInfos currLanguage=GER
+18:34:17.138 I: (SafetyTestApplication:1053) readProfileInfos currOrientation=LANDSCAPE
+18:34:17.145 I: (SafetyTestApplication:1062) readProfileInfos anwender_standard=false
+18:34:17.146 I: (SafetyTestApplication:1064) readProfileInfos ablauf_auto=false
+18:34:17.147 I: (SafetyTestApplication:1066) readProfileInfos sLastCustomerNumber=00002
+18:34:17.149 I: (SafetyTestApplication:1068) readProfileInfos sLastIDNumber=
+18:34:17.162 I: (SafetyTestApplication:1070) readProfileInfos login_on=true
+18:34:17.163 I: (SafetyTestApplication:1073) readProfileInfos verdrPolarity_on=true
+18:34:17.164 I: (SafetyTestApplication:1318) valCalibrateRpe_RSL_200=0.073
+18:34:17.165 I: (SafetyTestApplication:1325) valCalibrateRpe_RSL_10A=0.053
+18:34:17.166 I: (SafetyTestApplication:1332) valCalibrateRpe_RSV_200=0.07
+18:34:17.167 I: (SafetyTestApplication:1339) valCalibrateRpe_RSV_10A=0.05
+18:34:17.168 I: (SafetyTestApplication:1348) valCalibrateRpe_RSC_200=-10.0
+18:34:17.169 I: (SafetyTestApplication:1355) valCalibrateRpe_RSC_10A=-10.0
+18:34:17.169 I: (SafetyTestApplication:1361) snCalibrateRpe=T0200303
+18:34:17.174 I: (SafetyTestApplication:1372) dateCalibrateRpe=Mon Feb 19 13:24:26 GMT+01:00 2024
+18:34:17.174 I: (SafetyTestApplication:1084) readProfileInfos sManualDevType=
+18:34:17.175 I: (SafetyTestApplication:1086) readProfileInfos sManualDevSN=
+18:34:17.176 I: (SafetyTestApplication:1089) readProfileInfos sSynchRemdirDIR=
+18:34:17.176 I: (SafetyTestApplication:1091) readProfileInfos SynchRemdirON=false
+18:34:17.177 I: (SafetyTestApplication:1093) readProfileInfos sSynchRemdirDOMAIN=
+18:34:17.178 I: (SafetyTestApplication:1096) readProfileInfos sSynchCloudURL=
+18:34:17.178 I: (SafetyTestApplication:1098) readProfileInfos SynchCloudON=false
+18:34:17.179 I: (SafetyTestApplication:1101) readProfileInfos bAutoPDF=true
+18:34:17.180 I: (SafetyTestApplication:1104) readProfileInfos bJsonOn=false
+18:34:17.180 I: (SafetyTestApplication:1107) readProfileInfos bUniqueIdOn=false
+18:34:17.181 I: (SafetyTestApplication:1110) readProfileInfos bLastDigBarcodeOn=false
+18:34:17.182 I: (SafetyTestApplication:1115) readProfileInfos iFixedIdLength=0
+18:34:17.355 I: (SafetyTestApplication:1162) readProfileInfos MeterType=METERTYPE_TGO
+18:34:17.356 D: (DevOptions:334) Active Options: RCD, Schutz10A, Clamp, VerlSocket, Schutz10Acal
+18:34:17.357 D: (DevActivation:192) CheckDA OK -238 days
+18:34:17.358 D: (DevActivation:192) CheckDA OK -238 days +calib
+18:34:17.359 I: (SafetyTestApplication:1183) readProfileInfos ActivationInfo = <Pro 01.11.2024>
+18:34:17.363 I: (SafetyTestApplication:3171) read BigDatabaseIDNumbers n=1 date=Fri Mar 08 00:00:00 GMT+01:00 2024
+18:34:17.365 I: (SafetyTestApplication:3174)     BigDatabaseIDNumbers[0] cust=<00001> ID=<00009>
+18:34:17.375 I: (SafetyTestApplication:1191) readProfileInfos eupGridON=true
+18:34:17.376 I: (SafetyTestApplication:1204) dateOfLastTestSaved=Fri Mar 08 18:18:21 GMT+01:00 2024
+18:34:17.377 I: (SafetyTestApplication:1207) nTestDaysFromLastSync=5
+18:34:17.378 I: (SafetyTestApplication:1210) nTestDaysFromLastDbPurge=5
+18:34:17.379 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:34:17.381 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:34:17.382 I: (EupDevGroupSelActivity:448) readEupDevGroups()
+18:34:17.438 I: (Util:787) getAppDirectoryAPI29 not present
+18:34:17.445 I: (StartMenuActivity:295) InitVariables2 clear crash flag
+18:34:17.513 I: (SafetyTestApplication:956) ===== TestFairy START ===== Test Master SFT ver O36 15.02.2024 3.689, DEVICE API=33, Release=<13>, Manufacturer=<samsung>, Model=<SM-T220> RAM=2996883456 FREE=1240313856
+18:34:17.591 I: (DefaultRepository:83) new DefaultRepository db: <pcdrdata.sqlite3>
+18:34:17.621 I: (DefaultRepository:514) checkDatabaseContents()
+18:34:17.623 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+18:34:17.626 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+18:34:17.628 I: (DefaultRepository:483) setDatabaseVersion=9
+18:34:17.631 I: (DefaultRepository:502) setDatabaseVersion OK
+18:34:17.709 I: (StartMenuActivity:925) === onResume
+18:34:17.711 I: (FullScreenActivity:118) FullScreenActivity - onResume <StartMenuActivity>
+18:34:17.713 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:34:17.714 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:34:19.744 I: (StartMenuActivity:566) [MEMORY]
+18:34:19.786 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <MemoryActivity>
+18:34:19.788 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:34:19.790 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:34:19.792 I: (MemoryActivity:53) === onCreate NEW
+18:34:19.868 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+18:34:19.870 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:34:19.872 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:34:24.817 I: (MemoryActivity:82) [PROTOCOL]
+18:34:24.867 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <FilesActivity>
+18:34:24.869 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:34:24.871 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:34:24.872 I: (FilesActivity:66) === onCreate NEW
+18:34:24.907 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+18:34:24.909 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:34:24.910 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:34:34.495 I: (FullScreenActivity:143) [BACK] <FilesActivity>
+18:34:34.529 I: (MemoryActivity:269) onActivityResult requestCode=905, resultCode=0, data=null
+18:34:34.533 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+18:34:34.535 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:34:34.537 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:34:34.929 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <FilesActivity>
+18:34:34.930 log FLUSH
+18:34:41.710 I: (MemoryActivity:113) [DATABASE]
+18:34:41.749 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <DatabaseActivity>
+18:34:41.754 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:34:41.755 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:34:41.756 I: (DatabaseActivity:72) === onCreate NEW
+18:34:41.850 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:34:41.853 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:34:41.854 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:34:47.571 I: (DatabaseActivity:101) [IMPORT DB]
+18:35:06.812 I: (DatabaseActivity:662) importSelectedDB PathName: pcdrdata_2024_02_19_18_09_18_7554ec7b773995be.sqlite3
+18:35:06.861 I: (Util:1314) copyFile using inputStream, outputPath=<> outputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata_temp.sqlite3>
+18:35:06.894 E: (Util:1352) copyFile OK n=208896
+18:35:06.911 I: (DefaultRepository:514) checkDatabaseContents()
+18:35:06.914 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+18:35:06.919 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+18:35:06.921 I: (DefaultRepository:599) checkDatabaseContents = DB_OK
+18:35:06.924 I: (AlertBuilderMod:86) AlertBuilderMod message=<Wollen Sie die Datenbank aus einer Datei laden? pcdrdata_2024_02_19_18_09_18_7554ec7b773995be.sqlite3>
+18:35:06.926 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+18:35:06.928 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+18:35:06.942 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:35:06.990 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+18:35:06.992 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:35:06.994 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:35:12.008 I: (DatabaseActivity:700) [YES]
+18:35:12.010 I: (DefaultRepository:322) exportDatabase autoBackup=true inSync=false
+18:35:12.064 I: (Util:1257) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_03_08_18_35_12_7554ec7b773995be.sqlite3>, moveFile=false
+18:35:12.066 I: (Util:1262) copyFile inputFile date=08.03.2024 18:34:17, size=217088
+18:35:12.110 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/AutoBackup/pcdrdata_autoBackup__2024_03_08_18_35_12_7554ec7b773995be.sqlite3
+18:35:12.223 I: (SafetyTestApplication:889) setLastIDNumber <> to <>
+18:35:12.237 I: (AlertBuilderMod:86) AlertBuilderMod message=<Datenbank-Datei exportiert. pcdrdata_autoBackup__2024_03_08_18_35_12_7554ec7b773995be.sqlite3 Datenbank-Datei geladen.>
+18:35:12.239 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+18:35:12.247 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:35:12.248 I: (AlertWrapper:41) DatabaseActivity AlertWrapper dismiss by next .start dlgAlert=android.app.AlertDialog@dcbde03
+18:35:12.249 I: (AlertWrapper:51) DatabaseActivity AlertWrapper dismiss dlgAlert = null
+18:35:18.129 I: (DatabaseActivity:527) [OK]
+18:35:18.137 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:35:49.413 I: (DatabaseActivity:188) [SYNC]
+18:35:49.421 I: (AlertBuilderMod:100) AlertBuilderMod title=<Wählen Sie einen Kunden oder drücken Sie All>
+18:35:49.455 I: (CustomerDataSource:361) getAutofillCustomerData ok n=1 srchText=<>
+18:35:49.458 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ausgewählt>
+18:35:49.459 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Alle>
+18:35:49.467 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+18:35:57.444 I: (DatabaseActivity:271) [SELECTED]
+18:35:57.446 I: (Util:2317) Toast - Die Kundennummer darf nicht leer sein.
+18:35:58.956 I: (DatabaseActivity:254) [ALL]
+18:35:58.978 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:35:59.013 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <DbSyncActivity>
+18:35:59.015 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:35:59.017 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:35:59.019 I: (DbSyncActivity:227) === onCreate NEW
+18:35:59.078 I: (FullScreenActivity:118) FullScreenActivity - onResume <DbSyncActivity>
+18:35:59.080 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:35:59.081 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:36:30.778 I: (DbSyncActivity:279) [PLAY]
+18:36:30.786 I: (DefaultRepository:322) exportDatabase autoBackup=false inSync=true
+18:36:30.799 I: (Util:1257) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/Sync/pcdrdata_2024_03_08_18_36_30_7554ec7b773995be.sqlite3>, moveFile=false
+18:36:30.800 I: (Util:1262) copyFile inputFile date=08.03.2024 18:35:06, size=208896
+18:36:30.832 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/Sync/pcdrdata_2024_03_08_18_36_30_7554ec7b773995be.sqlite3
+18:36:30.835 I: (DbSyncActivity:1249) getResultsFromApi()
+18:36:30.843 I: (DbSyncActivity:1434) isGooglePlayServicesAvailable connectionStatusCode=0
+18:36:30.845 I: (DbSyncActivity:1268) getResultsFromApi chooseAccount
+18:36:30.846 I: (DbSyncActivity:1293) chooseAccount()
+18:36:30.848 I: (DbSyncActivity:1295) chooseAccount hasPermissions
+18:36:30.850 I: (DbSyncActivity:1299) chooseAccount mCredential.newChooseAccountIntent
+18:36:38.964 I: (DbSyncActivity:1339) onActivityResult()
+18:36:38.965 I: (DbSyncActivity:1351) onActivityResult REQUEST_ACCOUNT_PICKER
+18:36:38.966 I: (DbSyncActivity:1353) onActivityResult getStringExtra KEY_ACCOUNT_NAME
+18:36:38.968 I: (DbSyncActivity:1356) onActivityResult putString PREF_ACCOUNT_NAME
+18:36:38.974 I: (DbSyncActivity:1249) getResultsFromApi()
+18:36:38.977 I: (DbSyncActivity:1434) isGooglePlayServicesAvailable connectionStatusCode=0
+18:36:38.978 I: (DbSyncActivity:1420) isDeviceOnline()
+18:36:38.981 I: (DbSyncActivity:1424) isDeviceOnline = true
+18:36:38.982 I: (DbSyncActivity:1274) getResultsFromApi MakeRequestTask(mCredential)
+18:36:38.987 I: (DbSyncActivity:1474) MakeRequestTask
+18:36:38.995 I: (DbSyncActivity:2712) onPreExecute()
+18:36:39.137 I: (DbSyncActivity:1494) doInBackground()
+18:36:39.146 I: (FullScreenActivity:118) FullScreenActivity - onResume <DbSyncActivity>
+18:36:39.148 I: (DbSyncActivity:2074) do remote/gdrive
+18:36:39.149 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:36:39.151 I: (DbSyncActivity:2616) getFolderId(folderName='Drive/TabletToPC', parentID='null')
+18:36:39.152 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:36:39.152 I: (DbSyncActivity:2675) getFolderId setQ=<mimeType='application/vnd.google-apps.folder' and trashed=false and name='Drive'>
+18:36:39.505 E: (DbSyncActivity:2686) getFolderId ex: ex: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException STACK: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:297)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:868)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2680)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2612)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:2081)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:1468)
+	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: com.google.android.gms.auth.UserRecoverableAuthException: NeedRemoteConsent
+	at com.google.android.gms.auth.zzl.zzg(com.google.android.gms:play-services-auth-base@@18.0.4:20)
+	at com.google.android.gms.auth.zzl.zzb(com.google.android.gms:play-services-auth-base@@18.0.4:4)
+	at com.google.android.gms.auth.zzf.zza(Unknown Source:6)
+	at com.google.android.gms.auth.zzl.zzh(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.zzl.zza(com.google.android.gms:play-services-auth-base@@18.0.4:15)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:1)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.GoogleAuthUtil.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential.getToken(GoogleAccountCredential.java:267)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:292)
+	... 14 more
+
+18:36:39.519 E: (DbSyncActivity:2253) doInBackground [Das Zielverzeichnis auf dem Server kann nicht geöffnet werden.] ex: ex: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException STACK: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:297)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:868)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2680)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2612)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:2081)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:1468)
+	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: com.google.android.gms.auth.UserRecoverableAuthException: NeedRemoteConsent
+	at com.google.android.gms.auth.zzl.zzg(com.google.android.gms:play-services-auth-base@@18.0.4:20)
+	at com.google.android.gms.auth.zzl.zzb(com.google.android.gms:play-services-auth-base@@18.0.4:4)
+	at com.google.android.gms.auth.zzf.zza(Unknown Source:6)
+	at com.google.android.gms.auth.zzl.zzh(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.zzl.zza(com.google.android.gms:play-services-auth-base@@18.0.4:15)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:1)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.GoogleAuthUtil.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential.getToken(GoogleAccountCredential.java:267)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:292)
+	... 14 more
+
+18:36:39.521 I: (DbSyncActivity:2746) onCancelled()
+18:36:39.524 I: (DbSyncActivity:2752) onCancelled mLastError=com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException
+18:36:39.526 I: (DbSyncActivity:2759) onCancelled UserRecoverableAuthIOException
+18:36:39.528 I: (AlertBuilderMod:86) AlertBuilderMod message=<Sie müssen Google Drive Zugriff gewähren und erneut starten.>
+18:36:39.530 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+18:36:39.542 I: (AlertWrapper:39) DbSyncActivity AlertWrapper start dlg
+18:36:39.575 I: (DbSyncActivity:922) endConnection: isOK=false, txt=<Das Zielverzeichnis auf dem Server kann nicht geöffnet werden.>, LastTestandsmileErr=<>
+18:37:05.274 I: (AlertWrapper:62) DbSyncActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:37:06.055 I: (DbSyncActivity:279) [PLAY]
+18:37:06.057 I: (DefaultRepository:322) exportDatabase autoBackup=false inSync=true
+18:37:06.083 I: (Util:1257) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/Sync/pcdrdata_2024_03_08_18_37_06_7554ec7b773995be.sqlite3>, moveFile=false
+18:37:06.085 I: (Util:1262) copyFile inputFile date=08.03.2024 18:35:06, size=208896
+18:37:06.124 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/Sync/pcdrdata_2024_03_08_18_37_06_7554ec7b773995be.sqlite3
+18:37:06.128 I: (DbSyncActivity:1249) getResultsFromApi()
+18:37:06.132 I: (DbSyncActivity:1434) isGooglePlayServicesAvailable connectionStatusCode=0
+18:37:06.134 I: (DbSyncActivity:1420) isDeviceOnline()
+18:37:06.136 I: (DbSyncActivity:1424) isDeviceOnline = true
+18:37:06.137 I: (DbSyncActivity:1274) getResultsFromApi MakeRequestTask(mCredential)
+18:37:06.139 I: (DbSyncActivity:1474) MakeRequestTask
+18:37:06.140 I: (DbSyncActivity:2712) onPreExecute()
+18:37:06.229 I: (DbSyncActivity:1494) doInBackground()
+18:37:06.230 I: (DbSyncActivity:2074) do remote/gdrive
+18:37:06.231 I: (DbSyncActivity:2616) getFolderId(folderName='Drive/TabletToPC', parentID='null')
+18:37:06.232 I: (DbSyncActivity:2675) getFolderId setQ=<mimeType='application/vnd.google-apps.folder' and trashed=false and name='Drive'>
+18:37:06.440 E: (DbSyncActivity:2686) getFolderId ex: ex: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException STACK: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:297)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:868)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2680)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2612)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:2081)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:1468)
+	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: com.google.android.gms.auth.UserRecoverableAuthException: NeedRemoteConsent
+	at com.google.android.gms.auth.zzl.zzg(com.google.android.gms:play-services-auth-base@@18.0.4:20)
+	at com.google.android.gms.auth.zzl.zzb(com.google.android.gms:play-services-auth-base@@18.0.4:4)
+	at com.google.android.gms.auth.zzf.zza(Unknown Source:6)
+	at com.google.android.gms.auth.zzl.zzh(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.zzl.zza(com.google.android.gms:play-services-auth-base@@18.0.4:15)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:1)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.GoogleAuthUtil.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential.getToken(GoogleAccountCredential.java:267)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:292)
+	... 14 more
+
+18:37:06.442 E: (DbSyncActivity:2253) doInBackground [Das Zielverzeichnis auf dem Server kann nicht geöffnet werden.] ex: ex: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException STACK: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:297)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:868)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2680)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2612)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:2081)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:1468)
+	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: com.google.android.gms.auth.UserRecoverableAuthException: NeedRemoteConsent
+	at com.google.android.gms.auth.zzl.zzg(com.google.android.gms:play-services-auth-base@@18.0.4:20)
+	at com.google.android.gms.auth.zzl.zzb(com.google.android.gms:play-services-auth-base@@18.0.4:4)
+	at com.google.android.gms.auth.zzf.zza(Unknown Source:6)
+	at com.google.android.gms.auth.zzl.zzh(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.zzl.zza(com.google.android.gms:play-services-auth-base@@18.0.4:15)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:1)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.GoogleAuthUtil.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential.getToken(GoogleAccountCredential.java:267)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:292)
+	... 14 more
+
+18:37:06.454 I: (DbSyncActivity:2746) onCancelled()
+18:37:06.456 I: (DbSyncActivity:2752) onCancelled mLastError=com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException
+18:37:06.457 I: (DbSyncActivity:2759) onCancelled UserRecoverableAuthIOException
+18:37:06.459 I: (AlertBuilderMod:86) AlertBuilderMod message=<Sie müssen Google Drive Zugriff gewähren und erneut starten.>
+18:37:06.460 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+18:37:06.465 I: (AlertWrapper:39) DbSyncActivity AlertWrapper start dlg
+18:37:06.495 I: (DbSyncActivity:922) endConnection: isOK=false, txt=<Das Zielverzeichnis auf dem Server kann nicht geöffnet werden.>, LastTestandsmileErr=<>
+18:37:19.459 I: (DbSyncActivity:2765) [OK]
+18:37:19.527 I: (AlertWrapper:62) DbSyncActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:38:11.014 I: (DbSyncActivity:1339) onActivityResult()
+18:38:11.030 I: (DbSyncActivity:1370) onActivityResult REQUEST_AUTHORIZATION resultCode=0
+18:38:11.034 I: (FullScreenActivity:118) FullScreenActivity - onResume <DbSyncActivity>
+18:38:11.043 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:38:11.045 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:38:16.294 I: (DbSyncActivity:279) [PLAY]
+18:38:16.296 I: (DefaultRepository:322) exportDatabase autoBackup=false inSync=true
+18:38:16.331 I: (Util:1257) copyFile inputPath=<>, inputFile=</storage/emulated/0/Documents/TestMasterData/DB/pcdrdata.sqlite3>, outputPath=<>, outputFile</storage/emulated/0/Documents/TestMasterData/Sync/pcdrdata_2024_03_08_18_38_16_7554ec7b773995be.sqlite3>, moveFile=false
+18:38:16.333 I: (Util:1262) copyFile inputFile date=08.03.2024 18:35:06, size=208896
+18:38:16.373 I: (DefaultRepository:405) exportDB OK /storage/emulated/0/Documents/TestMasterData/Sync/pcdrdata_2024_03_08_18_38_16_7554ec7b773995be.sqlite3
+18:38:16.376 I: (DbSyncActivity:1249) getResultsFromApi()
+18:38:16.378 I: (DbSyncActivity:1434) isGooglePlayServicesAvailable connectionStatusCode=0
+18:38:16.380 I: (DbSyncActivity:1420) isDeviceOnline()
+18:38:16.382 I: (DbSyncActivity:1424) isDeviceOnline = true
+18:38:16.384 I: (DbSyncActivity:1274) getResultsFromApi MakeRequestTask(mCredential)
+18:38:16.385 I: (DbSyncActivity:1474) MakeRequestTask
+18:38:16.387 I: (DbSyncActivity:2712) onPreExecute()
+18:38:16.470 I: (DbSyncActivity:1494) doInBackground()
+18:38:16.471 I: (DbSyncActivity:2074) do remote/gdrive
+18:38:16.473 I: (DbSyncActivity:2616) getFolderId(folderName='Drive/TabletToPC', parentID='null')
+18:38:16.474 I: (DbSyncActivity:2675) getFolderId setQ=<mimeType='application/vnd.google-apps.folder' and trashed=false and name='Drive'>
+18:38:16.726 E: (DbSyncActivity:2686) getFolderId ex: ex: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException STACK: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:297)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:868)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2680)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2612)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:2081)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:1468)
+	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: com.google.android.gms.auth.UserRecoverableAuthException: NeedRemoteConsent
+	at com.google.android.gms.auth.zzl.zzg(com.google.android.gms:play-services-auth-base@@18.0.4:20)
+	at com.google.android.gms.auth.zzl.zzb(com.google.android.gms:play-services-auth-base@@18.0.4:4)
+	at com.google.android.gms.auth.zzf.zza(Unknown Source:6)
+	at com.google.android.gms.auth.zzl.zzh(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.zzl.zza(com.google.android.gms:play-services-auth-base@@18.0.4:15)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:1)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.GoogleAuthUtil.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential.getToken(GoogleAccountCredential.java:267)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:292)
+	... 14 more
+
+18:38:16.728 E: (DbSyncActivity:2253) doInBackground [Das Zielverzeichnis auf dem Server kann nicht geöffnet werden.] ex: ex: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException STACK: com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:297)
+	at com.google.api.client.http.HttpRequest.execute(HttpRequest.java:868)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:419)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.executeUnparsed(AbstractGoogleClientRequest.java:352)
+	at com.google.api.client.googleapis.services.AbstractGoogleClientRequest.execute(AbstractGoogleClientRequest.java:469)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2680)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.getFolderId(DbSyncActivity.java:2612)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:2081)
+	at de.safetytest.bluetooth1st.activity.DbSyncActivity$MakeRequestTask.doInBackground(DbSyncActivity.java:1468)
+	at android.os.AsyncTask$3.call(AsyncTask.java:394)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at android.os.AsyncTask$SerialExecutor$1.run(AsyncTask.java:305)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:644)
+	at java.lang.Thread.run(Thread.java:1012)
+Caused by: com.google.android.gms.auth.UserRecoverableAuthException: NeedRemoteConsent
+	at com.google.android.gms.auth.zzl.zzg(com.google.android.gms:play-services-auth-base@@18.0.4:20)
+	at com.google.android.gms.auth.zzl.zzb(com.google.android.gms:play-services-auth-base@@18.0.4:4)
+	at com.google.android.gms.auth.zzf.zza(Unknown Source:6)
+	at com.google.android.gms.auth.zzl.zzh(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.zzl.zza(com.google.android.gms:play-services-auth-base@@18.0.4:15)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:1)
+	at com.google.android.gms.auth.zzl.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:6)
+	at com.google.android.gms.auth.GoogleAuthUtil.getToken(com.google.android.gms:play-services-auth-base@@18.0.4:3)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential.getToken(GoogleAccountCredential.java:267)
+	at com.google.api.client.googleapis.extensions.android.gms.auth.GoogleAccountCredential$RequestHandler.intercept(GoogleAccountCredential.java:292)
+	... 14 more
+
+18:38:16.738 I: (DbSyncActivity:2746) onCancelled()
+18:38:16.740 I: (DbSyncActivity:2752) onCancelled mLastError=com.google.api.client.googleapis.extensions.android.gms.auth.UserRecoverableAuthIOException
+18:38:16.741 I: (DbSyncActivity:2759) onCancelled UserRecoverableAuthIOException
+18:38:16.742 I: (AlertBuilderMod:86) AlertBuilderMod message=<Sie müssen Google Drive Zugriff gewähren und erneut starten.>
+18:38:16.743 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+18:38:16.751 I: (AlertWrapper:39) DbSyncActivity AlertWrapper start dlg
+18:38:16.778 I: (DbSyncActivity:922) endConnection: isOK=false, txt=<Das Zielverzeichnis auf dem Server kann nicht geöffnet werden.>, LastTestandsmileErr=<>
+18:38:35.693 I: (DbSyncActivity:2765) [OK]
+18:38:35.723 I: (AlertWrapper:62) DbSyncActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+18:38:52.217 I: (DbSyncActivity:1339) onActivityResult()
+18:38:52.230 I: (DbSyncActivity:1370) onActivityResult REQUEST_AUTHORIZATION resultCode=0
+18:38:52.235 I: (FullScreenActivity:118) FullScreenActivity - onResume <DbSyncActivity>
+18:38:52.243 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:38:52.245 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:39:03.569 I: (DbSyncActivity:337) [TESTANDSMILE]
+18:40:45.869 I: (FullScreenActivity:118) FullScreenActivity - onResume <DbSyncActivity>
+18:40:45.881 I: (Util:2093) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:40:45.882 I: (Util:2124) SetLanguage Deutsch (Deutschland)
+18:43:44.577 I: (DbSyncActivity:326) [CLOUD]

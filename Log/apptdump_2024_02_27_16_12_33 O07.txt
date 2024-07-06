@@ -1,0 +1,522 @@
+===== CONTINUE apptdump_2024_02_27_15_52_54 O07.txt ===== Test MasterSFT ver O07 21.11.2023 3.680, DEVICE API=33, Release=<13>, Manufacturer=<samsung>, Model=<SM-T220> RAM=2996883456 FREE=1090011136
+16:12:33.485 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+16:12:33.488 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=16
+16:12:33.492 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=16  4D 4E 53 0C C8 08 90 01 5A 00 00 00 27 00 0D 0A
+16:12:33.496 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=16 <MNS 0x0C 0xC8 0x08 0x90 0x01 0x5A 0x00 0x00 0x00 0x27 0x00 @Cr @Lf>
+16:12:33.499 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:33.503 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+16:12:33.506 I: (GetMeasurementValues_MNS_Message:53) BluetoothMNS u=224.8V, i=0.4A, p=90.0P, it=0.0mA, id=0.039mA
+16:12:33.509 D: (PollingMeasurementUpdaterBluetooth:5879) PMUB after await
+16:12:33.510 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+16:12:33.512 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+16:12:33.516 I: (PollingMeasurementUpdaterBluetooth:5904) PMUB SMWRES CMD OK
+16:12:33.521 I: (PollingMeasurementUpdaterBluetooth:5947) end PMUB SMWRES CMD ret checkEndStep=false
+16:12:33.526 I: (MeasurementHolder_FUNK:364) updateVal U1=225stb I1=0,4stb P1=90stb It=0,000stb lim=0,5 Id=0,04stb lim=3,5 
+16:12:33.531 D: (PollingMeasurementUpdaterBluetooth:5585) PMUB PolingBT setLED(ON)
+16:12:33.614 D: (PollingMeasurementUpdaterBluetooth:5620) PMUB sendMessage_waitForResult_checkEndStep 'SMWRES' msg=MNS Cr Lf mtype=FUNK
+16:12:33.617 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+16:12:33.618 I: (PollingMeasurementUpdaterBluetooth:5873) PMUB SMWRES CMD sending message MNS Cr Lf
+16:12:33.620 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=MNS Cr Lf
+16:12:33.670 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+16:12:33.674 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=700 checkCrLf=true
+16:12:33.677 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: a24c243fMNS Cr Lf, timeout=700
+16:12:33.681 D: (ConnectionAdapter:732) ServerListenerThread run reading
+16:12:33.686 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:33.689 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+16:12:33.742 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+16:12:33.744 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=16
+16:12:33.748 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=16  4D 4E 53 0C C8 08 90 01 5A 00 00 00 27 00 0D 0A
+16:12:33.751 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=16 <MNS 0x0C 0xC8 0x08 0x90 0x01 0x5A 0x00 0x00 0x00 0x27 0x00 @Cr @Lf>
+16:12:33.753 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:33.755 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+16:12:33.757 I: (GetMeasurementValues_MNS_Message:53) BluetoothMNS u=224.8V, i=0.4A, p=90.0P, it=0.0mA, id=0.039mA
+16:12:33.759 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+16:12:33.760 D: (PollingMeasurementUpdaterBluetooth:5879) PMUB after await
+16:12:33.762 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+16:12:33.764 I: (PollingMeasurementUpdaterBluetooth:5904) PMUB SMWRES CMD OK
+16:12:33.768 I: (PollingMeasurementUpdaterBluetooth:5947) end PMUB SMWRES CMD ret checkEndStep=false
+16:12:33.772 I: (MeasurementHolder_FUNK:364) updateVal U1=225stb I1=0,4stb P1=90stb It=0,000stb lim=0,5 Id=0,04stb lim=3,5 
+16:12:33.776 D: (PollingMeasurementUpdaterBluetooth:5585) PMUB PolingBT setLED(ON)
+16:12:33.868 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+16:12:33.915 D: (PollingMeasurementUpdaterBluetooth:5620) PMUB sendMessage_waitForResult_checkEndStep 'SMWRES' msg=MNS Cr Lf mtype=FUNK
+16:12:33.918 I: (PollingMeasurementUpdaterBluetooth:5873) PMUB SMWRES CMD sending message MNS Cr Lf
+16:12:33.921 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=MNS Cr Lf
+16:12:33.971 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+16:12:33.974 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=700 checkCrLf=true
+16:12:33.977 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: a24c243fMNS Cr Lf, timeout=700
+16:12:33.980 D: (ConnectionAdapter:732) ServerListenerThread run reading
+16:12:33.983 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:33.987 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+16:12:34.041 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+16:12:34.043 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=16
+16:12:34.047 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=16  4D 4E 53 0C C9 08 90 01 5A 00 00 00 27 00 0D 0A
+16:12:34.109 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=16 <MNS 0x0C 0xC9 0x08 0x90 0x01 0x5A 0x00 0x00 0x00 0x27 0x00 @Cr @Lf>
+16:12:34.113 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:34.116 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+16:12:34.119 I: (GetMeasurementValues_MNS_Message:53) BluetoothMNS u=224.9V, i=0.4A, p=90.0P, it=0.0mA, id=0.039mA
+16:12:34.122 D: (PollingMeasurementUpdaterBluetooth:5879) PMUB after await
+16:12:34.123 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+16:12:34.124 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+16:12:34.126 I: (PollingMeasurementUpdaterBluetooth:5904) PMUB SMWRES CMD OK
+16:12:34.129 I: (PollingMeasurementUpdaterBluetooth:5947) end PMUB SMWRES CMD ret checkEndStep=false
+16:12:34.132 I: (MeasurementHolder_FUNK:364) updateVal U1=225stb I1=0,4stb P1=90stb It=0,000stb lim=0,5 Id=0,04stb lim=3,5 
+16:12:34.135 D: (PollingMeasurementUpdaterBluetooth:5585) PMUB PolingBT setLED(ON)
+16:12:34.214 D: (PollingMeasurementUpdaterBluetooth:5620) PMUB sendMessage_waitForResult_checkEndStep 'SMWRES' msg=MNS Cr Lf mtype=FUNK
+16:12:34.217 I: (PollingMeasurementUpdaterBluetooth:5873) PMUB SMWRES CMD sending message MNS Cr Lf
+16:12:34.219 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=MNS Cr Lf
+16:12:34.229 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+16:12:34.231 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+16:12:34.233 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=700 checkCrLf=true
+16:12:34.235 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: a24c243fMNS Cr Lf, timeout=700
+16:12:34.237 D: (ConnectionAdapter:732) ServerListenerThread run reading
+16:12:34.239 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:34.241 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+16:12:34.294 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+16:12:34.296 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=16
+16:12:34.299 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=16  4D 4E 53 0C C9 08 90 01 5A 00 00 00 26 00 0D 0A
+16:12:34.302 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=16 <MNS 0x0C 0xC9 0x08 0x90 0x01 0x5A 0x00 0x00 0x00 0x26 0x00 @Cr @Lf>
+16:12:34.305 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:34.306 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+16:12:34.308 I: (GetMeasurementValues_MNS_Message:53) BluetoothMNS u=224.9V, i=0.4A, p=90.0P, it=0.0mA, id=0.038mA
+16:12:34.311 D: (PollingMeasurementUpdaterBluetooth:5879) PMUB after await
+16:12:34.312 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+16:12:34.314 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+16:12:34.316 I: (PollingMeasurementUpdaterBluetooth:5904) PMUB SMWRES CMD OK
+16:12:34.319 I: (PollingMeasurementUpdaterBluetooth:5947) end PMUB SMWRES CMD ret checkEndStep=false
+16:12:34.322 I: (MeasurementHolder_FUNK:364) updateVal U1=225stb I1=0,4stb P1=90stb It=0,000stb lim=0,5 Id=0,04stb lim=3,5 
+16:12:34.325 D: (PollingMeasurementUpdaterBluetooth:5585) PMUB PolingBT setLED(ON)
+16:12:34.419 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+16:12:34.515 D: (PollingMeasurementUpdaterBluetooth:5620) PMUB sendMessage_waitForResult_checkEndStep 'SMWRES' msg=MNS Cr Lf mtype=FUNK
+16:12:34.518 I: (PollingMeasurementUpdaterBluetooth:5873) PMUB SMWRES CMD sending message MNS Cr Lf
+16:12:34.520 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=MNS Cr Lf
+16:12:34.574 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+16:12:34.578 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=700 checkCrLf=true
+16:12:34.583 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: a24c243fMNS Cr Lf, timeout=700
+16:12:34.586 D: (ConnectionAdapter:732) ServerListenerThread run reading
+16:12:34.590 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:34.594 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+16:12:34.697 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+16:12:34.699 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=16
+16:12:34.703 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=16  4D 4E 53 0C C8 08 90 01 5A 00 00 00 28 00 0D 0A
+16:12:34.706 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=16 <MNS 0x0C 0xC8 0x08 0x90 0x01 0x5A 0x00 0x00 0x00 0x28 0x00 @Cr @Lf>
+16:12:34.708 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:34.724 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+16:12:34.726 I: (GetMeasurementValues_MNS_Message:53) BluetoothMNS u=224.8V, i=0.4A, p=90.0P, it=0.0mA, id=0.04mA
+16:12:34.729 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+16:12:34.730 D: (PollingMeasurementUpdaterBluetooth:5879) PMUB after await
+16:12:34.731 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+16:12:34.733 I: (PollingMeasurementUpdaterBluetooth:5904) PMUB SMWRES CMD OK
+16:12:34.735 I: (PollingMeasurementUpdaterBluetooth:5947) end PMUB SMWRES CMD ret checkEndStep=false
+16:12:34.737 I: (MeasurementHolder_FUNK:364) updateVal U1=225stb I1=0,4stb P1=90stb It=0,000stb lim=0,5 Id=0,04stb lim=3,5 
+16:12:34.739 D: (PollingMeasurementUpdaterBluetooth:5585) PMUB PolingBT setLED(ON)
+16:12:34.814 D: (PollingMeasurementUpdaterBluetooth:5620) PMUB sendMessage_waitForResult_checkEndStep 'SMWRES' msg=MNS Cr Lf mtype=FUNK
+16:12:34.816 I: (PollingMeasurementUpdaterBluetooth:5873) PMUB SMWRES CMD sending message MNS Cr Lf
+16:12:34.817 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=MNS Cr Lf
+16:12:34.821 I: (MeasurementsActivity:2634) [PLAY] onClick
+16:12:34.823 I: (MeasurementsActivity:2715) just next PLAY
+16:12:34.825 I: (PollingMeasurementUpdaterBluetooth:769) PMUB UpdaterBT onPlayPressed() inx=7
+16:12:34.827 I: (FullScreenActivity:194) showSpinner inReconnection=false<MeasurementsActivity>
+16:12:34.836 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+16:12:34.837 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+16:12:34.839 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=700 checkCrLf=true
+16:12:34.840 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: a24c243fMNS Cr Lf, timeout=700
+16:12:34.842 D: (ConnectionAdapter:732) ServerListenerThread run reading
+16:12:34.843 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:34.844 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+16:12:34.891 D: (PollingMeasurementUpdaterBluetooth:5585) PMUB PolingBT setLED(OFF)
+16:12:34.892 I: (ProbeBTN:23) BTN reset
+16:12:34.894 I: (MeasurementHolder_RPE:333) ResultItem(RPE)  result=0,042 Ω OK
+16:12:34.897 I: (MeasurementHolder_RISO_LN_PE:140) ResultItem(RISO_LN_PE)  result=> 20,00 MΩ OK
+16:12:34.898 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+16:12:34.900 I: (MeasurementHolder_RISO_LN_S:146) ResultItem(RISO_LN_S)  result=> 20,00 MΩ OK
+16:12:34.900 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=16
+16:12:34.902 I: (MeasurementHolder_FUNK:556) ResultItem(IB)  result=0,000 mA OK
+16:12:34.904 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=16  4D 4E 53 0C CA 08 90 01 5A 00 00 00 27 00 0D 0A
+16:12:34.905 I: (MeasurementHolder_FUNK:568) ResultItem(IDIFF)  result=0,07 mA OK
+16:12:34.906 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=16 <MNS 0x0C 0xCA 0x08 0x90 0x01 0x5A 0x00 0x00 0x00 0x27 0x00 @Cr @Lf>
+16:12:34.907 I: (MeasurementHolder_FUNK:587) ResultItem(U)  result=225 V OK
+16:12:34.907 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:34.908 I: (MeasurementHolder_FUNK:605) ResultItem(I)  result=0,4 A OK
+16:12:34.909 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+16:12:34.910 I: (MeasurementHolder_FUNK:624) ResultItem(P)  result=90 W OK
+16:12:34.910 I: (GetMeasurementValues_MNS_Message:53) BluetoothMNS u=225.0V, i=0.4A, p=90.0P, it=0.0mA, id=0.039mA
+16:12:34.912 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+16:12:34.913 D: (PollingMeasurementUpdaterBluetooth:5879) PMUB after await
+16:12:34.915 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+16:12:34.917 I: (PollingMeasurementUpdaterBluetooth:5904) PMUB SMWRES CMD OK
+16:12:34.919 I: (PollingMeasurementUpdaterBluetooth:6008) PMUB checkEndStep step changed from 7 to 8
+16:12:34.921 D: (PollingMeasurementUpdaterBluetooth:5913) end PMUB sendMessage_waitForResult_checkEndStep
+16:12:34.953 I: (MeasurementsActivity:694) HideBigGif()
+16:12:34.954 I: (MeasurementsActivity:754) HideBigResults(rememberStateON=false, forceHide=false)
+16:12:34.975 I: (FullScreenActivity:175) hideSpinner <MeasurementsActivity>
+16:12:35.021 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+16:12:35.223 D: (PollingMeasurementUpdaterBluetooth:5585) PMUB PolingBT setLED(OFF)
+16:12:35.225 D: (PollingMeasurementUpdaterBluetooth:607) PMUB PolingBT CurrentItem step inx = 8
+16:12:35.227 I: (PollingMeasurementUpdaterBluetooth:612) detStatusPMUB >> measure mType: FUNK_OK
+16:12:36.262 I: (MeasurementsActivity:2634) [PLAY] onClick
+16:12:36.264 I: (MeasurementsActivity:2683) FUNK_OK <- OK
+16:12:36.264 I: (PollingMeasurementUpdaterBluetooth:769) PMUB UpdaterBT onPlayPressed() inx=8
+16:12:36.271 I: (FullScreenActivity:194) showSpinner inReconnection=false<MeasurementsActivity>
+16:12:36.300 D: (PollingMeasurementUpdaterBluetooth:5585) PMUB PolingBT setLED(OFF)
+16:12:36.302 I: (ProbeBTN:23) BTN reset
+16:12:36.305 D: (PollingMeasurementUpdaterBluetooth:317) PMUB BluetoothThread stopping loops
+16:12:36.307 D: (PollingMeasurementUpdaterBluetooth:383) PMUB BluetoothThread stop()
+16:12:36.308 I: (PollingMeasurementUpdaterBluetooth:386) PMUB stop() >>resume
+16:12:36.310 D: (PollingMeasurementUpdaterBluetooth:278) PMUB BluetoothThread Resuming
+16:12:36.313 I: (PollingMeasurementUpdaterBluetooth:388) PMUB stop() <<resume
+16:12:36.314 I: (PollingMeasurementUpdaterBluetooth:390) PMUB stop() >>join
+16:12:36.436 I: (PollingMeasurementUpdaterBluetooth:5990) PMUB checkEndStep stopThread=true
+16:12:36.738 D: (PollingMeasurementUpdaterBluetooth:5585) PMUB PolingBT setLED(OFF)
+16:12:36.739 I: (PollingMeasurementUpdaterBluetooth:392) PMUB stop() <<join
+16:12:36.740 I: (PollingMeasurementUpdaterBluetooth:399) PMUB stop() send STP + LOC
+16:12:36.741 I: (PollingMeasurementUpdaterBluetooth:404) PMUB stop() sending message STP Cr Lf
+16:12:36.742 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=STP Cr Lf
+16:12:36.781 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+16:12:36.782 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=1000 checkCrLf=true
+16:12:36.784 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: a24c243fSTP Cr Lf, timeout=1000
+16:12:36.786 D: (ConnectionAdapter:732) ServerListenerThread run reading
+16:12:36.788 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:36.789 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+16:12:36.942 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+16:12:36.945 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=6
+16:12:36.949 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=6  53 54 50 02 0D 0A
+16:12:36.951 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=6 <STP 0x02 @Cr @Lf>
+16:12:36.953 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:12:36.954 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+16:12:36.956 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+16:12:36.957 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+16:12:37.067 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+16:12:37.458 I: (PollingMeasurementUpdaterBluetooth:449) PMUB stop() stopped
+16:12:37.461 I: (MeasurementHolder_RPE:333) ResultItem(RPE)  result=0,042 Ω OK
+16:12:37.463 I: (MeasurementHolder_RISO_LN_PE:140) ResultItem(RISO_LN_PE)  result=> 20,00 MΩ OK
+16:12:37.468 I: (MeasurementHolder_RISO_LN_S:146) ResultItem(RISO_LN_S)  result=> 20,00 MΩ OK
+16:12:37.471 I: (MeasurementHolder_FUNK:556) ResultItem(IB)  result=0,000 mA OK
+16:12:37.476 I: (MeasurementHolder_FUNK:568) ResultItem(IDIFF)  result=0,07 mA OK
+16:12:37.478 I: (MeasurementHolder_FUNK:587) ResultItem(U)  result=225 V OK
+16:12:37.481 I: (MeasurementHolder_FUNK:605) ResultItem(I)  result=0,4 A OK
+16:12:37.483 I: (MeasurementHolder_FUNK:624) ResultItem(P)  result=90 W OK
+16:12:37.485 I: (MeasurementsActivity:694) HideBigGif()
+16:12:37.488 I: (MeasurementsActivity:754) HideBigResults(rememberStateON=true, forceHide=false)
+16:12:37.492 I: (MeasurementsActivity:944) SaveMeasurements(saveTestResultItems=true saveSafeBackup=false
+16:12:37.494 I: (SafetyTestApplication:3326) setDateOfLastTestSaved dateOfTest=Tue Feb 27 16:11:07 GMT+01:00 2024
+16:12:37.520 I: (TestResultHeaderDataSource:794) saveTestResultHeaderData saveDB=false CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<>
+16:12:37.522 I: (TestResultHeaderDataSource:749) makeTestNumber sCustomerNumber=<00001> IDNumber=<00011>
+16:12:37.526 I: (TestResultHeaderDataSource:782) makeTestNumber ok = <1>
+16:12:37.528 I: (TestResultHeaderDataSource:820) saveTestResultHeaderData ok nosave, t.num=1
+16:12:37.559 I: (TestResultItemDataSource:558) saveTestResultItemData CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+16:12:37.566 E: (TestResultItemDataSource:613) saveTestResultItemData err - delete and retry
+16:12:37.568 I: (TestResultItemDataSource:635) deleteTestResultItemData CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1> sResultNumber=<null>
+16:12:37.572 I: (TestResultItemDataSource:532) countTestResults n=15 CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+16:12:37.605 I: (TestResultItemDataSource:692) deleteTestResultItemData ok
+16:12:38.088 I: (TestResultItemDataSource:628) testResultItemData ok
+16:12:38.137 I: (TestResultHeaderDataSource:794) saveTestResultHeaderData saveDB=true CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+16:12:38.190 I: (TestResultHeaderDataSource:599) getFoundTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011> sTestNumber=<1>
+16:12:38.235 I: (TestResultHeaderDataSource:910) saveTestResultHeaderData ret=ok
+16:12:38.266 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+16:12:38.306 I: (ApplianceDataSource:1175) saveApplianceData CustomerNumber=<00001>, IDNumber=<00011>, keepGroupSelTypeId=<false>
+16:12:38.318 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+16:12:38.358 I: (ApplianceDataSource:1255) saveApplianceData = OK
+16:12:38.420 I: (TestResultHeaderDataSource:599) getFoundTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011> sTestNumber=<1>
+16:12:38.427 I: (MeasurementsActivity:1096) SaveMeasurements check OK
+16:12:38.429 I: (MeasurementsActivity:1128) SaveMeasurements = true
+16:12:38.432 I: (MeasurementsActivity:754) HideBigResults(rememberStateON=false, forceHide=false)
+16:12:38.471 I: (MeasurementsActivity:1424) final result = OK
+16:12:38.474 I: (FullScreenActivity:175) hideSpinner <MeasurementsActivity>
+16:12:39.085 D: (ConnectionAdapter:603) @ ServerListenerThread run: keep connection by sending CrLf
+16:12:41.335 I: (MeasurementsActivity:342) [END]
+16:12:41.336 I: (MeasurementsActivity:944) SaveMeasurements(saveTestResultItems=false saveSafeBackup=true
+16:12:41.338 I: (SafetyTestApplication:3326) setDateOfLastTestSaved dateOfTest=Tue Feb 27 16:11:07 GMT+01:00 2024
+16:12:41.352 I: (TestResultHeaderDataSource:794) saveTestResultHeaderData saveDB=false CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+16:12:41.354 I: (TestResultHeaderDataSource:820) saveTestResultHeaderData ok nosave, t.num=1
+16:12:41.372 I: (TestResultHeaderDataSource:599) getFoundTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011> sTestNumber=<1>
+16:12:41.374 I: (MeasurementsActivity:1096) SaveMeasurements check OK
+16:12:41.389 I: (MeasurementsActivity:1128) SaveMeasurements = true
+16:12:41.390 I: (MeasurementsActivity:2900) == exitView ==
+16:12:41.391 I: (MeasurementsActivity:2903) == exitView autoPDF ==
+16:12:41.392 I: (PmTreeMaker:478) makeFilePM sCustomerNumber=<00001> sIDNumber=<00011> sTestNumbers=<String(1), arr[0] = <1>>
+16:12:41.446 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+16:12:41.471 I: (TestResultHeaderDataSource:599) getFoundTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011> sTestNumber=<1>
+16:12:41.492 I: (TestResultItemDataSource:532) countTestResults n=15 CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+16:12:41.497 I: (TestResultItemDataSource:456) getAllTestResultItemData ok n=15 CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+16:12:41.532 I: (MeasurementsActivity:2439) === onPause ===
+16:12:41.535 D: (PollingMeasurementUpdaterBluetooth:272) PMUB BluetoothThread Pausing
+16:12:41.555 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <GenerateReportActivity>
+16:12:41.558 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:12:41.561 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:12:41.562 I: (GenerateReportActivity:78) === onCreate NEW
+16:12:41.588 I: (FullScreenActivity:118) FullScreenActivity - onResume <GenerateReportActivity>
+16:12:41.591 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:12:41.592 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:12:41.653 I: (GenerateReportActivity:255) [PLAY]
+16:12:42.054 I: (TestResultHeaderDataSource:916) resaveTestResultHeaderDataProtocol CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+16:12:42.062 I: (TestResultHeaderDataSource:599) getFoundTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011> sTestNumber=<1>
+16:12:42.068 I: (TestResultHeaderDataSource:955) resaveTestResultHeaderDataProtocol ret=ok
+16:12:42.097 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <ReportGenerationResultActivity>
+16:12:42.100 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:12:42.103 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:12:42.106 I: (ReportGenerationResultActivity:46) === onCreate NEW
+16:12:42.127 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+16:12:42.157 I: (FullScreenActivity:118) FullScreenActivity - onResume <ReportGenerationResultActivity>
+16:12:42.159 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:12:42.161 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:12:42.439 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <GenerateReportActivity>
+16:12:42.448 log FLUSH
+16:16:44.325 I: (FullScreenActivity:118) FullScreenActivity - onResume <ReportGenerationResultActivity>
+16:16:44.336 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:16:44.338 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:16:46.485 I: (MeasurementsActivity:3042) MeasurementsActivity onActivityResult - MeasurementsActivity entry
+16:16:46.487 I: (MeasurementsActivity:944) SaveMeasurements(saveTestResultItems=false saveSafeBackup=true
+16:16:46.489 I: (SafetyTestApplication:3326) setDateOfLastTestSaved dateOfTest=Tue Feb 27 16:11:07 GMT+01:00 2024
+16:16:46.505 I: (TestResultHeaderDataSource:794) saveTestResultHeaderData saveDB=false CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+16:16:46.506 I: (TestResultHeaderDataSource:820) saveTestResultHeaderData ok nosave, t.num=1
+16:16:46.527 I: (TestResultHeaderDataSource:599) getFoundTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011> sTestNumber=<1>
+16:16:46.529 I: (MeasurementsActivity:1096) SaveMeasurements check OK
+16:16:46.543 I: (MeasurementsActivity:1128) SaveMeasurements = true
+16:16:46.544 I: (MeasurementsActivity:2900) == exitView ==
+16:16:46.622 I: (FullScreenActivity:118) FullScreenActivity - onResume <AppliancesActivity>
+16:16:46.625 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:16:46.627 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:16:46.628 I: (AppliancesActivity:2388) -- onResume --
+16:16:46.630 I: (AppliancesActivity:1885) InitData aData=<00011> sDelIDNumber=null allowReadDB=false
+16:16:46.631 I: (AppliancesActivity:2044) InitData aData beg
+16:16:46.632 I: (SafetyTestApplication:886) setLastIDNumber <00011> to <00011>
+16:16:46.653 I: (SafetyTestApplication:886) setLastIDNumber <00011> to <00011>
+16:16:46.668 I: (AppliancesActivity:2072) InitData aData end, appliances_all=4
+16:16:46.672 I: (AppliancesActivity:2104) InitData finish OK
+16:16:46.779 I: (MeasurementsActivity:2449) === onDestroy, isFinishing=true
+16:16:46.781 D: (PollingMeasurementUpdaterBluetooth:278) PMUB BluetoothThread Resuming
+16:16:46.783 I: (PollingMeasurementUpdaterBluetooth:281) PMUB BluetoothThread resuming thread countDown
+16:16:46.785 D: (PollingMeasurementUpdaterBluetooth:289) PMUB BluetoothThread lockUpdate(ReleaseAll)
+16:16:46.786 D: (PollingMeasurementUpdaterBluetooth:303) PMUB BluetoothThread lockUpdate = 0
+16:16:46.788 D: (PollingMeasurementUpdaterBluetooth:317) PMUB BluetoothThread stopping loops
+16:16:46.789 D: (PollingMeasurementUpdaterBluetooth:383) PMUB BluetoothThread stop()
+16:16:46.790 I: (PollingMeasurementUpdaterBluetooth:399) PMUB stop() send STP + LOC
+16:16:46.792 I: (PollingMeasurementUpdaterBluetooth:404) PMUB stop() sending message STP Cr Lf
+16:16:46.793 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=STP Cr Lf
+16:16:46.833 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+16:16:46.835 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=1000 checkCrLf=true
+16:16:46.837 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: a24c243fSTP Cr Lf, timeout=1000
+16:16:46.839 D: (ConnectionAdapter:732) ServerListenerThread run reading
+16:16:46.840 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:16:46.842 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+16:16:46.893 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+16:16:46.895 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=6
+16:16:46.898 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=6  53 54 50 02 0D 0A
+16:16:46.900 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=6 <STP 0x02 @Cr @Lf>
+16:16:46.901 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+16:16:46.902 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+16:16:46.904 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+16:16:46.904 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+16:16:47.015 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+16:16:47.407 I: (PollingMeasurementUpdaterBluetooth:449) PMUB stop() stopped
+16:16:47.409 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <MeasurementsActivity>
+16:16:47.410 log FLUSH
+16:16:47.446 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <ReportGenerationResultActivity>
+16:16:47.447 log FLUSH
+16:16:49.042 D: (ConnectionAdapter:603) @ ServerListenerThread run: keep connection by sending CrLf
+16:16:49.896 I: (AppliancesActivity:237) [MEMORY]
+16:16:49.935 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <TestResultsActivity>
+16:16:49.939 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:16:49.942 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:16:49.943 I: (TestResultsActivity:82) === onCreate NEW
+16:16:49.944 I: (TestResultsActivity:83) LastCustomerNumber=<00001>, LastIDNumber=<00011>
+16:16:49.992 I: (TestResultsActivity:421) InitData initMode=READ_DB
+16:16:49.997 I: (FullScreenActivity:118) FullScreenActivity - onResume <TestResultsActivity>
+16:16:49.999 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:16:50.001 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:16:50.012 I: (TestResultHeaderDataSource:728) countTestResultHeaders ok n=1 sCustomerNumber=<00001> IDNumber=<00011>
+16:16:50.016 I: (TestResultHeaderDataSource:517) getAllTestResultHeaderData ok n= 1 sCustomerNumber=<00001> IDNumber=<00011>
+16:16:50.017 I: (TestResultsActivity:440) InitData - getAllTestResultHeaderData done N=1
+16:16:51.020 I: (DbReadCallback:140) DbReadCallback endDialog
+16:16:53.419 I: (FullScreenActivity:143) [BACK] <TestResultsActivity>
+16:16:53.445 I: (FullScreenActivity:118) FullScreenActivity - onResume <AppliancesActivity>
+16:16:53.448 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:16:53.450 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:16:53.451 I: (AppliancesActivity:2388) -- onResume --
+16:16:53.833 I: (TestResultsActivity:643) -- onDestroy --
+16:16:53.835 I: (DbReadCallback:175) DbReadCallback set fullStop
+16:16:53.837 I: (DbReadCallback:140) DbReadCallback endDialog
+16:16:53.839 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <TestResultsActivity>
+16:16:53.840 log FLUSH
+16:16:57.114 I: (AppliancesActivity:343) [LIST]
+16:16:57.116 I: (PmTreeMaker:478) makeFilePM sCustomerNumber=<00001> sIDNumber=<00006> sTestNumbers=<String(1), arr[0] = <>>
+16:16:57.170 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00006>
+, 00007, 00010, 00011
+16:16:57.311 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <GenerateReportActivity>
+16:16:57.314 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:16:57.316 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:16:57.317 I: (GenerateReportActivity:78) === onCreate NEW
+16:16:57.336 I: (FullScreenActivity:118) FullScreenActivity - onResume <GenerateReportActivity>
+16:16:57.338 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:16:57.340 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:16:58.277 I: (DbReadCallback:140) DbReadCallback endDialog
+16:16:58.736 I: (GenerateReportActivity:255) [PLAY]
+16:16:59.119 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <ReportGenerationResultActivity>
+16:16:59.122 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:16:59.125 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:16:59.126 I: (ReportGenerationResultActivity:46) === onCreate NEW
+16:16:59.146 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+16:16:59.172 I: (FullScreenActivity:118) FullScreenActivity - onResume <ReportGenerationResultActivity>
+16:16:59.175 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:16:59.177 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:16:59.542 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <GenerateReportActivity>
+16:16:59.542 log FLUSH
+16:17:08.069 I: (FullScreenActivity:118) FullScreenActivity - onResume <ReportGenerationResultActivity>
+16:17:08.075 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:17:08.077 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:17:09.567 I: (AppliancesActivity:2211) makePDF OK
+16:17:09.576 I: (FullScreenActivity:118) FullScreenActivity - onResume <AppliancesActivity>
+16:17:09.579 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:17:09.580 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:17:09.582 I: (AppliancesActivity:2388) -- onResume --
+16:17:09.957 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <ReportGenerationResultActivity>
+16:17:09.958 log FLUSH
+16:17:12.306 I: (AppliancesActivity:266) [PROTOCOL]
+16:17:12.324 I: (TestResultHeaderDataSource:648) getLastTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011>
+16:17:12.326 I: (PmTreeMaker:478) makeFilePM sCustomerNumber=<00001> sIDNumber=<00011> sTestNumbers=<String(1), arr[0] = <1>>
+16:17:12.379 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+16:17:12.399 I: (TestResultHeaderDataSource:599) getFoundTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011> sTestNumber=<1>
+16:17:12.419 I: (TestResultItemDataSource:532) countTestResults n=15 CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+16:17:12.423 I: (TestResultItemDataSource:456) getAllTestResultItemData ok n=15 CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+16:17:12.472 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <GenerateReportActivity>
+16:17:12.475 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:17:12.478 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:17:12.480 I: (GenerateReportActivity:78) === onCreate NEW
+16:17:12.504 I: (FullScreenActivity:118) FullScreenActivity - onResume <GenerateReportActivity>
+16:17:12.506 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:17:12.507 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:17:13.942 I: (GenerateReportActivity:255) [PLAY]
+16:17:14.277 I: (TestResultHeaderDataSource:916) resaveTestResultHeaderDataProtocol CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+16:17:14.286 I: (TestResultHeaderDataSource:599) getFoundTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011> sTestNumber=<1>
+16:17:14.291 I: (TestResultHeaderDataSource:955) resaveTestResultHeaderDataProtocol ret=ok
+16:17:14.302 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <ReportGenerationResultActivity>
+16:17:14.305 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:17:14.311 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:17:14.313 I: (ReportGenerationResultActivity:46) === onCreate NEW
+16:17:14.331 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+16:17:14.361 I: (FullScreenActivity:118) FullScreenActivity - onResume <ReportGenerationResultActivity>
+16:17:14.364 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:17:14.367 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:17:14.696 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <GenerateReportActivity>
+16:17:14.697 log FLUSH
+16:17:25.431 I: (FullScreenActivity:118) FullScreenActivity - onResume <ReportGenerationResultActivity>
+16:17:25.442 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:17:25.445 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:17:26.786 I: (AppliancesActivity:2211) makePDF OK
+16:17:26.789 I: (FullScreenActivity:118) FullScreenActivity - onResume <AppliancesActivity>
+16:17:26.792 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:17:26.794 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:17:26.795 I: (AppliancesActivity:2388) -- onResume --
+16:17:27.178 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <ReportGenerationResultActivity>
+16:17:27.179 log FLUSH
+16:17:32.718 I: (AppliancesActivity:237) [MEMORY]
+16:17:32.754 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <TestResultsActivity>
+16:17:32.757 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:17:32.760 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:17:32.762 I: (TestResultsActivity:82) === onCreate NEW
+16:17:32.763 I: (TestResultsActivity:83) LastCustomerNumber=<00001>, LastIDNumber=<00011>
+16:17:32.806 I: (TestResultsActivity:421) InitData initMode=READ_DB
+16:17:32.810 I: (FullScreenActivity:118) FullScreenActivity - onResume <TestResultsActivity>
+16:17:32.812 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:17:32.814 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:17:32.824 I: (TestResultHeaderDataSource:728) countTestResultHeaders ok n=1 sCustomerNumber=<00001> IDNumber=<00011>
+16:17:32.829 I: (TestResultHeaderDataSource:517) getAllTestResultHeaderData ok n= 1 sCustomerNumber=<00001> IDNumber=<00011>
+16:17:32.830 I: (TestResultsActivity:440) InitData - getAllTestResultHeaderData done N=1
+16:17:33.836 I: (DbReadCallback:140) DbReadCallback endDialog
+16:17:34.981 I: (FullScreenActivity:143) [BACK] <TestResultsActivity>
+16:17:35.006 I: (FullScreenActivity:118) FullScreenActivity - onResume <AppliancesActivity>
+16:17:35.008 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:17:35.010 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:17:35.011 I: (AppliancesActivity:2388) -- onResume --
+16:17:35.395 I: (TestResultsActivity:643) -- onDestroy --
+16:17:35.397 I: (DbReadCallback:175) DbReadCallback set fullStop
+16:17:35.399 I: (DbReadCallback:140) DbReadCallback endDialog
+16:17:35.401 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <TestResultsActivity>
+16:17:35.402 log FLUSH
+16:18:23.068 I: (FullScreenActivity:118) FullScreenActivity - onResume <AppliancesActivity>
+16:18:23.082 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:18:23.084 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:18:23.086 I: (AppliancesActivity:2388) -- onResume --
+16:18:55.557 I: (FullScreenActivity:118) FullScreenActivity - onResume <AppliancesActivity>
+16:18:55.575 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:18:55.578 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:18:55.580 I: (AppliancesActivity:2388) -- onResume --
+16:18:57.962 I: (FullScreenActivity:143) [BACK] <AppliancesActivity>
+16:18:57.987 I: (CustomersActivity:775) onResume()
+16:18:57.990 I: (FullScreenActivity:118) FullScreenActivity - onResume <CustomersActivity>
+16:18:57.994 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:18:57.995 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:18:57.996 I: (CustomersActivity:605) InitData()
+16:18:58.022 I: (CustomersActivity:628) InitData - getAllCustomerData done N=1
+16:18:58.051 I: (CustomersActivity:678) initial CustomerNumber=<00001>
+16:18:58.375 I: (AppliancesActivity:2369) -- onDestroy --
+16:18:58.376 I: (DbReadCallback:175) DbReadCallback set fullStop
+16:18:58.377 I: (DbReadCallback:140) DbReadCallback endDialog
+16:18:58.379 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <AppliancesActivity>
+16:18:58.380 log FLUSH
+16:18:58.994 I: (FullScreenActivity:143) [BACK] <CustomersActivity>
+16:18:59.021 I: (FullScreenActivity:118) FullScreenActivity - onResume <MeasurementMenuActivity>
+16:18:59.023 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:18:59.025 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:18:59.111 I: (DbReadCallback:140) DbReadCallback endDialog
+16:18:59.457 I: (CustomersActivity:764) -- onDestroy --
+16:18:59.459 I: (DbReadCallback:175) DbReadCallback set fullStop
+16:18:59.461 I: (DbReadCallback:140) DbReadCallback endDialog
+16:18:59.463 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <CustomersActivity>
+16:18:59.463 log FLUSH
+16:19:00.610 I: (MeasurementMenuActivity:109) [PLAY]
+16:19:00.649 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+16:19:00.651 I: (ApplianceSettingsListAdapter:197) populateListFromDB params: LastSelID=null, aLastSel=null, sLoc=null, sU1=null, sU2=null, sU3=null, sInt=null, sMan=null, sDescr=null, sTyp=null, sSN=null, sRem=null, aToRest=null
+16:19:00.671 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+16:19:00.679 I: (ApplianceSettingsListAdapter:409) populateListFromDB items:  IDNUMBE:<00011>  DESCRIP:<Reisköcher>  MANUFAC:<>  TYPE:<>  FACTORY:<>  KENNZEI:<>  LOCATIO:<Küche>  REMARK:<>  USER1:<>  USER2:<>  USER3:<>  NORM:<NORM_07012>  PROFILE:<PROFILE_SKIakt>  TESTING:<>  TESTINT:<12> 
+16:19:00.717 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <MeasurementSettingsActivity>
+16:19:00.721 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:19:00.722 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:19:00.724 I: (MeasurementSettingsBoxesActivity:37) === onCreate NEW
+16:19:00.725 I: (MeasurementSettingsActivity:82) === onCreate NEW
+16:19:00.726 I: (MeasurementSettingsActivity:83) LastCustomerNumber=<00001>, LastIDNumber=<00011>
+16:19:00.777 I: (StartMenuActivity:1807) checkCurrentDate: now=27.02.2024 16:19:00 build=21.11.2023 21:24:09 dayDiff=97
+16:19:00.801 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+, 00011
+16:19:00.871 I: (ApplianceSettingsListAdapter:197) populateListFromDB params: LastSelID=null, aLastSel=null, sLoc=null, sU1=null, sU2=null, sU3=null, sInt=null, sMan=null, sDescr=null, sTyp=null, sSN=null, sRem=null, aToRest=null
+16:19:00.895 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+16:19:00.902 I: (ApplianceSettingsListAdapter:409) populateListFromDB items:  IDNUMBE:<00011>  DESCRIP:<Reisköcher>  MANUFAC:<>  TYPE:<>  FACTORY:<>  KENNZEI:<>  LOCATIO:<Küche>  REMARK:<>  USER1:<>  USER2:<>  USER3:<>  NORM:<NORM_07012>  PROFILE:<PROFILE_SKIakt>  TESTING:<>  TESTINT:<12> 
+16:19:00.920 I: (TestResultHeaderDataSource:648) getLastTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011>
+16:19:00.943 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+16:19:00.946 I: (AlertBuilderMod:86) AlertBuilderMod message=<Achtung diese Betriebsmittel wurde bereits am Datum 27.02.2024 geprüft. Wollen Sie diesen erneut prüfen?>
+16:19:00.947 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+16:19:00.948 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+16:19:00.957 I: (AlertWrapper:39) MeasurementSettingsActivity AlertWrapper start dlg
+16:19:01.007 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+16:19:01.009 I: (AlertBuilderMod:86) AlertBuilderMod message=<Achtung diese Betriebsmittel wurde bereits am Datum 27.02.2024 geprüft. Wollen Sie diesen erneut prüfen?>
+16:19:01.011 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+16:19:01.012 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+16:19:01.016 I: (AlertWrapper:39) MeasurementSettingsActivity AlertWrapper start dlg
+16:19:01.018 I: (AlertWrapper:41) MeasurementSettingsActivity AlertWrapper dismiss by next .start dlgAlert=android.app.AlertDialog@db3ca61
+16:19:01.027 I: (AlertWrapper:51) MeasurementSettingsActivity AlertWrapper dismiss dlgAlert = null
+16:19:01.053 I: (FullScreenActivity:118) FullScreenActivity - onResume <MeasurementSettingsActivity>
+16:19:01.055 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:19:01.057 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:19:06.766 I: (MeasurementSettingsActivity:327) [YES]
+16:19:06.768 I: (AlertWrapper:62) MeasurementSettingsActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+16:19:23.940 I: (AlertBuilderMod:186) AlertBuilderMod singleChoiceItems=<Kein><A><B> SEL=0
+16:19:23.947 I: (AlertBuilderMod:107) AlertBuilderMod title=<RCD Typ>
+16:19:23.949 I: (AlertWrapper:39) MeasurementSettingsActivity AlertWrapper start dlg
+16:19:27.276 I: (MeasurementSettingsActivity:1257) [SEL]=Kein
+16:19:27.318 I: (AlertWrapper:62) MeasurementSettingsActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+16:20:21.232 I: (MeasurementSettingsActivity:1680) [BACK]
+16:20:21.259 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+16:20:21.263 I: (FullScreenActivity:143) [BACK] <MeasurementSettingsActivity>
+16:20:21.299 I: (FullScreenActivity:118) FullScreenActivity - onResume <MeasurementMenuActivity>
+16:20:21.301 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:20:21.303 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:20:21.732 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <MeasurementSettingsActivity>
+16:20:21.733 log FLUSH
+16:20:25.603 I: (MeasurementMenuActivity:388) [BACK]
+16:20:25.604 I: (FullScreenActivity:143) [BACK] <MeasurementMenuActivity>
+16:20:25.627 I: (StartMenuActivity:925) === onResume
+16:20:25.630 I: (FullScreenActivity:118) FullScreenActivity - onResume <StartMenuActivity>
+16:20:25.632 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:20:25.634 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+16:20:26.051 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <MeasurementMenuActivity>
+16:20:26.053 log FLUSH

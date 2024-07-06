@@ -1,0 +1,22 @@
+07-02-2024 
+08:24:12.211 I: (SafetyTestApplication:347) ===== START ===== Test Master DUMPNOBUF SFT ver N88 27.09.2023 3.672, DEVICE API=31, Release=<12>, Manufacturer=<samsung>, Model=<SM-T220> RAM=3001782272 FREE=1264549888
+08:24:12.215 I: (SafetyTestApplication:432) deviceScreen Width=1340 Height=736 orientation=LANDSCAPE
+08:24:12.222 I: (SafetyTestApplication:450)  schemaDrawable IntrinsicWidth=1203 .Height=684
+08:24:12.250 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <AppliancesActivity>
+08:24:12.254 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:24:12.261 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:24:12.264 I: (AppliancesActivity:120) === onCreate reopen
+08:24:12.265 I: (AppliancesActivity:121) LastCustomerNumber=<>, LastIDNumber=<>
+08:24:12.269 W: (FullScreenActivity:69) Activity will close after previous crash <AppliancesActivity>
+08:24:12.315 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <MeasurementMenuActivity>
+08:24:12.320 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:24:12.322 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:24:12.324 I: (MeasurementMenuActivity:44) === onCreate reopen
+08:24:12.325 W: (FullScreenActivity:69) Activity will close after previous crash <MeasurementMenuActivity>
+08:24:12.368 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <StartMenuActivity>
+08:24:12.372 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:24:12.375 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:24:12.376 I: (StartMenuActivity:114) === onCreate reopen
+08:24:12.379 I: (StartMenuActivity:134) restarted after crash
+08:24:12.380 I: (StartMenuActivity:148) ===== STOP LOG =====
+08:24:12.380 log FLUSH

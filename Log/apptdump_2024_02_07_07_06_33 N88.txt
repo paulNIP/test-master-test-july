@@ -1,0 +1,181 @@
+07-02-2024 
+07:06:33.767 I: (SafetyTestApplication:347) ===== START ===== Test Master DUMPNOBUF SFT ver N88 27.09.2023 3.672, DEVICE API=31, Release=<12>, Manufacturer=<samsung>, Model=<SM-T220> RAM=3001782272 FREE=1288359936
+07:06:33.770 I: (SafetyTestApplication:432) deviceScreen Width=1340 Height=736 orientation=LANDSCAPE
+07:06:33.779 I: (SafetyTestApplication:450)  schemaDrawable IntrinsicWidth=1203 .Height=684
+07:06:33.814 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <StartMenuActivity>
+07:06:33.819 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+07:06:33.834 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+07:06:33.837 I: (StartMenuActivity:114) === onCreate NEW
+07:06:33.842 I: (StartMenuActivity:155) onCreate continue1
+07:06:33.864 I: (SafetyTestApplication:1048) readProfileInfos currLanguage=GER
+07:06:33.865 I: (SafetyTestApplication:1050) readProfileInfos currOrientation=LANDSCAPE
+07:06:33.867 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+07:06:33.869 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+07:06:34.256 I: (StartMenuActivity:1807) checkCurrentDate: now=07.02.2024 07:06:34 build=27.09.2023 22:08:15 dayDiff=132
+07:06:34.257 I: (StartMenuActivity:1642) checkPermissions
+07:06:34.260 I: (StartMenuActivity:1713) checkPermissions -> finalInit
+07:06:34.261 I: (StartMenuActivity:231) finalInit, isInitialized=false
+07:06:34.324 I: (SafetyTestApplication:1048) readProfileInfos currLanguage=GER
+07:06:34.324 I: (SafetyTestApplication:1050) readProfileInfos currOrientation=LANDSCAPE
+07:06:34.330 I: (SafetyTestApplication:1059) readProfileInfos anwender_standard=true
+07:06:34.331 I: (SafetyTestApplication:1061) readProfileInfos ablauf_auto=true
+07:06:34.332 I: (SafetyTestApplication:1063) readProfileInfos sLastCustomerNumber=00001
+07:06:34.333 I: (SafetyTestApplication:1065) readProfileInfos sLastIDNumber=
+07:06:34.345 I: (SafetyTestApplication:1067) readProfileInfos login_on=true
+07:06:34.346 I: (SafetyTestApplication:1070) readProfileInfos verdrPolarity_on=true
+07:06:34.347 I: (SafetyTestApplication:1328) valCalibrateRpe_RSL_200=-100.0
+07:06:34.348 I: (SafetyTestApplication:1335) valCalibrateRpe_RSL_10A=-100.0
+07:06:34.349 I: (SafetyTestApplication:1342) valCalibrateRpe_RSV_200=-100.0
+07:06:34.350 I: (SafetyTestApplication:1349) valCalibrateRpe_RSV_10A=-100.0
+07:06:34.351 I: (SafetyTestApplication:1358) valCalibrateRpe_RSC_200=-100.0
+07:06:34.352 I: (SafetyTestApplication:1365) valCalibrateRpe_RSC_10A=-100.0
+07:06:34.353 I: (SafetyTestApplication:1371) snCalibrateRpe=
+07:06:34.353 I: (SafetyTestApplication:1378) dateCalibrateRpe=null
+07:06:34.354 I: (SafetyTestApplication:1389) CalibrateRpe not done
+07:06:34.355 I: (SafetyTestApplication:1081) readProfileInfos sManualDevType=
+07:06:34.356 I: (SafetyTestApplication:1083) readProfileInfos sManualDevSN=
+07:06:34.357 I: (SafetyTestApplication:1086) readProfileInfos sSynchRemdirDIR=
+07:06:34.358 I: (SafetyTestApplication:1088) readProfileInfos SynchRemdirON=false
+07:06:34.359 I: (SafetyTestApplication:1090) readProfileInfos sSynchRemdirDOMAIN=
+07:06:34.360 I: (SafetyTestApplication:1093) readProfileInfos sSynchCloudURL=
+07:06:34.360 I: (SafetyTestApplication:1095) readProfileInfos SynchCloudON=false
+07:06:34.361 I: (SafetyTestApplication:1098) readProfileInfos bAutoPDF=false
+07:06:34.362 I: (SafetyTestApplication:1101) readProfileInfos bJsonOn=false
+07:06:34.363 I: (SafetyTestApplication:1104) readProfileInfos bUniqueIdOn=false
+07:06:34.364 I: (SafetyTestApplication:1107) readProfileInfos bLastDigBarcodeOn=false
+07:06:34.365 I: (SafetyTestApplication:1112) readProfileInfos iFixedIdLength=0
+07:06:34.560 I: (SafetyTestApplication:1153) readProfileInfos MeterType not present, set to METERTYPE_1ST
+07:06:34.562 D: (DevOptions:315) Active Options: RCD, VDE544, EN62353, ACImpedanz, Standby, Taste, Schutz10A, Bluetooth, Uiso1500V, KeineNetzumpolung, HID, spezAbleitströme, Deutsch, RelativeValidityMonth, BaseFeature1, BaseFeature2, Clamp, VerlSocket, Schutz10Acal
+07:06:34.577 I: (SafetyTestApplication:3147) read BigDatabaseIDNumbers n=0 date=Wed Feb 07 00:00:00 GMT+01:00 2024
+07:06:34.589 I: (SafetyTestApplication:1188) readProfileInfos eupGridON=true
+07:06:34.591 I: (SafetyTestApplication:1201) dateOfLastTestSaved=null
+07:06:34.592 I: (SafetyTestApplication:1204) nTestDaysFromLastSync=0
+07:06:34.593 I: (SafetyTestApplication:1217) dateStartCountingTestDaysFromLastDbPurge=null
+07:06:34.595 I: (SafetyTestApplication:1220) nTestDaysFromLastDbPurge=0
+07:06:34.597 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+07:06:34.599 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+07:06:34.601 I: (EupDevGroupSelActivity:453) readEupDevGroups()
+07:06:34.669 I: (Util:786) getAppDirectoryAPI29 not present
+07:06:34.676 I: (StartMenuActivity:295) InitVariables2 clear crash flag
+07:06:34.680 E: (StartMenuActivity:311) InitVariables2 err NO_PROPER_EXIT_DATE
+07:06:34.733 I: (DefaultRepository:83) new DefaultRepository db: <pcdrdata.sqlite3>
+07:06:34.796 I: (DefaultRepository:514) checkDatabaseContents()
+07:06:34.799 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+07:06:34.803 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+07:06:34.805 I: (DefaultRepository:483) setDatabaseVersion=9
+07:06:34.809 I: (DefaultRepository:502) setDatabaseVersion OK
+07:06:34.888 I: (StartMenuActivity:925) === onResume
+07:06:34.890 I: (FullScreenActivity:116) FullScreenActivity - onResume <StartMenuActivity>
+07:06:34.893 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+07:06:34.895 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+07:07:05.857 I: (StartMenuActivity:556) [SETUP]
+07:07:05.902 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <SetupActivity>
+07:07:05.906 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+07:07:05.909 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+07:07:05.910 I: (SetupActivity:56) === onCreate NEW
+07:07:05.979 D: (DevActivation:157) CheckDA month=0
+07:07:05.981 D: (DevActivation:157) CheckDA month=0 +calib
+07:07:05.982 D: (DevActivation:83) CheckDA no sel device
+07:07:05.986 I: (FullScreenActivity:116) FullScreenActivity - onResume <SetupActivity>
+07:07:05.988 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+07:07:05.989 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+07:07:06.002 D: (DevActivation:83) CheckDA no sel device
+07:07:12.975 D: (DevActivation:83) CheckDA no sel device
+07:07:12.977 I: (SetupActivity:276) [DEVKEY]
+07:07:13.016 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <TesterDevicesActivity>
+07:07:13.019 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+07:07:13.022 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+07:07:13.023 I: (TesterDevicesActivity:80) === onCreate NEW
+07:07:13.055 I: (TesterDevicesActivity:575) Bluetooth startDiscovery
+07:07:13.056 I: (ConnectionAdapter:227) CloseConnectionAdapter()
+07:07:13.057 I: (ConnectionAdapter:233) CloseConnectionAdapter ignored - thisConnectionAdapter = null
+07:07:13.073 I: (TesterDevicesActivity:592) Bluetooth discovery starting
+07:07:13.111 D: (TesterDevicesActivity:614) DetectUSB device count : 0
+07:07:13.112 I: (TesterDevicesActivity:654) stopBleScan...
+07:07:13.128 I: (FullScreenActivity:116) FullScreenActivity - onResume <TesterDevicesActivity>
+07:07:13.131 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+07:07:13.132 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+07:07:13.422 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:13.424 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@7c33e01
+07:07:13.427 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:13.431 I: (TesterDevicesActivity:671) BLE scanCallback name=<F48F9245CCA23396E9
+07:07:14.063 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:14.065 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@824b93d
+07:07:14.070 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:14.076 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:14.077 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@3ccec00
+07:07:14.082 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:14.377 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:14.381 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@3703df
+07:07:14.387 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:14.392 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:14.393 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@81c3b18
+07:07:14.397 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:14.405 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:14.407 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@82cc356
+07:07:14.411 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:15.103 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:15.105 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@25b5273
+07:07:15.110 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:15.115 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:15.117 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@448e72e
+07:07:15.121 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:15.126 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:15.128 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@9cb6365
+07:07:15.136 I: (TesterDevicesActivity:162) BT BroadcastReceiver name=<ihoment_H6143_422B>
+07:07:15.154 I: (TesterDevicesActivity:671) BLE scanCallback name=<ihoment_H6143_422B
+07:07:15.429 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:15.431 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@d93d0e1
+07:07:15.435 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:15.757 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:15.759 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@bc912f4
+07:07:15.764 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:15.962 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:15.964 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@15cbb19
+07:07:15.970 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:17.550 I: (TesterDevicesActivity:489) [BACK]
+07:07:17.554 I: (AlertBuilderMod:100) AlertBuilderMod title=<Prüfgerät>
+07:07:17.555 I: (AlertBuilderMod:86) AlertBuilderMod message=<Bitte selektieren Sie ein Prüfgerät.>
+07:07:17.557 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Wiederholen>
+07:07:17.560 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Abbrechen>
+07:07:17.574 I: (AlertWrapper:39) TesterDevicesActivity AlertWrapper start dlg
+07:07:18.925 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+07:07:18.926 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@3f22a43
+07:07:18.930 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+07:07:19.913 I: (TesterDevicesActivity:507) [CANCEL]
+07:07:19.916 I: (FullScreenActivity:141) [BACK] <TesterDevicesActivity>
+07:07:19.922 I: (AlertWrapper:62) TesterDevicesActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+07:07:19.980 D: (DevActivation:83) CheckDA no sel device
+07:07:19.982 I: (AlertBuilderMod:86) AlertBuilderMod message=<Bitte selektieren Sie ein Prüfgerät.>
+07:07:19.989 I: (AlertWrapper:39) SetupActivity AlertWrapper start dlg
+07:07:20.013 I: (FullScreenActivity:116) FullScreenActivity - onResume <SetupActivity>
+07:07:20.015 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+07:07:20.018 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+07:07:20.036 D: (DevActivation:83) CheckDA no sel device
+07:07:20.100 I: (TesterDevicesActivity:671) BLE scanCallback name=<F48F9245CCA23396E9
+07:07:20.440 I: (TesterDevicesActivity:654) stopBleScan...
+07:07:20.450 I: (FullScreenActivity:123) FullScreenActivity - onDestroy <TesterDevicesActivity>
+07:07:20.451 log FLUSH
+07:07:20.463 I: (TesterDevicesActivity:571) Bluetooth discovery cancelled
+07:07:28.482 I: (AlertWrapper:62) SetupActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+07:07:36.733 I: (SetupActivity:1087) [BACK]
+07:07:36.741 I: (FullScreenActivity:141) [BACK] <SetupActivity>
+07:07:36.764 I: (StartMenuActivity:973) StartMenuActivity onActivityResult requestCode=907, resultCode=0, data=null
+07:07:36.766 I: (StartMenuActivity:925) === onResume
+07:07:36.768 I: (FullScreenActivity:116) FullScreenActivity - onResume <StartMenuActivity>
+07:07:36.770 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+07:07:36.772 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+07:07:37.164 I: (FullScreenActivity:123) FullScreenActivity - onDestroy <SetupActivity>
+07:07:37.164 log FLUSH
+07:49:56.187 I: (StartMenuActivity:925) === onResume
+07:49:56.221 I: (FullScreenActivity:116) FullScreenActivity - onResume <StartMenuActivity>
+07:49:56.231 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+07:49:56.234 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+07:50:01.526 I: (StartMenuActivity:956) [BACK]
+07:50:01.532 I: (StartMenuActivity:1014) quit()
+07:50:01.536 I: (ConnectionAdapter:227) CloseConnectionAdapter()
+07:50:01.537 I: (ConnectionAdapter:233) CloseConnectionAdapter ignored - thisConnectionAdapter = null
+07:50:01.571 I: (StartMenuActivity:1031) =====STOP LOG & END APP =====
+07:50:01.572 log FLUSH
+07:50:01.580 I: (StartMenuActivity:1033) ===== STOP LOG =====
+07:50:01.580 log FLUSH

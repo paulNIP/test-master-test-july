@@ -1,0 +1,29 @@
+31-10-2022 
+17:00:23.586 I: (SafetyTestApplication:347) ===== START ===== Test Master DUMPNOBUF SFT ver N88 27.09.2023 3.672, DEVICE API=31, Release=<12>, Manufacturer=<samsung>, Model=<SM-T220> RAM=3001782272 FREE=1490698240
+17:00:23.638 I: (SafetyTestApplication:432) deviceScreen Width=1340 Height=736 orientation=LANDSCAPE
+17:00:23.669 I: (SafetyTestApplication:450)  schemaDrawable IntrinsicWidth=1203 .Height=684
+17:00:23.768 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <StartMenuActivity>
+17:00:23.776 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:00:23.789 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+17:00:23.793 I: (StartMenuActivity:114) === onCreate NEW
+17:00:23.797 I: (StartMenuActivity:155) onCreate continue1
+17:00:24.007 I: (SafetyTestApplication:1048) readProfileInfos currLanguage=GER
+17:00:24.009 I: (SafetyTestApplication:1050) readProfileInfos currOrientation=LANDSCAPE
+17:00:24.012 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:00:24.014 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+17:00:25.325 I: (StartMenuActivity:1807) checkCurrentDate: now=31.10.2022 17:00:25 build=27.09.2023 22:08:15 dayDiff=-331
+17:00:25.329 I: (StartMenuActivity:1818) cannotProceedDlg
+17:00:25.332 I: (AlertBuilderMod:86) AlertBuilderMod message=<Falsches Systemdatum. Die App wird beendet. (31.10.2022)>
+17:00:25.334 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+17:00:25.359 I: (AlertWrapper:39) StartMenuActivity AlertWrapper start dlg
+17:00:25.424 I: (StartMenuActivity:925) === onResume
+17:00:25.427 I: (FullScreenActivity:116) FullScreenActivity - onResume <StartMenuActivity>
+17:00:25.431 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:00:25.435 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+17:00:32.956 I: (StartMenuActivity:1825) DLG END
+17:00:32.958 I: (ConnectionAdapter:227) CloseConnectionAdapter()
+17:00:32.960 I: (ConnectionAdapter:230) CloseConnectionAdapter ignored - myActivity = null
+17:00:32.962 I: (StartMenuActivity:1829) =====STOP LOG =====
+17:00:32.962 log FLUSH
+17:00:33.035 I: (StartMenuActivity:1831) ===== STOP LOG =====
+17:00:33.035 log FLUSH

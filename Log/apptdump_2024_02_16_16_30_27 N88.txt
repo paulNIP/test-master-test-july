@@ -1,0 +1,91 @@
+16-02-2024 
+16:30:27.550 I: (SafetyTestApplication:347) ===== START ===== Test Master DUMPNOBUF SFT ver N88 27.09.2023 3.672, DEVICE API=31, Release=<12>, Manufacturer=<samsung>, Model=<SM-T220> RAM=3001782272 FREE=1403166720
+16:30:27.554 I: (SafetyTestApplication:432) deviceScreen Width=1340 Height=736 orientation=LANDSCAPE
+16:30:27.564 I: (SafetyTestApplication:450)  schemaDrawable IntrinsicWidth=1203 .Height=684
+16:30:27.609 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <StartMenuActivity>
+16:30:27.614 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:30:27.621 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+16:30:27.623 I: (StartMenuActivity:114) === onCreate NEW
+16:30:27.627 I: (StartMenuActivity:155) onCreate continue1
+16:30:27.643 I: (SafetyTestApplication:1048) readProfileInfos currLanguage=GER
+16:30:27.644 I: (SafetyTestApplication:1050) readProfileInfos currOrientation=LANDSCAPE
+16:30:27.646 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:30:27.647 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+16:30:28.421 I: (StartMenuActivity:1807) checkCurrentDate: now=16.02.2024 16:30:28 build=27.09.2023 22:08:15 dayDiff=141
+16:30:28.422 I: (StartMenuActivity:1642) checkPermissions
+16:30:28.426 I: (StartMenuActivity:1713) checkPermissions -> finalInit
+16:30:28.428 I: (StartMenuActivity:231) finalInit, isInitialized=false
+16:30:28.506 I: (SafetyTestApplication:1048) readProfileInfos currLanguage=GER
+16:30:28.508 I: (SafetyTestApplication:1050) readProfileInfos currOrientation=LANDSCAPE
+16:30:28.516 I: (SafetyTestApplication:1059) readProfileInfos anwender_standard=true
+16:30:28.517 I: (SafetyTestApplication:1061) readProfileInfos ablauf_auto=false
+16:30:28.519 I: (SafetyTestApplication:1063) readProfileInfos sLastCustomerNumber=00001
+16:30:28.520 I: (SafetyTestApplication:1065) readProfileInfos sLastIDNumber=4021375072603
+16:30:28.536 I: (SafetyTestApplication:1067) readProfileInfos login_on=true
+16:30:28.537 I: (SafetyTestApplication:1070) readProfileInfos verdrPolarity_on=true
+16:30:28.539 I: (SafetyTestApplication:1328) valCalibrateRpe_RSL_200=0.0
+16:30:28.540 I: (SafetyTestApplication:1335) valCalibrateRpe_RSL_10A=0.0
+16:30:28.542 I: (SafetyTestApplication:1342) valCalibrateRpe_RSV_200=0.0
+16:30:28.543 I: (SafetyTestApplication:1349) valCalibrateRpe_RSV_10A=0.0
+16:30:28.545 I: (SafetyTestApplication:1358) valCalibrateRpe_RSC_200=0.0
+16:30:28.546 I: (SafetyTestApplication:1365) valCalibrateRpe_RSC_10A=0.0
+16:30:28.548 I: (SafetyTestApplication:1371) snCalibrateRpe=
+16:30:28.549 I: (SafetyTestApplication:747) readSharedPreferences_Long try INT
+16:30:28.550 I: (SafetyTestApplication:1378) dateCalibrateRpe=null
+16:30:28.552 I: (SafetyTestApplication:1389) CalibrateRpe not done
+16:30:28.553 I: (SafetyTestApplication:1081) readProfileInfos sManualDevType=
+16:30:28.555 I: (SafetyTestApplication:1083) readProfileInfos sManualDevSN=
+16:30:28.556 I: (SafetyTestApplication:1086) readProfileInfos sSynchRemdirDIR=
+16:30:28.558 I: (SafetyTestApplication:1088) readProfileInfos SynchRemdirON=false
+16:30:28.559 I: (SafetyTestApplication:1090) readProfileInfos sSynchRemdirDOMAIN=
+16:30:28.561 I: (SafetyTestApplication:1093) readProfileInfos sSynchCloudURL=
+16:30:28.562 I: (SafetyTestApplication:1095) readProfileInfos SynchCloudON=false
+16:30:28.564 I: (SafetyTestApplication:1098) readProfileInfos bAutoPDF=true
+16:30:28.565 I: (SafetyTestApplication:1101) readProfileInfos bJsonOn=false
+16:30:28.566 I: (SafetyTestApplication:1104) readProfileInfos bUniqueIdOn=false
+16:30:28.568 I: (SafetyTestApplication:1107) readProfileInfos bLastDigBarcodeOn=false
+16:30:28.569 I: (SafetyTestApplication:1112) readProfileInfos iFixedIdLength=0
+16:30:28.791 I: (SafetyTestApplication:1159) readProfileInfos MeterType=METERTYPE_TGO
+16:30:28.793 D: (DevOptions:315) Active Options: RCD, Schutz10A, Clamp, VerlSocket, Schutz10Acal
+16:30:28.795 D: (DevActivation:192) CheckDA OK -259 days
+16:30:28.797 D: (DevActivation:192) CheckDA OK -259 days +calib
+16:30:28.799 I: (SafetyTestApplication:1180) readProfileInfos ActivationInfo = <Pro 01.11.2024>
+16:30:28.808 I: (SafetyTestApplication:3147) read BigDatabaseIDNumbers n=3 date=Wed Feb 07 00:00:00 GMT+01:00 2024
+16:30:28.809 I: (SafetyTestApplication:3150)     BigDatabaseIDNumbers[0] cust=<00001> ID=<00011>
+16:30:28.810 I: (SafetyTestApplication:3150)     BigDatabaseIDNumbers[1] cust=<00001> ID=<4021378072693>
+16:30:28.811 I: (SafetyTestApplication:3150)     BigDatabaseIDNumbers[2] cust=<00001> ID=<4021375072603>
+16:30:28.812 I: (SafetyTestApplication:3192) readSharedPreferences outdated BigDatabaseIDNumbers
+16:30:28.825 I: (SafetyTestApplication:1188) readProfileInfos eupGridON=true
+16:30:28.827 I: (SafetyTestApplication:1201) dateOfLastTestSaved=Wed Feb 07 08:20:28 GMT+01:00 2024
+16:30:28.828 I: (SafetyTestApplication:1204) nTestDaysFromLastSync=1
+16:30:28.829 I: (SafetyTestApplication:1217) dateStartCountingTestDaysFromLastDbPurge=Wed Feb 07 08:24:11 GMT+01:00 2024
+16:30:28.872 I: (SafetyTestApplication:1220) nTestDaysFromLastDbPurge=1
+16:30:28.876 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:30:28.879 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+16:30:28.880 I: (EupDevGroupSelActivity:453) readEupDevGroups()
+16:30:28.970 I: (Util:786) getAppDirectoryAPI29 not present
+16:30:28.978 I: (StartMenuActivity:295) InitVariables2 clear crash flag
+16:30:28.983 E: (StartMenuActivity:311) InitVariables2 err NO_PROPER_EXIT_DATE
+16:30:29.079 I: (SafetyTestApplication:953) ===== TestFairy START ===== Test Master SFT ver N88 27.09.2023 3.672, DEVICE API=31, Release=<12>, Manufacturer=<samsung>, Model=<SM-T220> RAM=3001782272 FREE=1399013376
+16:30:29.133 I: (DefaultRepository:83) new DefaultRepository db: <pcdrdata.sqlite3>
+16:30:29.159 I: (DefaultRepository:514) checkDatabaseContents()
+16:30:29.161 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+16:30:29.164 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+16:30:29.166 I: (DefaultRepository:483) setDatabaseVersion=9
+16:30:29.169 I: (DefaultRepository:502) setDatabaseVersion OK
+16:30:29.283 I: (StartMenuActivity:925) === onResume
+16:30:29.286 I: (FullScreenActivity:116) FullScreenActivity - onResume <StartMenuActivity>
+16:30:29.289 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:30:29.291 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+16:31:14.274 I: (StartMenuActivity:925) === onResume
+16:31:14.349 I: (FullScreenActivity:116) FullScreenActivity - onResume <StartMenuActivity>
+16:31:14.352 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+16:31:14.355 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+16:31:21.780 I: (StartMenuActivity:956) [BACK]
+16:31:21.782 I: (StartMenuActivity:1014) quit()
+16:31:21.785 I: (ConnectionAdapter:227) CloseConnectionAdapter()
+16:31:21.786 I: (ConnectionAdapter:233) CloseConnectionAdapter ignored - thisConnectionAdapter = null
+16:31:21.808 I: (StartMenuActivity:1031) =====STOP LOG & END APP =====
+16:31:21.808 log FLUSH
+16:31:21.816 I: (StartMenuActivity:1033) ===== STOP LOG =====
+16:31:21.816 log FLUSH

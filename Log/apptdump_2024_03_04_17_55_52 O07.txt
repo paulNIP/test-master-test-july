@@ -1,0 +1,621 @@
+04-03-2024 
+17:55:52.446 I: (SafetyTestApplication:347) ===== START ===== Test Master DUMPNOBUF SFT ver O07 21.11.2023 3.680, DEVICE API=33, Release=<13>, Manufacturer=<samsung>, Model=<SM-T220> RAM=2996883456 FREE=1266638848
+17:55:52.453 I: (SafetyTestApplication:432) deviceScreen Width=1340 Height=736 orientation=LANDSCAPE
+17:55:52.461 I: (SafetyTestApplication:450)  schemaDrawable IntrinsicWidth=1203 .Height=684
+17:55:52.502 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <StartMenuActivity>
+17:55:52.507 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:55:52.517 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:55:52.519 I: (StartMenuActivity:114) === onCreate NEW
+17:55:52.522 I: (StartMenuActivity:155) onCreate continue1
+17:55:52.538 I: (SafetyTestApplication:1048) readProfileInfos currLanguage=GER
+17:55:52.540 I: (SafetyTestApplication:1050) readProfileInfos currOrientation=LANDSCAPE
+17:55:52.541 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:55:52.542 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:55:53.405 I: (StartMenuActivity:1807) checkCurrentDate: now=04.03.2024 17:55:53 build=21.11.2023 21:24:09 dayDiff=103
+17:55:53.407 I: (StartMenuActivity:1642) checkPermissions
+17:55:53.410 I: (StartMenuActivity:1713) checkPermissions -> finalInit
+17:55:53.411 I: (StartMenuActivity:231) finalInit, isInitialized=false
+17:55:53.496 I: (SafetyTestApplication:1048) readProfileInfos currLanguage=GER
+17:55:53.497 I: (SafetyTestApplication:1050) readProfileInfos currOrientation=LANDSCAPE
+17:55:53.503 I: (SafetyTestApplication:1059) readProfileInfos anwender_standard=false
+17:55:53.504 I: (SafetyTestApplication:1061) readProfileInfos ablauf_auto=false
+17:55:53.506 I: (SafetyTestApplication:1063) readProfileInfos sLastCustomerNumber=00001
+17:55:53.507 I: (SafetyTestApplication:1065) readProfileInfos sLastIDNumber=00011
+17:55:53.525 I: (SafetyTestApplication:1067) readProfileInfos login_on=true
+17:55:53.527 I: (SafetyTestApplication:1070) readProfileInfos verdrPolarity_on=true
+17:55:53.528 I: (SafetyTestApplication:1315) valCalibrateRpe_RSL_200=0.073
+17:55:53.530 I: (SafetyTestApplication:1322) valCalibrateRpe_RSL_10A=0.053
+17:55:53.531 I: (SafetyTestApplication:1329) valCalibrateRpe_RSV_200=0.07
+17:55:53.532 I: (SafetyTestApplication:1336) valCalibrateRpe_RSV_10A=0.05
+17:55:53.533 I: (SafetyTestApplication:1345) valCalibrateRpe_RSC_200=-10.0
+17:55:53.535 I: (SafetyTestApplication:1352) valCalibrateRpe_RSC_10A=-10.0
+17:55:53.536 I: (SafetyTestApplication:1358) snCalibrateRpe=T0200303
+17:55:53.544 I: (SafetyTestApplication:1369) dateCalibrateRpe=Mon Feb 19 13:24:26 GMT+01:00 2024
+17:55:53.545 I: (SafetyTestApplication:1081) readProfileInfos sManualDevType=
+17:55:53.546 I: (SafetyTestApplication:1083) readProfileInfos sManualDevSN=
+17:55:53.547 I: (SafetyTestApplication:1086) readProfileInfos sSynchRemdirDIR=
+17:55:53.547 I: (SafetyTestApplication:1088) readProfileInfos SynchRemdirON=false
+17:55:53.548 I: (SafetyTestApplication:1090) readProfileInfos sSynchRemdirDOMAIN=
+17:55:53.549 I: (SafetyTestApplication:1093) readProfileInfos sSynchCloudURL=
+17:55:53.550 I: (SafetyTestApplication:1095) readProfileInfos SynchCloudON=false
+17:55:53.550 I: (SafetyTestApplication:1098) readProfileInfos bAutoPDF=true
+17:55:53.551 I: (SafetyTestApplication:1101) readProfileInfos bJsonOn=false
+17:55:53.552 I: (SafetyTestApplication:1104) readProfileInfos bUniqueIdOn=false
+17:55:53.553 I: (SafetyTestApplication:1107) readProfileInfos bLastDigBarcodeOn=false
+17:55:53.553 I: (SafetyTestApplication:1112) readProfileInfos iFixedIdLength=0
+17:55:53.740 I: (SafetyTestApplication:1159) readProfileInfos MeterType=METERTYPE_TGO
+17:55:53.742 D: (DevOptions:334) Active Options: RCD, Schutz10A, Clamp, VerlSocket, Schutz10Acal
+17:55:53.744 D: (DevActivation:192) CheckDA OK -242 days
+17:55:53.745 D: (DevActivation:192) CheckDA OK -242 days +calib
+17:55:53.747 I: (SafetyTestApplication:1180) readProfileInfos ActivationInfo = <Pro 01.11.2024>
+17:55:53.751 I: (SafetyTestApplication:3162) read BigDatabaseIDNumbers n=4 date=Tue Feb 27 00:00:00 GMT+01:00 2024
+17:55:53.752 I: (SafetyTestApplication:3165)     BigDatabaseIDNumbers[0] cust=<00001> ID=<00006>
+17:55:53.753 I: (SafetyTestApplication:3165)     BigDatabaseIDNumbers[1] cust=<00001> ID=<00007>
+17:55:53.753 I: (SafetyTestApplication:3165)     BigDatabaseIDNumbers[2] cust=<00001> ID=<00010>
+17:55:53.754 I: (SafetyTestApplication:3165)     BigDatabaseIDNumbers[3] cust=<00001> ID=<00011>
+17:55:53.755 I: (SafetyTestApplication:3207) readSharedPreferences outdated BigDatabaseIDNumbers
+17:55:53.769 I: (SafetyTestApplication:1188) readProfileInfos eupGridON=true
+17:55:53.770 I: (SafetyTestApplication:1201) dateOfLastTestSaved=Tue Feb 27 15:32:41 GMT+01:00 2024
+17:55:53.770 I: (SafetyTestApplication:1204) nTestDaysFromLastSync=4
+17:55:53.771 I: (SafetyTestApplication:1207) nTestDaysFromLastDbPurge=4
+17:55:53.773 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:55:53.856 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:55:53.858 I: (EupDevGroupSelActivity:448) readEupDevGroups()
+17:55:53.990 I: (Util:786) getAppDirectoryAPI29 not present
+17:55:53.997 I: (StartMenuActivity:295) InitVariables2 clear crash flag
+17:55:54.001 E: (StartMenuActivity:311) InitVariables2 err NO_PROPER_EXIT_DATE
+17:55:54.073 I: (SafetyTestApplication:953) ===== TestFairy START ===== Test Master SFT ver O07 21.11.2023 3.680, DEVICE API=33, Release=<13>, Manufacturer=<samsung>, Model=<SM-T220> RAM=2996883456 FREE=1252470784
+17:55:54.144 I: (DefaultRepository:83) new DefaultRepository db: <pcdrdata.sqlite3>
+17:55:54.175 I: (DefaultRepository:514) checkDatabaseContents()
+17:55:54.177 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+17:55:54.180 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+17:55:54.182 I: (DefaultRepository:483) setDatabaseVersion=9
+17:55:54.185 I: (DefaultRepository:502) setDatabaseVersion OK
+17:55:54.325 I: (StartMenuActivity:925) === onResume
+17:55:54.327 I: (FullScreenActivity:118) FullScreenActivity - onResume <StartMenuActivity>
+17:55:54.330 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:55:54.331 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:09.194 I: (StartMenuActivity:566) [MEMORY]
+17:56:09.263 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <MemoryActivity>
+17:56:09.267 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:09.270 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:09.271 I: (MemoryActivity:53) === onCreate NEW
+17:56:09.347 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+17:56:09.349 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:09.351 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:12.221 I: (MemoryActivity:82) [PROTOCOL]
+17:56:12.278 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <FilesActivity>
+17:56:12.281 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:12.283 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:12.284 I: (FilesActivity:66) === onCreate NEW
+17:56:12.329 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+17:56:12.331 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:12.333 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:18.169 I: (FullScreenActivity:143) [BACK] <FilesActivity>
+17:56:18.200 I: (MemoryActivity:274) onActivityResult requestCode=905, resultCode=0, data=null
+17:56:18.203 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+17:56:18.206 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:18.207 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:18.599 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <FilesActivity>
+17:56:18.600 log FLUSH
+17:56:21.241 I: (MemoryActivity:82) [PROTOCOL]
+17:56:21.289 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <FilesActivity>
+17:56:21.292 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:21.294 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:21.295 I: (FilesActivity:66) === onCreate NEW
+17:56:21.327 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+17:56:21.329 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:21.330 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:26.482 I: (FullScreenActivity:143) [BACK] <FilesActivity>
+17:56:26.511 I: (MemoryActivity:274) onActivityResult requestCode=905, resultCode=0, data=null
+17:56:26.515 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+17:56:26.517 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:26.518 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:26.916 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <FilesActivity>
+17:56:26.917 log FLUSH
+17:56:28.148 I: (MemoryActivity:113) [DATABASE]
+17:56:28.188 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <DatabaseActivity>
+17:56:28.193 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:28.195 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:28.197 I: (DatabaseActivity:72) === onCreate NEW
+17:56:28.283 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+17:56:28.285 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:28.287 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:32.683 I: (DatabaseActivity:101) [IMPORT DB]
+17:56:41.676 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+17:56:41.693 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:41.695 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:46.809 I: (DatabaseActivity:131) [EXPORT DB]
+17:56:46.811 I: (AlertBuilderMod:86) AlertBuilderMod message=<Datenbank exportieren.>
+17:56:46.812 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Exportieren>
+17:56:46.814 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Datei senden>
+17:56:46.826 I: (AlertWrapper:39) DatabaseActivity AlertWrapper start dlg
+17:56:48.740 I: (DatabaseActivity:152) [SEND]
+17:56:48.763 I: (AlertWrapper:62) DatabaseActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+17:56:48.788 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <FilesActivity>
+17:56:48.792 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:48.794 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:56:48.796 I: (FilesActivity:66) === onCreate NEW
+17:56:48.828 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+17:56:48.830 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:56:48.831 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:17.482 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+17:57:17.500 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:17.502 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:17.849 I: (FullScreenActivity:143) [BACK] <FilesActivity>
+17:57:17.877 I: (FullScreenActivity:118) FullScreenActivity - onResume <DatabaseActivity>
+17:57:17.879 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:17.880 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:18.297 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <FilesActivity>
+17:57:18.298 log FLUSH
+17:57:18.979 I: (DatabaseActivity:725) [BACK]
+17:57:18.981 I: (FullScreenActivity:143) [BACK] <DatabaseActivity>
+17:57:19.026 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+17:57:19.028 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:19.030 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:19.481 I: (DatabaseActivity:737) -- onDestroy --
+17:57:19.482 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <DatabaseActivity>
+17:57:19.483 log FLUSH
+17:57:22.920 I: (MemoryActivity:82) [PROTOCOL]
+17:57:22.969 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <FilesActivity>
+17:57:22.972 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:22.974 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:22.976 I: (FilesActivity:66) === onCreate NEW
+17:57:23.006 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+17:57:23.009 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:23.010 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:24.680 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+17:57:25.597 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+17:57:35.239 I: (FullScreenActivity:118) FullScreenActivity - onResume <FilesActivity>
+17:57:35.257 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:35.259 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:36.149 I: (FullScreenActivity:143) [BACK] <FilesActivity>
+17:57:36.175 I: (MemoryActivity:274) onActivityResult requestCode=905, resultCode=0, data=null
+17:57:36.179 I: (FullScreenActivity:118) FullScreenActivity - onResume <MemoryActivity>
+17:57:36.181 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:36.183 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:36.599 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <FilesActivity>
+17:57:36.600 log FLUSH
+17:57:38.130 I: (MemoryActivity:264) [BACK]
+17:57:38.131 I: (FullScreenActivity:143) [BACK] <MemoryActivity>
+17:57:38.158 I: (StartMenuActivity:925) === onResume
+17:57:38.162 I: (FullScreenActivity:118) FullScreenActivity - onResume <StartMenuActivity>
+17:57:38.164 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:38.165 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:38.600 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <MemoryActivity>
+17:57:38.601 log FLUSH
+17:57:42.710 I: (StartMenuActivity:576) [PLAY]
+17:57:42.758 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <TesterDevicesActivity>
+17:57:42.762 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:42.765 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:42.766 I: (TesterDevicesActivity:80) === onCreate NEW
+17:57:42.800 I: (TesterDevicesActivity:575) Bluetooth startDiscovery
+17:57:42.802 I: (ConnectionAdapter:227) CloseConnectionAdapter()
+17:57:42.803 I: (ConnectionAdapter:233) CloseConnectionAdapter ignored - thisConnectionAdapter = null
+17:57:42.819 I: (TesterDevicesActivity:592) Bluetooth discovery starting
+17:57:42.853 D: (TesterDevicesActivity:614) DetectUSB device count : 0
+17:57:42.854 I: (TesterDevicesActivity:654) stopBleScan...
+17:57:42.873 I: (FullScreenActivity:118) FullScreenActivity - onResume <TesterDevicesActivity>
+17:57:42.875 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:42.876 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:43.860 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+17:57:43.862 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@5c5b90f
+17:57:43.871 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+17:57:44.730 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+17:57:44.732 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@42025d
+17:57:44.741 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+17:57:44.751 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+17:57:44.754 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@6d51fa0
+17:57:44.764 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+17:57:46.038 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+17:57:46.041 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@d78bbce
+17:57:46.051 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+17:57:46.499 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+17:57:46.501 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@ae23885
+17:57:46.515 I: (TesterDevicesActivity:162) BT BroadcastReceiver name=<T0200303>
+17:57:46.526 I: (TesterDevicesActivity:180) BT BroadcastReceiver accepted name=<T0200303>
+17:57:50.487 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+17:57:50.500 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@c836fa9
+17:57:50.506 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+17:57:50.687 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+17:57:50.690 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@b77365c
+17:57:50.700 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+17:57:51.281 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+17:57:51.284 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@4386ae1
+17:57:51.294 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+17:57:52.602 I: (TesterDevicesActivity:115) [SEL BT]=T0200303
+17:57:52.607 I: (TesterDevicesActivity:654) stopBleScan...
+17:57:52.618 I: (SafetyTestApplication:477) setTesterDevice(null)
+17:57:52.622 I: (DeviceDetection:764) DetectDevice
+17:57:52.624 I: (ConnectionAdapter:227) CloseConnectionAdapter()
+17:57:52.625 I: (ConnectionAdapter:233) CloseConnectionAdapter ignored - thisConnectionAdapter = null
+17:57:52.625 I: (FullScreenActivity:194) showSpinner inReconnection=true<TesterDevicesActivity>
+17:57:52.626 I: (ConnectionAdapter:145) OpenConnectionAdapter()
+17:57:52.630 I: (ConnectionAdapter:166) OpenConnectionAdapter(BT: T0200303)
+17:57:52.631 I: (ConnectionAdapter:169) OpenConnectionAdapter connect new
+17:57:52.634 D: (ConnectionAdapter:108) ConnectionAdapter()
+17:57:52.635 I: (ConnectionAdapter:276) ConnectionAdapter initiate_connect()
+17:57:52.636 I: (ConnectionAdapter:375) ConnectionAdapter initiateBT Classic
+17:57:52.638 I: (ConnectionAdapter:292) ConnectionAdapter connecting thread start
+17:57:52.640 D: (ConnectionAdapter:306) end ConnectionAdapter initiate_connect()
+17:57:52.640 D: (ConnectionAdapter:440) ServerListenerThread run
+17:57:52.641 D: (ConnectionAdapter:188) OpenConnectionAdapter wait for connecting in ServerListenerThread thisConnectionAdapter.connectionStatus=CONNSTAT_connecting
+17:57:52.647 I: (ConnectionAdapter:456) ServerListenerThread run: Conecting to device:BT: T0200303 class:1f00
+17:57:52.651 I: (ConnectionAdapter:476) ServerListenerThread run: connecting
+17:57:52.652 I: (ConnectionAdapter:507) ServerListenerThread run: waiting for connected...
+17:57:53.255 I: (ConnectionAdapter:536) ServerListenerThread run: connected OK
+17:57:53.257 I: (ConnectionAdapter:546) ServerListenerThread run: start of cmd-loop
+17:57:53.345 D: (ConnectionAdapter:202) OpenConnectionAdapter stop wait for connecting in ServerListenerThread thisConnectionAdapter.connectionStatus=CONNSTAT_running
+17:57:53.347 I: (ConnectionAdapter:222) OpenConnectionAdapter done
+17:57:53.349 D: (DeviceDetection:126) DeviceDetection DetectMeterDevice
+17:57:53.353 D: (DevOptions:334) Active Options: RCD, VDE544, EN62353, ACImpedanz, Standby, Taste, Schutz10A, Bluetooth, Uiso1500V, KeineNetzumpolung, HID, spezAbleitströme, Deutsch, RelativeValidityMonth, BaseFeature1, BaseFeature2, Clamp, VerlSocket, Schutz10Acal
+17:57:53.356 I: (SafetyTestApplication:2965) setDevOptionBytes: null = 0003FFFF
+17:57:53.369 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+17:57:53.391 I: (DeviceDetection:146) DetectMeterDevice checking autosend mode
+17:57:53.396 D: (DeviceDetection:77) DeviceDetection SendCmdMessageAndWaitForResult
+17:57:53.399 I: (DeviceDetection:86) SendCmdMessageAndWaitForResult sending message <WAIT_FOR_INPUT>
+17:57:53.401 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=WAIT_FOR_INPUT
+17:57:53.422 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+17:57:53.424 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=600 checkCrLf=false
+17:57:53.426 I: (ConnectionAdapter:648) ServerListenerThread run: cmd reading-only
+17:57:53.429 D: (ConnectionAdapter:732) ServerListenerThread run reading
+17:57:53.432 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:53.436 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+17:57:54.044 I: (ConnectionAdapter:1144) ServerListenerThread run reading: timeout
+17:57:54.047 D: (ConnectionAsyncMessage:11) ConnectionAsyncMessage.onMessageTimeout
+17:57:54.050 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=true
+17:57:54.051 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=true
+17:57:54.053 I: (DeviceDetection:104) SendCmdMessageAndWaitForResult timeout - no RetryAndExit - ignoring
+17:57:54.054 D: (DeviceDetection:107) DeviceDetection SendCmdMessageAndWaitForResult OK
+17:57:54.056 D: (DeviceDetection:77) DeviceDetection SendCmdMessageAndWaitForResult
+17:57:54.058 I: (DeviceDetection:86) SendCmdMessageAndWaitForResult sending message <REM Cr Lf>
+17:57:54.076 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=REM Cr Lf
+17:57:54.154 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+17:57:54.157 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+17:57:54.159 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=350 checkCrLf=true
+17:57:54.162 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: 12345678REM Cr Lf, timeout=350
+17:57:54.166 D: (ConnectionAdapter:732) ServerListenerThread run reading
+17:57:54.168 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:54.170 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+17:57:54.526 I: (ConnectionAdapter:1144) ServerListenerThread run reading: timeout
+17:57:54.530 D: (ConnectionAsyncMessage:11) ConnectionAsyncMessage.onMessageTimeout
+17:57:54.533 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=true
+17:57:54.535 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=true
+17:57:54.538 I: (DeviceDetection:104) SendCmdMessageAndWaitForResult timeout - no RetryAndExit - ignoring
+17:57:54.540 D: (DeviceDetection:107) DeviceDetection SendCmdMessageAndWaitForResult OK
+17:57:54.543 I: (DeviceDetection:169) DetectMeterDevice checking autosend mode - REM answered OK
+17:57:54.546 I: (DeviceDetection:180) DetectMeterDevice checking autosend mode - no data detected - OK
+17:57:54.549 D: (DeviceDetection:187) DetectMeterDevice sending IDN
+17:57:54.552 D: (DeviceDetection:77) DeviceDetection SendCmdMessageAndWaitForResult
+17:57:54.554 I: (DeviceDetection:86) SendCmdMessageAndWaitForResult sending message <IDN 0x3F Cr Lf>
+17:57:54.557 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=IDN 0x3F Cr Lf
+17:57:54.636 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+17:57:54.639 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+17:57:54.643 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=4000 checkCrLf=true
+17:57:54.647 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: IDN 0x3F Cr Lf, timeout=4000
+17:57:54.650 D: (ConnectionAdapter:732) ServerListenerThread run reading
+17:57:54.654 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:54.658 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+17:57:54.762 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+17:57:54.764 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=95
+17:57:54.770 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=95  53 61 66 65 74 79 74 65 73 74 20 31 53 54 20 4D 42 2C 20 53 4E 20 54 30 32 30 30 33 30 33 2C 20 4F 50 54 20 81 00 00 38 00 00 06 00 2C 20 43 43 20 FF FF FF FF FF FF FF FF 2C 20 46 57 20 32 2E 33 31 20 30 37 2E 30 36 2E 32 30 32 31 2C 20 43 4C 44 20 31 32 2E 31 30 2E 32 30 32 33 0D 0A
+17:57:54.776 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=95 <Safetytest 1ST MB, SN T0200303, OPT  0x81 0x00 0x00 0x38 0x00 0x00 0x06 0x00 0x2C 0x20 0x43 0x43 0x20 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0xFF 0x2C 0x20 0x46 0x57 0x20 0x32 0x2E 0x33 0x31 0x20 0x30 0x37 0x2E 0x30 0x36 0x2E 0x32 0x30 0x32 0x31 0x2C 0x20 0x43 0x4C 0x44 0x20 0x31 0x32 0x2E 0x31 0x30 0x2E 0x32 0x30 0x32 0x33 @Cr @Lf>
+17:57:54.779 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:54.781 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+17:57:54.786 D: (DeviceDetection:226) Bluetooth IDN(hex) = 53 61 66 65 74 79 74 65 73 74 20 31 53 54 20 4D 42 2C 20 53 4E 20 54 30 32 30 30 33 30 33 2C 20 4F 50 54 20 81 00 00 38 00 00 06 00 2C 20 43 43 20 FF FF FF FF FF FF FF FF 2C 20 46 57 20 32 2E 33 31 20 30 37 2E 30 36 2E 32 30 32 31 2C 20 43 4C 44 20 31 32 2E 31 30 2E 32 30 32 33 0D 0A
+17:57:54.789 D: (DeviceDetection:251) Bluetooth IDN=<Safetytest 1ST MB, SN T0200303, OPT ___8____, CC ________, FW 2.31 07.06.2021, CLD 12.10.2023>
+17:57:54.793 D: (DeviceDetection:254) Bluetooth LastMeterType=METERTYPE_TGO
+17:57:54.810 D: (DeviceDetection:331) Bluetooth LastDeviceSN=<T0200303>
+17:57:54.812 D: (DeviceDetection:356) Bluetooth LastDeviceFW=<2.31>
+17:57:54.814 D: (DevOptions:334) Active Options: RCD, Schutz10A, Clamp, VerlSocket, Schutz10Acal
+17:57:54.843 I: (SafetyTestApplication:2965) setDevOptionBytes:  81 00 00 38 00 00 06 00 = 38000081
+17:57:54.880 I: (DeviceDetection:691) prepareValidity exists
+17:57:54.901 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+17:57:54.902 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+17:57:54.903 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+17:57:54.904 D: (DeviceDetection:107) DeviceDetection SendCmdMessageAndWaitForResult OK
+17:57:55.907 D: (DeviceDetection:77) DeviceDetection SendCmdMessageAndWaitForResult
+17:57:55.930 I: (DeviceDetection:86) SendCmdMessageAndWaitForResult sending message <UMA Cr Lf>
+17:57:55.933 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=UMA Cr Lf
+17:57:55.962 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+17:57:55.965 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=350 checkCrLf=true
+17:57:55.969 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: a24c243fUMA Cr Lf, timeout=350
+17:57:55.973 D: (ConnectionAdapter:732) ServerListenerThread run reading
+17:57:55.976 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:55.979 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+17:57:56.033 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+17:57:56.036 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=6
+17:57:56.041 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=6  55 4D 41 02 0D 0A
+17:57:56.044 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=6 <UMA 0x02 @Cr @Lf>
+17:57:56.047 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:56.049 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+17:57:56.052 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+17:57:56.053 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+17:57:56.054 D: (DeviceDetection:107) DeviceDetection SendCmdMessageAndWaitForResult OK
+17:57:56.058 W: (DeviceDetection:445) DeviceDetection err UMA
+17:57:56.061 D: (DeviceDetection:77) DeviceDetection SendCmdMessageAndWaitForResult
+17:57:56.063 I: (DeviceDetection:86) SendCmdMessageAndWaitForResult sending message <UMA Cr Lf>
+17:57:56.067 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=UMA Cr Lf
+17:57:56.162 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+17:57:56.164 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+17:57:56.166 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=350 checkCrLf=true
+17:57:56.170 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: a24c243fUMA Cr Lf, timeout=350
+17:57:56.172 D: (ConnectionAdapter:732) ServerListenerThread run reading
+17:57:56.174 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:56.177 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+17:57:56.230 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+17:57:56.232 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=8
+17:57:56.236 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=8  55 4D 41 04 E3 08 0D 0A
+17:57:56.239 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=8 <UMA 0x04 0xE3 0x08 @Cr @Lf>
+17:57:56.241 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:56.243 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+17:57:56.246 I: (GetMeasurementValues_UMA_Message:33) BluetoothUMA 227.5 V
+17:57:56.248 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+17:57:56.249 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+17:57:56.251 D: (DeviceDetection:107) DeviceDetection SendCmdMessageAndWaitForResult OK
+17:57:56.253 D: (DeviceDetection:77) DeviceDetection SendCmdMessageAndWaitForResult
+17:57:56.256 I: (DeviceDetection:86) SendCmdMessageAndWaitForResult sending message <UM0 Cr Lf>
+17:57:56.259 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=UM0 Cr Lf
+17:57:56.356 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+17:57:56.358 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+17:57:56.360 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=350 checkCrLf=true
+17:57:56.363 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: a24c243fUM0 Cr Lf, timeout=350
+17:57:56.365 D: (ConnectionAdapter:732) ServerListenerThread run reading
+17:57:56.367 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:56.369 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+17:57:56.422 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+17:57:56.425 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=8
+17:57:56.427 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=8  55 4D 30 04 09 00 0D 0A
+17:57:56.429 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=8 <UM0 0x04 0x09 0x00 @Cr @Lf>
+17:57:56.431 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:56.434 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+17:57:56.451 I: (GetMeasurementValues_UM0_Message:33) BluetoothUM0 0.9 V
+17:57:56.453 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+17:57:56.454 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+17:57:56.456 D: (DeviceDetection:107) DeviceDetection SendCmdMessageAndWaitForResult OK
+17:57:56.459 D: (DeviceDetection:77) DeviceDetection SendCmdMessageAndWaitForResult
+17:57:56.461 I: (DeviceDetection:86) SendCmdMessageAndWaitForResult sending message <UM1 Cr Lf>
+17:57:56.463 I: (ConnectionAdapter:397) ConnectionAdapter addMessageToSendQueue message=UM1 Cr Lf
+17:57:56.561 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+17:57:56.563 D: (ConnectionAdapter:625) ServerListenerThread run: got cmd
+17:57:56.566 D: (ConnectionAdapter:632) ServerListenerThread run: timeout=350 checkCrLf=true
+17:57:56.569 I: (ConnectionAdapter:693) ServerListenerThread run: OUT MESSAGE: a24c243fUM1 Cr Lf, timeout=350
+17:57:56.572 D: (ConnectionAdapter:732) ServerListenerThread run reading
+17:57:56.575 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:56.578 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=0
+17:57:56.631 D: (ConnectionAdapter:822) ServerListenerThread run reading: petla czytania
+17:57:56.634 D: (ConnectionAdapter:833) ServerListenerThread run reading: BT n=8
+17:57:56.637 I: (ConnectionAdapter:1025) ServerListenerThread run reading: BLUETOOTH_READ org HEX n=8  55 4D 31 04 E9 08 0D 0A
+17:57:56.640 I: (ConnectionAdapter:1125) ServerListenerThread run reading: BLUETOOTH_READ after corr n=8 <UM1 0x04 0xE9 0x08 @Cr @Lf>
+17:57:56.643 D: (ConnectionAdapter:757) ServerListenerThread run reading: petla czytania
+17:57:56.645 D: (ConnectionAdapter:781) ServerListenerThread run reading: packet received
+17:57:56.647 I: (GetMeasurementValues_UM1_Message:33) BluetoothUM1 228.1 V
+17:57:56.649 D: (ConnectionAsyncMessage:14) ConnectionAsyncMessage.getTimeoutE()=false
+17:57:56.649 D: (ConnectionAdapter:1156) ServerListenerThread run reading: onReplyMessage=OK
+17:57:56.650 D: (DeviceDetection:107) DeviceDetection SendCmdMessageAndWaitForResult OK
+17:57:56.653 W: (DeviceDetection:457) DeviceDetection PE OK
+17:57:56.655 D: (DeviceDetection:512) DeviceDetection Bluetooth IDN OK
+17:57:56.658 I: (DeviceDetection:523) DeviceDetection DetectMeterDevice = OK
+17:57:56.660 D: (DeviceDetection:787) detectDevice ret=DETECT_DEVICE_STATUS_OK
+17:57:56.663 I: (FullScreenActivity:175) hideSpinner <TesterDevicesActivity>
+17:57:56.738 I: (StartMenuActivity:973) StartMenuActivity onActivityResult requestCode=1, resultCode=1, data=DATA
+17:57:56.756 D: (ConnectionAdapter:569) ServerListenerThread run: wait for cmd
+17:57:56.782 I: (AlertBuilderMod:100) AlertBuilderMod title=<Geben Sie den Benutzernamen ein>
+17:57:56.786 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Abbrechen>
+17:57:56.789 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+17:57:56.811 I: (AlertWrapper:39) StartMenuActivity AlertWrapper start dlg
+17:57:56.854 I: (StartMenuActivity:925) === onResume
+17:57:56.859 I: (FullScreenActivity:118) FullScreenActivity - onResume <StartMenuActivity>
+17:57:56.861 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:56.863 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:57.386 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <TesterDevicesActivity>
+17:57:57.387 log FLUSH
+17:57:57.401 I: (TesterDevicesActivity:571) Bluetooth discovery cancelled
+17:57:58.776 D: (ConnectionAdapter:603) @ ServerListenerThread run: keep connection by sending CrLf
+17:57:58.892 I: (StartMenuActivity:750) [YES]
+17:57:58.940 I: (SafetyTestApplication:846) user <Yoftahe Teshome>
+17:57:58.959 I: (AlertWrapper:62) StartMenuActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+17:57:59.002 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <MeasurementMenuActivity>
+17:57:59.005 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:59.006 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:57:59.008 I: (MeasurementMenuActivity:44) === onCreate NEW
+17:57:59.117 I: (FullScreenActivity:118) FullScreenActivity - onResume <MeasurementMenuActivity>
+17:57:59.118 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:57:59.120 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:04.531 I: (MeasurementMenuActivity:76) [CUSTOMERS]
+17:58:04.571 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <CustomersActivity>
+17:58:04.574 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:04.577 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:04.578 I: (CustomersActivity:72) === onCreate NEW
+17:58:04.613 I: (CustomersActivity:605) InitData()
+17:58:04.618 I: (CustomersActivity:775) onResume()
+17:58:04.622 I: (FullScreenActivity:118) FullScreenActivity - onResume <CustomersActivity>
+17:58:04.625 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:04.626 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:04.637 I: (CustomersActivity:628) InitData - getAllCustomerData done N=1
+17:58:04.716 I: (CustomersActivity:678) initial CustomerNumber=<00001>
+17:58:05.641 I: (DbReadCallback:140) DbReadCallback endDialog
+17:58:08.970 I: (FullScreenActivity:143) [BACK] <CustomersActivity>
+17:58:09.005 I: (FullScreenActivity:118) FullScreenActivity - onResume <MeasurementMenuActivity>
+17:58:09.008 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:09.009 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:09.403 I: (CustomersActivity:764) -- onDestroy --
+17:58:09.404 I: (DbReadCallback:175) DbReadCallback set fullStop
+17:58:09.406 I: (DbReadCallback:140) DbReadCallback endDialog
+17:58:09.407 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <CustomersActivity>
+17:58:09.407 log FLUSH
+17:58:10.734 I: (MeasurementMenuActivity:76) [CUSTOMERS]
+17:58:10.772 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <CustomersActivity>
+17:58:10.775 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:10.777 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:10.779 I: (CustomersActivity:72) === onCreate NEW
+17:58:10.803 I: (CustomersActivity:605) InitData()
+17:58:10.808 I: (CustomersActivity:775) onResume()
+17:58:10.811 I: (FullScreenActivity:118) FullScreenActivity - onResume <CustomersActivity>
+17:58:10.814 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:10.815 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:10.827 I: (CustomersActivity:628) InitData - getAllCustomerData done N=1
+17:58:10.905 I: (CustomersActivity:678) initial CustomerNumber=<00001>
+17:58:11.832 I: (DbReadCallback:140) DbReadCallback endDialog
+17:58:15.059 I: (FullScreenActivity:143) [BACK] <CustomersActivity>
+17:58:15.089 I: (FullScreenActivity:118) FullScreenActivity - onResume <MeasurementMenuActivity>
+17:58:15.091 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:15.093 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:15.507 I: (CustomersActivity:764) -- onDestroy --
+17:58:15.509 I: (DbReadCallback:175) DbReadCallback set fullStop
+17:58:15.511 I: (DbReadCallback:140) DbReadCallback endDialog
+17:58:15.513 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <CustomersActivity>
+17:58:15.513 log FLUSH
+17:58:18.968 I: (MeasurementMenuActivity:109) [PLAY]
+17:58:19.015 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+17:58:19.020 I: (ApplianceSettingsListAdapter:197) populateListFromDB params: LastSelID=null, aLastSel=null, sLoc=null, sU1=null, sU2=null, sU3=null, sInt=null, sMan=null, sDescr=null, sTyp=null, sSN=null, sRem=null, aToRest=null
+17:58:19.045 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+17:58:19.056 I: (ApplianceSettingsListAdapter:409) populateListFromDB items:  IDNUMBE:<00011>  DESCRIP:<Reisköcher>  MANUFAC:<>  TYPE:<>  FACTORY:<>  KENNZEI:<>  LOCATIO:<Küche>  REMARK:<>  USER1:<>  USER2:<>  USER3:<>  NORM:<NORM_07012>  PROFILE:<PROFILE_SKIakt>  TESTING:<>  TESTINT:<12> 
+17:58:19.106 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <MeasurementSettingsActivity>
+17:58:19.109 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:19.111 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:19.113 I: (MeasurementSettingsBoxesActivity:37) === onCreate NEW
+17:58:19.114 I: (MeasurementSettingsActivity:82) === onCreate NEW
+17:58:19.116 I: (MeasurementSettingsActivity:83) LastCustomerNumber=<00001>, LastIDNumber=<00011>
+17:58:19.231 I: (StartMenuActivity:1807) checkCurrentDate: now=04.03.2024 17:58:19 build=21.11.2023 21:24:09 dayDiff=103
+17:58:19.252 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+, 00011
+17:58:19.335 I: (ApplianceSettingsListAdapter:197) populateListFromDB params: LastSelID=null, aLastSel=null, sLoc=null, sU1=null, sU2=null, sU3=null, sInt=null, sMan=null, sDescr=null, sTyp=null, sSN=null, sRem=null, aToRest=null
+17:58:19.357 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+17:58:19.365 I: (ApplianceSettingsListAdapter:409) populateListFromDB items:  IDNUMBE:<00011>  DESCRIP:<Reisköcher>  MANUFAC:<>  TYPE:<>  FACTORY:<>  KENNZEI:<>  LOCATIO:<Küche>  REMARK:<>  USER1:<>  USER2:<>  USER3:<>  NORM:<NORM_07012>  PROFILE:<PROFILE_SKIakt>  TESTING:<>  TESTINT:<12> 
+17:58:19.387 I: (TestResultHeaderDataSource:648) getLastTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011>
+17:58:19.415 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+17:58:19.417 I: (AlertBuilderMod:86) AlertBuilderMod message=<Achtung diese Betriebsmittel wurde bereits am Datum 27.02.2024 geprüft. Wollen Sie diesen erneut prüfen?>
+17:58:19.420 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+17:58:19.421 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+17:58:19.427 I: (AlertWrapper:39) MeasurementSettingsActivity AlertWrapper start dlg
+17:58:19.478 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+17:58:19.481 I: (AlertBuilderMod:86) AlertBuilderMod message=<Achtung diese Betriebsmittel wurde bereits am Datum 27.02.2024 geprüft. Wollen Sie diesen erneut prüfen?>
+17:58:19.482 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+17:58:19.483 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+17:58:19.488 I: (AlertWrapper:39) MeasurementSettingsActivity AlertWrapper start dlg
+17:58:19.489 I: (AlertWrapper:41) MeasurementSettingsActivity AlertWrapper dismiss by next .start dlgAlert=android.app.AlertDialog@a9f448
+17:58:19.499 I: (AlertWrapper:51) MeasurementSettingsActivity AlertWrapper dismiss dlgAlert = null
+17:58:19.529 I: (FullScreenActivity:118) FullScreenActivity - onResume <MeasurementSettingsActivity>
+17:58:19.531 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:19.532 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:26.287 I: (MeasurementSettingsActivity:333) [NO]
+17:58:26.305 I: (AlertWrapper:62) MeasurementSettingsActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+17:58:26.338 I: (FullScreenActivity:118) FullScreenActivity - onResume <MeasurementMenuActivity>
+17:58:26.340 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:26.341 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:26.754 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <MeasurementSettingsActivity>
+17:58:26.755 log FLUSH
+17:58:30.215 I: (MeasurementMenuActivity:86) [APPLIANCES]
+17:58:30.280 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <AppliancesActivity>
+17:58:30.283 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:30.285 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:30.286 I: (AppliancesActivity:120) === onCreate NEW
+17:58:30.287 I: (AppliancesActivity:121) LastCustomerNumber=<00001>, LastIDNumber=<00011>
+17:58:30.351 I: (AppliancesActivity:1833) initial CustomerNumber=<00001>
+17:58:30.352 I: (AppliancesActivity:1885) InitData aData=null sDelIDNumber=null allowReadDB=true
+17:58:30.368 I: (ApplianceDataSource:1129) countAppliances sCustomerNumber=<00001>
+17:58:30.371 I: (ApplianceDataSource:1151) countAppliances n=4
+17:58:30.372 I: (AppliancesActivity:1917) InitData countAppliances = 4
+17:58:30.375 I: (AppliancesActivity:1928) InitData Run beg
+17:58:30.377 I: (AppliancesActivity:2104) InitData finish OK
+17:58:30.386 I: (FullScreenActivity:118) FullScreenActivity - onResume <AppliancesActivity>
+17:58:30.388 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:30.390 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:30.392 I: (AppliancesActivity:2388) -- onResume --
+17:58:30.393 I: (ApplianceDataSource:1129) countAppliances sCustomerNumber=<00001>
+17:58:30.395 I: (ApplianceDataSource:1151) countAppliances n=4
+17:58:30.396 I: (ApplianceDataSource:1129) countAppliances sCustomerNumber=<00001>
+17:58:30.398 I: (ApplianceDataSource:1151) countAppliances n=4
+17:58:30.418 I: (ApplianceDataSource:778) getAllApplianceData ok n=4 sCustomerNumber=<00001>,recLimit=0
+17:58:30.419 I: (AppliancesActivity:1948) InitData - getAllApplianceData done N=4
+17:58:30.421 I: (AppliancesActivity:2028) InitData Run end, appliances_all=4
+17:58:30.477 I: (SafetyTestApplication:886) setLastIDNumber <00011> to <00011>
+17:58:31.422 I: (DbReadCallback:140) DbReadCallback endDialog
+17:58:35.206 I: (AppliancesActivity:343) [LIST]
+17:58:35.222 I: (PmTreeMaker:478) makeFilePM sCustomerNumber=<00001> sIDNumber=<00006> sTestNumbers=<String(1), arr[0] = <>>
+17:58:35.279 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00006>
+, 00007, 00010, 00011
+17:58:35.441 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <GenerateReportActivity>
+17:58:35.444 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:35.447 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:35.448 I: (GenerateReportActivity:78) === onCreate NEW
+17:58:35.481 I: (FullScreenActivity:118) FullScreenActivity - onResume <GenerateReportActivity>
+17:58:35.483 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:35.484 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:36.405 I: (DbReadCallback:140) DbReadCallback endDialog
+17:58:37.303 I: (GenerateReportActivity:255) [PLAY]
+17:58:38.047 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <ReportGenerationResultActivity>
+17:58:38.050 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:38.053 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:38.054 I: (ReportGenerationResultActivity:46) === onCreate NEW
+17:58:38.079 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+17:58:38.118 I: (FullScreenActivity:118) FullScreenActivity - onResume <ReportGenerationResultActivity>
+17:58:38.121 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+17:58:38.122 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+17:58:38.443 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <GenerateReportActivity>
+17:58:38.444 log FLUSH
+18:02:09.985 I: (FullScreenActivity:118) FullScreenActivity - onResume <ReportGenerationResultActivity>
+18:02:10.020 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:02:10.022 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:02:25.928 I: (AppliancesActivity:2211) makePDF OK
+18:02:25.939 I: (FullScreenActivity:118) FullScreenActivity - onResume <AppliancesActivity>
+18:02:25.941 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:02:25.943 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:02:25.945 I: (AppliancesActivity:2388) -- onResume --
+18:02:26.337 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <ReportGenerationResultActivity>
+18:02:26.337 log FLUSH
+18:02:33.148 I: (AppliancesActivity:266) [PROTOCOL]
+18:02:33.169 I: (TestResultHeaderDataSource:648) getLastTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011>
+18:02:33.171 I: (PmTreeMaker:478) makeFilePM sCustomerNumber=<00001> sIDNumber=<00011> sTestNumbers=<String(1), arr[0] = <1>>
+18:02:33.230 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+18:02:33.254 I: (TestResultHeaderDataSource:599) getFoundTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011> sTestNumber=<1>
+18:02:33.275 I: (TestResultItemDataSource:532) countTestResults n=15 CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+18:02:33.281 I: (TestResultItemDataSource:456) getAllTestResultItemData ok n=15 CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+18:02:33.335 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <GenerateReportActivity>
+18:02:33.337 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:02:33.339 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:02:33.341 I: (GenerateReportActivity:78) === onCreate NEW
+18:02:33.368 I: (FullScreenActivity:118) FullScreenActivity - onResume <GenerateReportActivity>
+18:02:33.371 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:02:33.372 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:02:34.638 I: (GenerateReportActivity:255) [PLAY]
+18:02:35.167 I: (TestResultHeaderDataSource:916) resaveTestResultHeaderDataProtocol CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+18:02:35.175 I: (TestResultHeaderDataSource:599) getFoundTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011> sTestNumber=<1>
+18:02:35.181 I: (TestResultHeaderDataSource:955) resaveTestResultHeaderDataProtocol ret=ok
+18:02:35.186 I: (FullScreenActivity:106) FullScreenActivity -- onCreate <ReportGenerationResultActivity>
+18:02:35.189 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:02:35.191 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:02:35.192 I: (ReportGenerationResultActivity:46) === onCreate NEW
+18:02:35.213 I: (PdfHandler:113) isPdfAppAvailable name: com.microsoft.skydrive.pdfviewer.PdfIntentHandlerActivity
+18:02:35.247 I: (FullScreenActivity:118) FullScreenActivity - onResume <ReportGenerationResultActivity>
+18:02:35.249 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:02:35.250 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:02:35.561 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <GenerateReportActivity>
+18:02:35.563 log FLUSH
+18:03:12.860 I: (FullScreenActivity:118) FullScreenActivity - onResume <ReportGenerationResultActivity>
+18:03:12.877 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:03:12.879 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:03:14.936 I: (AppliancesActivity:2211) makePDF OK
+18:03:14.940 I: (FullScreenActivity:118) FullScreenActivity - onResume <AppliancesActivity>
+18:03:14.942 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:03:14.944 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:03:14.946 I: (AppliancesActivity:2388) -- onResume --
+18:03:15.326 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <ReportGenerationResultActivity>
+18:03:15.327 log FLUSH
+18:03:22.949 I: (FullScreenActivity:143) [BACK] <AppliancesActivity>
+18:03:22.981 I: (FullScreenActivity:118) FullScreenActivity - onResume <MeasurementMenuActivity>
+18:03:22.983 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:03:22.985 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:03:23.429 I: (AppliancesActivity:2369) -- onDestroy --
+18:03:23.431 I: (DbReadCallback:175) DbReadCallback set fullStop
+18:03:23.433 I: (DbReadCallback:140) DbReadCallback endDialog
+18:03:23.434 I: (FullScreenActivity:125) FullScreenActivity - onDestroy <AppliancesActivity>
+18:03:23.435 log FLUSH
+18:05:52.689 I: (FullScreenActivity:118) FullScreenActivity - onResume <MeasurementMenuActivity>
+18:05:52.720 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:05:52.721 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:33:30.219 I: (FullScreenActivity:118) FullScreenActivity - onResume <MeasurementMenuActivity>
+18:33:30.233 I: (Util:2092) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+18:33:30.235 I: (Util:2123) SetLanguage Deutsch (Deutschland)
+18:40:16.568 W: (ConnectionAdapter:1169) ServerListenerThread run: cmd-loopjava.io.IOException: Broken pipe

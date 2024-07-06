@@ -1,0 +1,915 @@
+07-02-2024 
+08:14:18.418 I: (SafetyTestApplication:347) ===== START ===== Test Master DUMPNOBUF SFT ver N88 27.09.2023 3.672, DEVICE API=31, Release=<12>, Manufacturer=<samsung>, Model=<SM-T220> RAM=3001782272 FREE=1268731904
+08:14:18.423 I: (SafetyTestApplication:432) deviceScreen Width=1340 Height=736 orientation=LANDSCAPE
+08:14:18.432 I: (SafetyTestApplication:450)  schemaDrawable IntrinsicWidth=1203 .Height=684
+08:14:18.466 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <StartMenuActivity>
+08:14:18.473 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:14:18.483 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:14:18.488 I: (StartMenuActivity:114) === onCreate NEW
+08:14:18.491 I: (StartMenuActivity:155) onCreate continue1
+08:14:18.525 I: (SafetyTestApplication:1048) readProfileInfos currLanguage=GER
+08:14:18.527 I: (SafetyTestApplication:1050) readProfileInfos currOrientation=LANDSCAPE
+08:14:18.531 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:14:18.533 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:14:19.225 I: (StartMenuActivity:1807) checkCurrentDate: now=07.02.2024 08:14:19 build=27.09.2023 22:08:15 dayDiff=132
+08:14:19.226 I: (StartMenuActivity:1642) checkPermissions
+08:14:19.230 I: (StartMenuActivity:1713) checkPermissions -> finalInit
+08:14:19.231 I: (StartMenuActivity:231) finalInit, isInitialized=false
+08:14:19.296 I: (SafetyTestApplication:1048) readProfileInfos currLanguage=GER
+08:14:19.298 I: (SafetyTestApplication:1050) readProfileInfos currOrientation=LANDSCAPE
+08:14:19.305 I: (SafetyTestApplication:1059) readProfileInfos anwender_standard=true
+08:14:19.306 I: (SafetyTestApplication:1061) readProfileInfos ablauf_auto=true
+08:14:19.307 I: (SafetyTestApplication:1063) readProfileInfos sLastCustomerNumber=00001
+08:14:19.308 I: (SafetyTestApplication:1065) readProfileInfos sLastIDNumber=
+08:14:19.338 I: (SafetyTestApplication:1067) readProfileInfos login_on=true
+08:14:19.340 I: (SafetyTestApplication:1070) readProfileInfos verdrPolarity_on=true
+08:14:19.342 I: (SafetyTestApplication:1328) valCalibrateRpe_RSL_200=-100.0
+08:14:19.343 I: (SafetyTestApplication:1335) valCalibrateRpe_RSL_10A=-100.0
+08:14:19.344 I: (SafetyTestApplication:1342) valCalibrateRpe_RSV_200=-100.0
+08:14:19.346 I: (SafetyTestApplication:1349) valCalibrateRpe_RSV_10A=-100.0
+08:14:19.347 I: (SafetyTestApplication:1358) valCalibrateRpe_RSC_200=-100.0
+08:14:19.349 I: (SafetyTestApplication:1365) valCalibrateRpe_RSC_10A=-100.0
+08:14:19.351 I: (SafetyTestApplication:1371) snCalibrateRpe=
+08:14:19.352 I: (SafetyTestApplication:1378) dateCalibrateRpe=null
+08:14:19.353 I: (SafetyTestApplication:1389) CalibrateRpe not done
+08:14:19.355 I: (SafetyTestApplication:1081) readProfileInfos sManualDevType=
+08:14:19.356 I: (SafetyTestApplication:1083) readProfileInfos sManualDevSN=
+08:14:19.358 I: (SafetyTestApplication:1086) readProfileInfos sSynchRemdirDIR=
+08:14:19.359 I: (SafetyTestApplication:1088) readProfileInfos SynchRemdirON=false
+08:14:19.361 I: (SafetyTestApplication:1090) readProfileInfos sSynchRemdirDOMAIN=
+08:14:19.362 I: (SafetyTestApplication:1093) readProfileInfos sSynchCloudURL=
+08:14:19.364 I: (SafetyTestApplication:1095) readProfileInfos SynchCloudON=false
+08:14:19.366 I: (SafetyTestApplication:1098) readProfileInfos bAutoPDF=false
+08:14:19.367 I: (SafetyTestApplication:1101) readProfileInfos bJsonOn=false
+08:14:19.369 I: (SafetyTestApplication:1104) readProfileInfos bUniqueIdOn=false
+08:14:19.371 I: (SafetyTestApplication:1107) readProfileInfos bLastDigBarcodeOn=false
+08:14:19.372 I: (SafetyTestApplication:1112) readProfileInfos iFixedIdLength=0
+08:14:19.554 I: (SafetyTestApplication:1153) readProfileInfos MeterType not present, set to METERTYPE_1ST
+08:14:19.557 D: (DevOptions:315) Active Options: RCD, VDE544, EN62353, ACImpedanz, Standby, Taste, Schutz10A, Bluetooth, Uiso1500V, KeineNetzumpolung, HID, spezAbleitströme, Deutsch, RelativeValidityMonth, BaseFeature1, BaseFeature2, Clamp, VerlSocket, Schutz10Acal
+08:14:19.564 I: (SafetyTestApplication:3147) read BigDatabaseIDNumbers n=0 date=Wed Feb 07 00:00:00 GMT+01:00 2024
+08:14:19.578 I: (SafetyTestApplication:1188) readProfileInfos eupGridON=true
+08:14:19.579 I: (SafetyTestApplication:1201) dateOfLastTestSaved=null
+08:14:19.580 I: (SafetyTestApplication:1204) nTestDaysFromLastSync=0
+08:14:19.581 I: (SafetyTestApplication:1217) dateStartCountingTestDaysFromLastDbPurge=null
+08:14:19.582 I: (SafetyTestApplication:1220) nTestDaysFromLastDbPurge=0
+08:14:19.584 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:14:19.587 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:14:19.588 I: (EupDevGroupSelActivity:453) readEupDevGroups()
+08:14:19.656 I: (Util:786) getAppDirectoryAPI29 not present
+08:14:19.663 I: (StartMenuActivity:295) InitVariables2 clear crash flag
+08:14:19.714 I: (DefaultRepository:83) new DefaultRepository db: <pcdrdata.sqlite3>
+08:14:19.739 I: (DefaultRepository:514) checkDatabaseContents()
+08:14:19.780 I: (DefaultRepository:517) checkDatabaseContents database ver=9
+08:14:19.785 I: (DefaultRepository:543) checkDatabaseContents = DB_OK
+08:14:19.787 I: (DefaultRepository:483) setDatabaseVersion=9
+08:14:19.794 I: (DefaultRepository:502) setDatabaseVersion OK
+08:14:19.913 I: (StartMenuActivity:925) === onResume
+08:14:19.914 I: (FullScreenActivity:116) FullScreenActivity - onResume <StartMenuActivity>
+08:14:19.917 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:14:19.918 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:14:35.325 I: (StartMenuActivity:576) [PLAY]
+08:14:35.368 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <TesterDevicesActivity>
+08:14:35.371 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:14:35.374 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:14:35.375 I: (TesterDevicesActivity:80) === onCreate NEW
+08:14:35.401 I: (TesterDevicesActivity:575) Bluetooth startDiscovery
+08:14:35.402 I: (ConnectionAdapter:227) CloseConnectionAdapter()
+08:14:35.403 I: (ConnectionAdapter:233) CloseConnectionAdapter ignored - thisConnectionAdapter = null
+08:14:35.411 I: (TesterDevicesActivity:592) Bluetooth discovery starting
+08:14:35.433 D: (TesterDevicesActivity:614) DetectUSB device count : 0
+08:14:35.434 I: (TesterDevicesActivity:654) stopBleScan...
+08:14:35.450 I: (FullScreenActivity:116) FullScreenActivity - onResume <TesterDevicesActivity>
+08:14:35.452 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:14:35.454 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:14:35.748 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:35.749 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@34a4d4b
+08:14:35.753 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:36.174 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:36.176 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@f4ae841
+08:14:36.181 I: (TesterDevicesActivity:162) BT BroadcastReceiver name=<T0200303>
+08:14:36.186 I: (TesterDevicesActivity:180) BT BroadcastReceiver accepted name=<T0200303>
+08:14:36.486 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:36.488 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@4e5ff40
+08:14:36.494 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:36.500 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:36.502 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@754a01f
+08:14:36.507 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:36.512 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:36.514 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@12d1f3b
+08:14:36.519 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:36.523 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:36.525 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@ea99096
+08:14:36.529 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:36.534 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:36.535 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@34ea004
+08:14:36.539 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:37.740 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:37.742 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@11f917a
+08:14:37.749 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:38.258 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:38.261 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@e3ad5d2
+08:14:38.266 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:38.428 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:38.430 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@32d8d59
+08:14:38.438 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:38.445 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:38.447 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@e7b73cc
+08:14:38.451 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:38.457 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:38.458 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@7f2d71b
+08:14:38.473 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:38.924 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:38.926 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@3c05782
+08:14:38.931 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:38.941 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:38.942 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@aa069ce
+08:14:38.946 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:39.706 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:39.708 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@833bd0b
+08:14:39.713 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:39.719 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:39.721 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@cbe4a6
+08:14:39.726 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:41.502 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:41.506 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@e31fefb
+08:14:41.513 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:42.474 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:42.476 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@50ea2cf
+08:14:42.481 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:43.750 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:43.753 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@1861cc7
+08:14:43.759 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:43.929 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:43.931 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@73dbe63
+08:14:43.935 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:43.943 I: (TesterDevicesActivity:151) BT BroadcastReceiver ACTION_STATE_CHANGED, action = android.bluetooth.device.action.FOUND
+08:14:43.945 I: (TesterDevicesActivity:156) BT BroadcastReceiver id=de.safetytest.bluetooth1st.bluetooth.BluetoothDeviceExt@22fcc8c
+08:14:43.950 I: (TesterDevicesActivity:168) BT BroadcastReceiver name=null
+08:14:47.075 I: (TesterDevicesActivity:671) BLE scanCallback name=<DESK 4976
+08:14:48.551 I: (TesterDevicesActivity:262) [DEMO]
+08:14:48.585 I: (StartMenuActivity:973) StartMenuActivity onActivityResult requestCode=1, resultCode=1, data=DATA
+08:14:48.616 I: (AlertBuilderMod:100) AlertBuilderMod title=<Geben Sie den Benutzernamen ein>
+08:14:48.619 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Abbrechen>
+08:14:48.620 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+08:14:48.637 I: (AlertWrapper:39) StartMenuActivity AlertWrapper start dlg
+08:14:48.666 I: (StartMenuActivity:925) === onResume
+08:14:48.667 I: (FullScreenActivity:116) FullScreenActivity - onResume <StartMenuActivity>
+08:14:48.669 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:14:48.671 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:14:49.110 I: (TesterDevicesActivity:654) stopBleScan...
+08:14:49.122 I: (FullScreenActivity:123) FullScreenActivity - onDestroy <TesterDevicesActivity>
+08:14:49.123 log FLUSH
+08:14:49.134 I: (TesterDevicesActivity:571) Bluetooth discovery cancelled
+08:14:51.871 I: (StartMenuActivity:750) [YES]
+08:14:51.873 I: (Util:2309) Toast - Login Fehler
+08:15:00.252 I: (StartMenuActivity:750) [YES]
+08:15:00.315 I: (SafetyTestApplication:846) user <4021375072603>
+08:15:00.317 I: (AlertBuilderMod:86) AlertBuilderMod message=<Möchten Sie die Anmeldedaten speichern?>
+08:15:00.318 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<Ja>
+08:15:00.320 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Nein>
+08:15:00.327 I: (AlertWrapper:39) StartMenuActivity AlertWrapper start dlg
+08:15:00.329 I: (AlertWrapper:41) StartMenuActivity AlertWrapper dismiss by next .start dlgAlert=android.app.AlertDialog@7df5646
+08:15:00.330 I: (AlertWrapper:51) StartMenuActivity AlertWrapper dismiss dlgAlert = null
+08:15:05.370 I: (StartMenuActivity:831) [YES]
+08:15:05.423 I: (StartMenuActivity:845) DLG END
+08:15:05.443 I: (AlertWrapper:62) StartMenuActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+08:15:05.490 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <MeasurementMenuActivity>
+08:15:05.505 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:15:05.507 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:15:05.510 I: (MeasurementMenuActivity:44) === onCreate NEW
+08:15:05.633 I: (FullScreenActivity:116) FullScreenActivity - onResume <MeasurementMenuActivity>
+08:15:05.635 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:15:05.637 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:15:25.316 I: (MeasurementMenuActivity:76) [CUSTOMERS]
+08:15:25.361 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <CustomersActivity>
+08:15:25.364 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:15:25.366 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:15:25.368 I: (CustomersActivity:72) === onCreate NEW
+08:15:25.401 I: (CustomersActivity:605) InitData()
+08:15:25.406 I: (CustomersActivity:775) onResume()
+08:15:25.408 I: (FullScreenActivity:116) FullScreenActivity - onResume <CustomersActivity>
+08:15:25.410 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:15:25.411 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:15:25.434 I: (CustomersActivity:628) InitData - getAllCustomerData done N=1
+08:15:25.491 I: (CustomersActivity:678) initial CustomerNumber=<00001>
+08:15:26.440 I: (DbReadCallback:140) DbReadCallback endDialog
+08:15:35.334 I: (CustomersActivity:154) [EDIT]
+08:15:35.402 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <CustomerSettingsActivity>
+08:15:35.405 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:15:35.407 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:15:35.408 I: (CustomerSettingsActivity:44) === onCreate NEW
+08:15:35.410 I: (CustomerSettingsActivity:45) LastCustomerNumber=<00001>
+08:15:35.474 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<null>
+08:15:35.476 I: (SafetyTestApplication:2403) checkAppVersionIn_Settings_DB_flag moved to remark2
+08:15:35.477 I: (ApplianceDataSource:1175) saveApplianceData CustomerNumber=<00001>, IDNumber=<00010>, keepGroupSelTypeId=<true>
+08:15:35.486 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00010>
+08:15:35.533 I: (ApplianceDataSource:1255) saveApplianceData = OK
+08:15:35.542 I: (FullScreenActivity:116) FullScreenActivity - onResume <CustomerSettingsActivity>
+08:15:35.545 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:15:35.546 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:15:37.565 I: (AlertBuilderMod:100) AlertBuilderMod title=<Eindeutigen Kundennamen eingeben.>
+08:15:37.578 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Abbrechen>
+08:15:37.580 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+08:15:37.587 I: (AlertWrapper:39) CustomerSettingsActivity AlertWrapper start dlg
+08:15:49.135 I: (CustomerSettingsListAdapter:450) [YES]
+08:15:49.144 I: (CustomerSettingsListAdapter:452) input = <MIG>
+08:15:49.452 I: (CustomerSettingsListAdapter:436) DLG END
+08:15:49.454 I: (AlertWrapper:62) CustomerSettingsActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+08:15:56.475 I: (AlertBuilderMod:100) AlertBuilderMod title=<Ansprechpartner eingeben.>
+08:15:56.479 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Abbrechen>
+08:15:56.481 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+08:15:56.485 I: (AlertWrapper:39) CustomerSettingsActivity AlertWrapper start dlg
+08:16:05.334 I: (CustomerSettingsListAdapter:450) [YES]
+08:16:05.344 I: (CustomerSettingsListAdapter:452) input = <MOMO>
+08:16:05.675 I: (CustomerSettingsListAdapter:436) DLG END
+08:16:05.677 I: (AlertWrapper:62) CustomerSettingsActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+08:16:08.232 I: (AlertBuilderMod:100) AlertBuilderMod title=<PLZ eingeben.>
+08:16:08.237 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Abbrechen>
+08:16:08.239 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+08:16:08.244 I: (AlertWrapper:39) CustomerSettingsActivity AlertWrapper start dlg
+08:16:21.236 I: (FullScreenActivity:116) FullScreenActivity - onResume <CustomerSettingsActivity>
+08:16:21.252 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:16:21.254 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:16:30.281 I: (CustomerSettingsListAdapter:450) [YES]
+08:16:30.283 I: (CustomerSettingsListAdapter:452) input = <51103 köln>
+08:16:30.565 I: (CustomerSettingsListAdapter:436) DLG END
+08:16:30.567 I: (AlertWrapper:62) CustomerSettingsActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+08:16:41.318 I: (CustomerSettingsActivity:88) [PLAY]
+08:16:41.455 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <AppliancesActivity>
+08:16:41.459 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:16:41.462 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:16:41.463 I: (AppliancesActivity:120) === onCreate NEW
+08:16:41.465 I: (AppliancesActivity:121) LastCustomerNumber=<00001>, LastIDNumber=<>
+08:16:41.532 I: (AppliancesActivity:1833) initial CustomerNumber=<00001>
+08:16:41.534 I: (AppliancesActivity:1885) InitData aData=null sDelIDNumber=null allowReadDB=true
+08:16:41.552 I: (ApplianceDataSource:1129) countAppliances sCustomerNumber=<00001>
+08:16:41.554 I: (ApplianceDataSource:1151) countAppliances n=1
+08:16:41.556 I: (AppliancesActivity:1917) InitData countAppliances = 1
+08:16:41.559 I: (AppliancesActivity:1928) InitData Run beg
+08:16:41.562 I: (AppliancesActivity:2104) InitData finish OK
+08:16:41.571 I: (FullScreenActivity:116) FullScreenActivity - onResume <AppliancesActivity>
+08:16:41.574 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:16:41.576 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:16:41.580 I: (AppliancesActivity:2388) -- onResume --
+08:16:41.580 I: (ApplianceDataSource:1129) countAppliances sCustomerNumber=<00001>
+08:16:41.583 I: (ApplianceDataSource:1151) countAppliances n=1
+08:16:41.585 I: (ApplianceDataSource:1129) countAppliances sCustomerNumber=<00001>
+08:16:41.589 I: (ApplianceDataSource:1151) countAppliances n=1
+08:16:41.605 I: (ApplianceDataSource:778) getAllApplianceData ok n=1 sCustomerNumber=<00001>,recLimit=0
+08:16:41.607 I: (AppliancesActivity:1948) InitData - getAllApplianceData done N=1
+08:16:41.610 I: (AppliancesActivity:2028) InitData Run end, appliances_all=1
+08:16:41.673 I: (SafetyTestApplication:886) setLastIDNumber <> to <>
+08:16:42.105 I: (FullScreenActivity:123) FullScreenActivity - onDestroy <CustomerSettingsActivity>
+08:16:42.107 log FLUSH
+08:16:42.615 I: (DbReadCallback:140) DbReadCallback endDialog
+08:16:53.383 I: (AppliancesActivity:418) [PLAY]
+08:16:53.391 I: (Util:2309) Toast - Keine Daten ausgewählt
+08:17:28.623 I: (FullScreenActivity:116) FullScreenActivity - onResume <AppliancesActivity>
+08:17:28.641 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:17:28.644 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:17:28.648 I: (AppliancesActivity:2388) -- onResume --
+08:17:30.325 I: (FullScreenActivity:141) [BACK] <AppliancesActivity>
+08:17:30.347 I: (CustomersActivity:775) onResume()
+08:17:30.349 I: (FullScreenActivity:116) FullScreenActivity - onResume <CustomersActivity>
+08:17:30.351 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:17:30.353 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:17:30.355 I: (CustomersActivity:605) InitData()
+08:17:30.385 I: (CustomersActivity:628) InitData - getAllCustomerData done N=1
+08:17:30.413 I: (CustomersActivity:678) initial CustomerNumber=<00001>
+08:17:30.740 I: (AppliancesActivity:2369) -- onDestroy --
+08:17:30.741 I: (DbReadCallback:175) DbReadCallback set fullStop
+08:17:30.742 I: (DbReadCallback:140) DbReadCallback endDialog
+08:17:30.743 I: (FullScreenActivity:123) FullScreenActivity - onDestroy <AppliancesActivity>
+08:17:30.743 log FLUSH
+08:17:31.391 I: (DbReadCallback:140) DbReadCallback endDialog
+08:17:32.094 I: (FullScreenActivity:141) [BACK] <CustomersActivity>
+08:17:32.118 I: (FullScreenActivity:116) FullScreenActivity - onResume <MeasurementMenuActivity>
+08:17:32.121 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:17:32.123 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:17:32.540 I: (CustomersActivity:764) -- onDestroy --
+08:17:32.541 I: (DbReadCallback:175) DbReadCallback set fullStop
+08:17:32.542 I: (DbReadCallback:140) DbReadCallback endDialog
+08:17:32.543 I: (FullScreenActivity:123) FullScreenActivity - onDestroy <CustomersActivity>
+08:17:32.544 log FLUSH
+08:17:34.168 I: (MeasurementMenuActivity:109) [PLAY]
+08:17:34.226 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <AppliancesActivity>
+08:17:34.229 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:17:34.232 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:17:34.233 I: (AppliancesActivity:120) === onCreate NEW
+08:17:34.234 I: (AppliancesActivity:121) LastCustomerNumber=<00001>, LastIDNumber=<>
+08:17:34.275 I: (AppliancesActivity:1833) initial CustomerNumber=<00001>
+08:17:34.277 I: (AppliancesActivity:1885) InitData aData=null sDelIDNumber=null allowReadDB=true
+08:17:34.293 I: (ApplianceDataSource:1129) countAppliances sCustomerNumber=<00001>
+08:17:34.296 I: (ApplianceDataSource:1151) countAppliances n=1
+08:17:34.297 I: (AppliancesActivity:1917) InitData countAppliances = 1
+08:17:34.299 I: (AppliancesActivity:1928) InitData Run beg
+08:17:34.300 I: (AppliancesActivity:2104) InitData finish OK
+08:17:34.306 I: (FullScreenActivity:116) FullScreenActivity - onResume <AppliancesActivity>
+08:17:34.309 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:17:34.310 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:17:34.313 I: (AppliancesActivity:2388) -- onResume --
+08:17:34.323 I: (ApplianceDataSource:1129) countAppliances sCustomerNumber=<00001>
+08:17:34.326 I: (ApplianceDataSource:1151) countAppliances n=1
+08:17:34.327 I: (ApplianceDataSource:1129) countAppliances sCustomerNumber=<00001>
+08:17:34.330 I: (ApplianceDataSource:1151) countAppliances n=1
+08:17:34.340 I: (ApplianceDataSource:778) getAllApplianceData ok n=1 sCustomerNumber=<00001>,recLimit=0
+08:17:34.341 I: (AppliancesActivity:1948) InitData - getAllApplianceData done N=1
+08:17:34.343 I: (AppliancesActivity:2028) InitData Run end, appliances_all=1
+08:17:34.390 I: (SafetyTestApplication:886) setLastIDNumber <> to <>
+08:17:35.346 I: (DbReadCallback:140) DbReadCallback endDialog
+08:17:51.013 I: (AppliancesActivity:195) [PLUS]
+08:17:51.021 I: (AppliancesActivity:1226) [PLUS] ed IDNumber=<> useBigDatabaseIDNumbers=false mode=ADD_APPLIANCE_INCREMENT_LAST_TESTED
+08:17:51.042 I: (TestResultHeaderDataSource:648) getLastTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<null>
+08:17:51.043 I: (AppliancesActivity:1384) PLUS db IDNumberLastMes=<00010> sLocation=<TEC>
+08:17:51.044 I: (AppliancesActivity:1406) PLUS db IDNumber <- IDNumberLastMes
+08:17:51.045 I: (AppliancesActivity:1469) PLUS auto sIDNumber=<00011>
+08:17:51.046 I: (AlertBuilderMod:86) AlertBuilderMod message=<Bitte geben Sie die ID-Nummer für das neue Gerät ein>
+08:17:51.050 I: (AlertBuilderMod:398) AlertBuilderMod PositiveButtonMod=<OK>
+08:17:51.051 I: (AlertBuilderMod:386) AlertBuilderMod NegativeButtonMod=<Abbrechen>
+08:17:51.057 I: (AlertWrapper:39) AppliancesActivity AlertWrapper start dlg
+08:17:56.363 I: (AppliancesActivity:1559) [OK] sOtherCustomer = <>
+08:17:56.364 I: (AppliancesActivity:1562) sIDNumber input = <00011>
+08:17:56.380 I: (AppliancesActivity:1615) PLUS OK sIDNumber=<00011>
+08:17:56.382 I: (SafetyTestApplication:886) setLastIDNumber <> to <00011>
+08:17:56.419 I: (AppliancesActivity:1546) DLG END
+08:17:56.421 I: (AlertWrapper:62) AppliancesActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+08:17:56.452 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <ApplianceSettingsActivity>
+08:17:56.458 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:17:56.461 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:17:56.462 I: (ApplianceSettingsActivity:88) === onCreate NEW
+08:17:56.464 I: (ApplianceSettingsActivity:89) LastCustomerNumber=<00001>, LastIDNumber=<00011>
+08:17:56.512 I: (ApplianceSettingsActivity:120) initial CustomerNumber=<00001> IDNumber=<00011>
+08:17:56.514 I: (ApplianceSettingsListAdapter:198) populateListFromDB params: LastSelID=null, aLastSel=<ID: PROC:prcMem70xSKIakt, sLoc=<TEC>, sU1=null, sU2=null, sU3=null, sInt=null, sMan=null, sDescr=null, sTyp=null, sSN=null, sRem=null, aToRest=null
+08:17:56.536 I: (ApplianceDataSource:1026) getFoundApplianceData OK not found sCustomerNumber=<00001> IDNumber=<00011>
+08:17:56.545 I: (ApplianceSettingsListAdapter:410) populateListFromDB items:  IDNUMBE:<00011>  DESCRIP:<>  MANUFAC:<>  TYPE:<>  FACTORY:<>  KENNZEI:<>  LOCATIO:<TEC>  REMARK:<>  USER1:<>  USER2:<>  USER3:<>  NORM:<NORM_07012>  PROFILE:<PROFILE_SKIakt>  ADAPT3P:<>  TESTINT:<> 
+08:17:56.549 I: (Util:2309) Toast - Ein neues Gerät
+08:17:56.563 I: (FullScreenActivity:116) FullScreenActivity - onResume <ApplianceSettingsActivity>
+08:17:56.566 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:17:56.567 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:19:17.724 I: (FullScreenActivity:116) FullScreenActivity - onResume <ApplianceSettingsActivity>
+08:19:17.739 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:19:17.741 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:19:25.783 I: (ApplianceSettingsActivity:164) [PLAY]
+08:19:25.790 I: (SafetyTestApplication:2403) checkAppVersionIn_Settings_DB_flag moved to remark2
+08:19:25.792 I: (ApplianceSettingsActivity:829) save appliance: Heating=<keine> TestInt=<12> Protoco=<VDE701-2ger.frm> Hyperli=<> ELVTest=<> Locatio=<TEC> CableLe=<5 m> Wiring=<> SurgeAr=<> Power=<> Status=<0> Remark=<> PETest=<X> LastTes=<null> Picture=<> TestNum=<0> User3=<> DeviceD=<> Type=<> TestRes=<> ELV=<> CableCr=<1,5 qmm> SubStan=<> Timesta=<2024-02-07 08:19:25> Current=<> NextTes=<null> RCDType=<> Remark2=<#VER:N88 3.672# #EUP:#> Custome=<00001> Isolate=<X> PEParts=<X> Class=<SKI> User2=<> Procedu=<prcMem70xSKIakt> Manufac=<> Applied=<> Standar=<EN 50678/EN 50699> IDNumbe=<00011> PRCDS=<> Factory=<> RCDIDN=<> User1=<> OCVolta=<> Insulat=<X>
+08:19:25.813 I: (ApplianceDataSource:1175) saveApplianceData CustomerNumber=<00001>, IDNumber=<00011>, keepGroupSelTypeId=<false>
+08:19:25.815 I: (ApplianceDataSource:1026) getFoundApplianceData OK not found sCustomerNumber=<00001> IDNumber=<00011>
+08:19:25.838 I: (ApplianceDataSource:1255) saveApplianceData = OK
+08:19:25.841 I: (SafetyTestApplication:3216) getBigDatabaseIDNumbers cust=<00001> n = 0
+08:19:25.842 I: (SafetyTestApplication:3199) addBigDatabaseIDNumber add sCustomerNumber=<00001> sIDNumber=<00011>
+08:19:25.898 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <MeasurementSettingsActivity>
+08:19:25.901 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:19:25.904 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:19:25.905 I: (MeasurementSettingsBoxesActivity:37) === onCreate NEW
+08:19:25.906 I: (MeasurementSettingsActivity:82) === onCreate NEW
+08:19:25.907 I: (MeasurementSettingsActivity:83) LastCustomerNumber=<00001>, LastIDNumber=<00011>
+08:19:26.005 I: (StartMenuActivity:1807) checkCurrentDate: now=07.02.2024 08:19:26 build=27.09.2023 22:08:15 dayDiff=132
+08:19:26.028 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+, 00011
+08:19:26.103 I: (ApplianceSettingsListAdapter:198) populateListFromDB params: LastSelID=null, aLastSel=null, sLoc=null, sU1=null, sU2=null, sU3=null, sInt=null, sMan=null, sDescr=null, sTyp=null, sSN=null, sRem=null, aToRest=null
+08:19:26.121 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+08:19:26.129 I: (ApplianceSettingsListAdapter:410) populateListFromDB items:  IDNUMBE:<00011>  DESCRIP:<>  MANUFAC:<>  TYPE:<>  FACTORY:<>  KENNZEI:<>  LOCATIO:<TEC>  REMARK:<>  USER1:<>  USER2:<>  USER3:<>  NORM:<NORM_07012>  PROFILE:<PROFILE_SKIakt>  ADAPT3P:<>  TESTINT:<12> 
+08:19:26.147 I: (TestResultHeaderDataSource:648) getLastTestResultHeaderData ok sCustomerNumber=<00001> IDNumber=<00011>
+08:19:26.173 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+, 00011
+08:19:26.202 I: (FullScreenActivity:116) FullScreenActivity - onResume <MeasurementSettingsActivity>
+08:19:26.205 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:19:26.206 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:19:26.783 I: (ApplianceSettingsActivity:982) -- onDestroy --
+08:19:26.787 I: (FullScreenActivity:123) FullScreenActivity - onDestroy <ApplianceSettingsActivity>
+08:19:26.787 log FLUSH
+08:19:51.568 I: (AlertBuilderMod:186) AlertBuilderMod singleChoiceItems=<0,75 qmm><1,0 qmm><1,5 qmm><2,5 qmm><4,0 qmm><6,0 qmm><10,0 qmm><16,0 qmm><25 qmm><35 qmm><50 qmm> SEL=2
+08:19:51.576 I: (AlertBuilderMod:107) AlertBuilderMod title=<Querschnitt>
+08:19:51.579 I: (AlertWrapper:39) MeasurementSettingsActivity AlertWrapper start dlg
+08:19:55.544 I: (MeasurementSettingsActivity:1141) [SEL]=1,5 qmm
+08:19:55.547 I: (AlertBuilderMod:186) AlertBuilderMod singleChoiceItems=<5 m><12,5 m><20 m><27,5 m><35 m><42,5 m><50 m> SEL=0
+08:19:55.548 I: (AlertBuilderMod:107) AlertBuilderMod title=<Anschlusslänge>
+08:19:55.550 I: (AlertWrapper:39) MeasurementSettingsActivity AlertWrapper start dlg
+08:19:55.551 I: (AlertWrapper:41) MeasurementSettingsActivity AlertWrapper dismiss by next .start dlgAlert=android.app.AlertDialog@738ad73
+08:19:55.569 I: (AlertWrapper:51) MeasurementSettingsActivity AlertWrapper dismiss dlgAlert = null
+08:20:04.869 I: (FullScreenActivity:116) FullScreenActivity - onResume <MeasurementSettingsActivity>
+08:20:04.886 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:20:04.888 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:20:08.619 I: (AlertWrapper:62) MeasurementSettingsActivity AlertWrapper ondismissCallbackCall dlgAlert = null
+08:20:28.411 I: (MeasurementSettingsActivity:231) [PLAY]
+08:20:28.441 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+08:20:28.492 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <MeasurementsSichtActivity>
+08:20:28.496 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:20:28.498 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:20:28.500 I: (MeasurementSettingsBoxesActivity:37) === onCreate NEW
+08:20:28.502 I: (MeasurementsSichtActivity:41) === onCreate NEW
+08:20:28.563 I: (StartMenuActivity:1807) checkCurrentDate: now=07.02.2024 08:20:28 build=27.09.2023 22:08:15 dayDiff=132
+08:20:28.600 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+08:20:28.620 I: (FullScreenActivity:116) FullScreenActivity - onResume <MeasurementsSichtActivity>
+08:20:28.622 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:20:28.624 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:20:29.221 I: (FullScreenActivity:123) FullScreenActivity - onDestroy <MeasurementSettingsActivity>
+08:20:29.222 log FLUSH
+08:20:54.258 I: (MeasurementsSichtActivity:100) [ADDQST]
+08:20:54.266 I: (Util:2309) Toast - Sichtprüfung Fehler.
+08:21:05.177 I: (MeasurementsSichtActivity:66) [PLAY]
+08:21:05.202 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+08:21:05.204 I: (MeasurementsSichtActivity:158) continueToMeasurementsActivity -> de.safetytest.bluetooth1st.activity.MeasurementsActivity
+08:21:05.245 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <MeasurementsActivity>
+08:21:05.248 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:21:05.251 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:21:05.252 I: (MeasurementSettingsBoxesActivity:37) === onCreate NEW
+08:21:05.254 I: (MeasurementsActivity:159) === onCreate NEW
+08:21:05.255 I: (MeasurementsActivity:161) initial CustomerNumber=<00001> IDNumber=<00011>
+08:21:05.256 I: (MeasurementsActivity:162) initial ProcedureNameType: prcMem70xSKIakt
+08:21:05.351 I: (StartMenuActivity:1807) checkCurrentDate: now=07.02.2024 08:21:05 build=27.09.2023 22:08:15 dayDiff=132
+08:21:05.352 I: (MeasurementsActivity:212) Mode = test-sequence
+08:21:05.355 I: (MeasurementsActivity:218) initial sichtResult: true
+08:21:05.356 I: (MeasurementsActivity:224) initial sichtOkList: 1 1 1 1 1 1 
+08:21:05.363 I: (MeasurementsActivity:227) initial nSicht6 = 6
+08:21:05.365 I: (MeasurementsActivity:241) initial settings: CABLE=<5 m> <1,5 qmm>
+08:21:05.386 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+08:21:05.390 I: (MeasurementsActivity:272) initial appliance: Heating=<keine> TestInt=<12> Protoco=<VDE701-2ger.frm> Hyperli=<> ELVTest=<> Locatio=<TEC> CableLe=<5 m> Wiring=<> SurgeAr=<> Power=<> Status=<0> Remark=<> PETest=<X> LastTes=<null> Picture=<> TestNum=<0> User3[]=<> DeviceD=<> Type=<> TestRes=<> ELV=<> CableCr=<1,5 qmm> SubStan=<> Timesta=<2024-02-07 08:19:25> Current=<> NextTes=<null> RCDType=<> Remark2=<#VER:N88 3.672# #EUP:#> Custome=<00001> Isolate=<X> PEParts=<> Class=<SKI> User2[]=<> Procedu=<prcMem70xSKIakt> Manufac=<> Applied=<> Standar=<EN 50678/EN 50699> IDNumbe=<00011> PRCDS=<> Factory=<> RCDIDN=<> User1[]=<> OCVolta=<> Insulat=<X> 
+08:21:05.430 I: (ApplianceDataSource:1026) getFoundApplianceData OK found sCustomerNumber=<00001> IDNumber=<00011>
+08:21:05.445 I: (MeasurementsActivity:2334) == onPostCreate
+08:21:05.448 D: (PollingMeasurementUpdaterDemo:98) DemoThread CREATE
+08:21:05.450 D: (MeasurementSequence:207) MeasurementSequence settings:
+08:21:05.451 D: (MeasurementSequence:208)   LastProcedureNameType=prcMem70xSKIakt
+08:21:05.453 D: (MeasurementSequence:217)   SK_II_TEILE 
+08:21:05.454 D: (MeasurementSequence:217)   CABLE 5 m, 1,5 qmm
+08:21:05.456 D: (MeasurementSequence:219)  LastADAPT3P_CEE=false
+08:21:05.502 I: (MeasurementsActivity:693) HideBigGif()
+08:21:05.503 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=false, forceHide=false)
+08:21:05.506 I: (PollingMeasurementUpdaterDemo:215) DemoThread starting thread
+08:21:05.507 I: (MeasurementsActivity:2403) === onResume ===
+08:21:05.509 I: (FullScreenActivity:116) FullScreenActivity - onResume <MeasurementsActivity>
+08:21:05.511 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+08:21:05.512 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+08:21:05.514 I: (PollingMeasurementUpdaterDemo:186) DemoThread resuming thread
+08:21:06.066 I: (FullScreenActivity:123) FullScreenActivity - onDestroy <MeasurementsSichtActivity>
+08:21:06.066 log FLUSH
+08:21:08.011 D: (PollingMeasurementUpdaterDemo:564) @ demo measurementType=RPE
+08:21:08.014 I: (MeasurementHolder_RPE:202) updateVal=0,083 lim=0,300 ledON=false
+08:21:08.016 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.083 valOrg=0.083 offCal=0.0
+08:21:08.520 I: (MeasurementHolder_RPE:202) updateVal=0,082 lim=0,300 ledON=false
+08:21:08.521 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.082 valOrg=0.082 offCal=0.0
+08:21:09.310 I: (MeasurementHolder_RPE:202) updateVal=0,084_stb minmax=0,084 lim=0,300 ledON=false beep
+08:21:09.312 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.084 valOrg=0.084 offCal=0.0
+08:21:09.314 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.084 valOrg=0.084 offCal=0.0
+08:21:09.817 I: (MeasurementHolder_RPE:202) updateVal=0,090_stb minmax=0,090 lim=0,300 ledON=false
+08:21:09.819 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:09.821 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:10.326 I: (MeasurementHolder_RPE:202) updateVal=0,084_stb minmax=0,090 lim=0,300 ledON=false
+08:21:10.329 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:10.333 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.084 valOrg=0.084 offCal=0.0
+08:21:10.836 I: (MeasurementHolder_RPE:202) updateVal=0,081_stb minmax=0,090 lim=0,300 ledON=false
+08:21:10.838 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:10.840 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.081 valOrg=0.081 offCal=0.0
+08:21:11.344 I: (MeasurementHolder_RPE:202) updateVal=0,089_stb minmax=0,090 lim=0,300 ledON=false
+08:21:11.347 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:11.351 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.089 valOrg=0.089 offCal=0.0
+08:21:11.855 I: (MeasurementHolder_RPE:202) updateVal=0,082_stb minmax=0,090 lim=0,300 ledON=false
+08:21:11.858 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:11.860 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.082 valOrg=0.082 offCal=0.0
+08:21:12.365 I: (MeasurementHolder_RPE:202) updateVal=0,084_stb minmax=0,090 lim=0,300 ledON=false
+08:21:12.368 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:12.371 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.084 valOrg=0.084 offCal=0.0
+08:21:12.877 I: (MeasurementHolder_RPE:202) updateVal=0,087_stb minmax=0,090 lim=0,300 ledON=false
+08:21:12.879 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:12.882 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.087 valOrg=0.087 offCal=0.0
+08:21:13.387 I: (MeasurementHolder_RPE:202) updateVal=0,082_stb minmax=0,090 lim=0,300 ledON=false
+08:21:13.389 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:13.391 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.082 valOrg=0.082 offCal=0.0
+08:21:13.897 I: (MeasurementHolder_RPE:202) updateVal=0,085_stb minmax=0,090 lim=0,300 ledON=false
+08:21:13.900 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:13.902 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.085 valOrg=0.085 offCal=0.0
+08:21:14.407 I: (MeasurementHolder_RPE:202) updateVal=0,084_stb minmax=0,090 lim=0,300 ledON=false
+08:21:14.410 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:14.412 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.084 valOrg=0.084 offCal=0.0
+08:21:14.917 I: (MeasurementHolder_RPE:202) updateVal=0,087_stb minmax=0,090 lim=0,300 ledON=false
+08:21:14.919 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:14.921 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.087 valOrg=0.087 offCal=0.0
+08:21:15.426 I: (MeasurementHolder_RPE:202) updateVal=0,085_stb minmax=0,090 lim=0,300 ledON=false
+08:21:15.427 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:15.429 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.085 valOrg=0.085 offCal=0.0
+08:21:15.934 I: (MeasurementHolder_RPE:202) updateVal=0,082_stb minmax=0,090 lim=0,300 ledON=false
+08:21:15.936 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:15.940 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.082 valOrg=0.082 offCal=0.0
+08:21:16.445 I: (MeasurementHolder_RPE:202) updateVal=0,085_stb minmax=0,090 lim=0,300 ledON=false
+08:21:16.460 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:16.463 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.085 valOrg=0.085 offCal=0.0
+08:21:16.967 I: (MeasurementHolder_RPE:202) updateVal=0,086_stb minmax=0,090 lim=0,300 ledON=false
+08:21:16.969 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:16.971 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.086 valOrg=0.086 offCal=0.0
+08:21:17.477 I: (MeasurementHolder_RPE:202) updateVal=0,089_stb minmax=0,090 lim=0,300 ledON=false
+08:21:17.479 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:17.483 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.089 valOrg=0.089 offCal=0.0
+08:21:17.988 I: (MeasurementHolder_RPE:202) updateVal=0,089_stb minmax=0,090 lim=0,300 ledON=false
+08:21:17.990 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:17.992 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.089 valOrg=0.089 offCal=0.0
+08:21:18.496 I: (MeasurementHolder_RPE:202) updateVal=0,080_stb minmax=0,090 lim=0,300 ledON=false
+08:21:18.498 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:18.501 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.080 valOrg=0.08 offCal=0.0
+08:21:19.005 I: (MeasurementHolder_RPE:202) updateVal=0,088_stb minmax=0,090 lim=0,300 ledON=false
+08:21:19.007 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:19.010 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.088 valOrg=0.088 offCal=0.0
+08:21:19.515 I: (MeasurementHolder_RPE:202) updateVal=0,089_stb minmax=0,090 lim=0,300 ledON=false
+08:21:19.519 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:19.522 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.089 valOrg=0.089 offCal=0.0
+08:21:20.028 I: (MeasurementHolder_RPE:202) updateVal=0,085_stb minmax=0,090 lim=0,300 ledON=false
+08:21:20.030 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:20.033 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.085 valOrg=0.085 offCal=0.0
+08:21:20.536 I: (MeasurementHolder_RPE:202) updateVal=0,082_stb minmax=0,090 lim=0,300 ledON=false
+08:21:20.537 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:20.540 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.082 valOrg=0.082 offCal=0.0
+08:21:21.045 I: (MeasurementHolder_RPE:202) updateVal=0,084_stb minmax=0,090 lim=0,300 ledON=false
+08:21:21.047 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:21.050 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.084 valOrg=0.084 offCal=0.0
+08:21:21.553 I: (MeasurementHolder_RPE:202) updateVal=0,081_stb minmax=0,090 lim=0,300 ledON=false
+08:21:21.555 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:21.558 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.081 valOrg=0.081 offCal=0.0
+08:21:22.062 I: (MeasurementHolder_RPE:202) updateVal=0,082_stb minmax=0,090 lim=0,300 ledON=false
+08:21:22.064 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:22.067 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.082 valOrg=0.082 offCal=0.0
+08:21:22.571 I: (MeasurementHolder_RPE:202) updateVal=0,083_stb minmax=0,090 lim=0,300 ledON=false
+08:21:22.574 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:22.576 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.083 valOrg=0.083 offCal=0.0
+08:21:23.081 I: (MeasurementHolder_RPE:202) updateVal=0,083_stb minmax=0,090 lim=0,300 ledON=false
+08:21:23.084 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:23.087 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.083 valOrg=0.083 offCal=0.0
+08:21:23.592 I: (MeasurementHolder_RPE:202) updateVal=0,089_stb minmax=0,090 lim=0,300 ledON=false
+08:21:23.595 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:23.598 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.089 valOrg=0.089 offCal=0.0
+08:21:24.104 I: (MeasurementHolder_RPE:202) updateVal=0,087_stb minmax=0,090 lim=0,300 ledON=false
+08:21:24.106 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:24.109 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.087 valOrg=0.087 offCal=0.0
+08:21:24.622 I: (MeasurementHolder_RPE:202) updateVal=0,083_stb minmax=0,090 lim=0,300 ledON=false
+08:21:24.624 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:24.626 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.083 valOrg=0.083 offCal=0.0
+08:21:25.130 I: (MeasurementHolder_RPE:202) updateVal=0,086_stb minmax=0,090 lim=0,300 ledON=false
+08:21:25.132 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:25.135 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.086 valOrg=0.086 offCal=0.0
+08:21:25.641 I: (MeasurementHolder_RPE:202) updateVal=0,085_stb minmax=0,090 lim=0,300 ledON=false
+08:21:25.642 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:25.645 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.085 valOrg=0.085 offCal=0.0
+08:21:26.150 I: (MeasurementHolder_RPE:202) updateVal=0,081_stb minmax=0,090 lim=0,300 ledON=false
+08:21:26.152 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:26.155 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.081 valOrg=0.081 offCal=0.0
+08:21:26.377 I: (MeasurementsActivity:2609) [PLAY] onClick
+08:21:26.380 I: (MeasurementsActivity:2690) just next PLAY
+08:21:26.381 I: (FullScreenActivity:190) showSpinner inReconnection=false<MeasurementsActivity>
+08:21:26.658 I: (MeasurementHolder_RPE:202) updateVal=0,083_stb minmax=0,090 lim=0,300 ledON=false
+08:21:26.660 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:26.661 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.083 valOrg=0.083 offCal=0.0
+08:21:27.165 I: (MeasurementHolder_RPE:202) updateVal=0,090_stb minmax=0,090 lim=0,300 ledON=false
+08:21:27.167 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE max ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:27.170 I: (MeasurementHolder_RPE:241) MeasurementHolder_RPE cur ret valCal=0.090 valOrg=0.09 offCal=0.0
+08:21:27.478 I: (MeasurementHolder_RPE:324) ResultItem(RPE)  result=0,090 Ω OK
+08:21:27.527 I: (MeasurementsActivity:693) HideBigGif()
+08:21:27.528 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=false, forceHide=false)
+08:21:27.531 I: (FullScreenActivity:173) hideSpinner <MeasurementsActivity>
+08:21:27.674 D: (PollingMeasurementUpdaterDemo:564) @ demo measurementType=CHECK_ON_BEFORE_RISO
+08:21:29.683 I: (MeasurementsActivity:693) HideBigGif()
+08:21:29.688 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=false, forceHide=false)
+08:21:31.190 D: (MeasurementsActivity:2181) autoPLAY -> onPlayPressed1 inx=de.safetytest.bluetooth1st.measurement.sequence.MeasurementConfiguration@3820224
+08:21:31.193 I: (FullScreenActivity:190) showSpinner inReconnection=false<MeasurementsActivity>
+08:21:32.233 I: (MeasurementHolder_RPE:324) ResultItem(RPE)  result=0,090 Ω OK
+08:21:32.280 I: (MeasurementsActivity:693) HideBigGif()
+08:21:32.282 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=false, forceHide=false)
+08:21:32.285 I: (FullScreenActivity:173) hideSpinner <MeasurementsActivity>
+08:21:32.690 D: (PollingMeasurementUpdaterDemo:564) @ demo measurementType=RISO_LN_PE
+08:21:34.697 I: (MeasurementHolder_RISO_LN_PE:93) updateVal=5,08 lim=1,0
+08:21:35.212 I: (MeasurementHolder_RISO_LN_PE:93) updateVal=5,08 lim=1,0
+08:21:35.717 I: (MeasurementHolder_RISO_LN_PE:93) updateVal=5,10_stb minmax=5,10 lim=1,0
+08:21:36.222 I: (MeasurementHolder_RISO_LN_PE:93) updateVal=5,09_stb minmax=5,09 lim=1,0
+08:21:36.727 I: (MeasurementHolder_RISO_LN_PE:93) updateVal=5,02_stb minmax=5,02 lim=1,0
+08:21:36.733 D: (MeasurementsActivity:2181) autoPLAY -> onPlayPressed1 inx=de.safetytest.bluetooth1st.measurement.sequence.MeasurementConfiguration@3908fa7
+08:21:36.736 I: (FullScreenActivity:190) showSpinner inReconnection=false<MeasurementsActivity>
+08:21:37.235 I: (MeasurementHolder_RISO_LN_PE:93) updateVal=5,04_stb minmax=5,02 lim=1,0
+08:21:37.739 I: (MeasurementHolder_RISO_LN_PE:93) updateVal=5,06_stb minmax=5,02 lim=1,0
+08:21:37.771 I: (MeasurementHolder_RPE:324) ResultItem(RPE)  result=0,090 Ω OK
+08:21:37.773 I: (MeasurementHolder_RISO_LN_PE:143) ResultItem(RISO_LN_PE)  result=5,02 MΩ OK
+08:21:37.805 I: (MeasurementsActivity:693) HideBigGif()
+08:21:37.807 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=false, forceHide=false)
+08:21:37.809 I: (FullScreenActivity:173) hideSpinner <MeasurementsActivity>
+08:21:38.242 D: (PollingMeasurementUpdaterDemo:564) @ demo measurementType=RISO_LN_S
+08:21:38.246 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,03 lim=2,0
+08:21:38.753 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,07 lim=2,0
+08:21:39.258 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,03_stb minmax=8,03 lim=2,0
+08:21:39.763 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,03 lim=2,0
+08:21:40.268 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,01_stb minmax=8,01 lim=2,0
+08:21:40.774 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,01 lim=2,0
+08:21:41.278 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,05_stb minmax=8,01 lim=2,0
+08:21:41.785 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,10_stb minmax=8,01 lim=2,0
+08:21:42.290 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,01 lim=2,0
+08:21:42.796 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,02_stb minmax=8,01 lim=2,0
+08:21:43.302 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,01 lim=2,0
+08:21:43.808 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,01 lim=2,0
+08:21:44.314 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,02_stb minmax=8,01 lim=2,0
+08:21:44.822 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,01_stb minmax=8,01 lim=2,0
+08:21:45.336 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,05_stb minmax=8,01 lim=2,0
+08:21:45.840 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,01_stb minmax=8,01 lim=2,0
+08:21:46.344 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,01_stb minmax=8,01 lim=2,0
+08:21:46.848 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,01 lim=2,0
+08:21:47.353 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,02_stb minmax=8,01 lim=2,0
+08:21:47.859 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,02_stb minmax=8,01 lim=2,0
+08:21:48.363 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,08_stb minmax=8,01 lim=2,0
+08:21:48.868 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,02_stb minmax=8,01 lim=2,0
+08:21:49.373 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,01 lim=2,0
+08:21:49.879 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,03_stb minmax=8,01 lim=2,0
+08:21:50.385 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,01 lim=2,0
+08:21:50.889 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,08_stb minmax=8,01 lim=2,0
+08:21:51.393 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,03_stb minmax=8,01 lim=2,0
+08:21:51.897 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,02_stb minmax=8,01 lim=2,0
+08:21:52.403 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,00_stb minmax=8,00 lim=2,0
+08:21:52.906 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,08_stb minmax=8,00 lim=2,0
+08:21:53.411 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,00 lim=2,0
+08:21:53.915 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,06_stb minmax=8,00 lim=2,0
+08:21:54.420 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,00_stb minmax=8,00 lim=2,0
+08:21:54.924 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,00 lim=2,0
+08:21:55.441 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,08_stb minmax=8,00 lim=2,0
+08:21:55.945 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,08_stb minmax=8,00 lim=2,0
+08:21:56.450 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,00 lim=2,0
+08:21:56.953 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,00 lim=2,0
+08:21:57.457 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,01_stb minmax=8,00 lim=2,0
+08:21:57.960 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,10_stb minmax=8,00 lim=2,0
+08:21:58.464 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,00 lim=2,0
+08:21:58.969 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,07_stb minmax=8,00 lim=2,0
+08:21:59.473 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,06_stb minmax=8,00 lim=2,0
+08:21:59.977 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,06_stb minmax=8,00 lim=2,0
+08:22:00.482 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,08_stb minmax=8,00 lim=2,0
+08:22:00.985 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,00 lim=2,0
+08:22:01.489 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,02_stb minmax=8,00 lim=2,0
+08:22:01.993 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,08_stb minmax=8,00 lim=2,0
+08:22:02.498 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,00_stb minmax=8,00 lim=2,0
+08:22:03.002 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,05_stb minmax=8,00 lim=2,0
+08:22:03.507 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,00_stb minmax=8,00 lim=2,0
+08:22:04.011 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,02_stb minmax=8,00 lim=2,0
+08:22:04.515 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,07_stb minmax=8,00 lim=2,0
+08:22:05.019 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,00 lim=2,0
+08:22:05.533 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,00 lim=2,0
+08:22:06.036 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,00 lim=2,0
+08:22:06.539 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,05_stb minmax=8,00 lim=2,0
+08:22:07.042 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,10_stb minmax=8,00 lim=2,0
+08:22:07.546 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,05_stb minmax=8,00 lim=2,0
+08:22:08.051 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,03_stb minmax=8,00 lim=2,0
+08:22:08.555 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,00 lim=2,0
+08:22:09.059 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,00 lim=2,0
+08:22:09.563 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,10_stb minmax=8,00 lim=2,0
+08:22:10.066 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,05_stb minmax=8,00 lim=2,0
+08:22:10.571 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,00 lim=2,0
+08:22:11.075 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,00_stb minmax=8,00 lim=2,0
+08:22:11.578 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,00 lim=2,0
+08:22:12.082 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,00 lim=2,0
+08:22:12.587 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,00 lim=2,0
+08:22:13.091 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,07_stb minmax=8,00 lim=2,0
+08:22:13.596 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,06_stb minmax=8,00 lim=2,0
+08:22:14.100 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,03_stb minmax=8,00 lim=2,0
+08:22:14.604 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,01_stb minmax=8,00 lim=2,0
+08:22:15.107 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,10_stb minmax=8,00 lim=2,0
+08:22:15.620 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,00_stb minmax=8,00 lim=2,0
+08:22:16.124 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,05_stb minmax=8,00 lim=2,0
+08:22:16.628 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,05_stb minmax=8,00 lim=2,0
+08:22:17.132 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,00 lim=2,0
+08:22:17.637 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,00 lim=2,0
+08:22:18.140 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,08_stb minmax=8,00 lim=2,0
+08:22:18.643 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,00_stb minmax=8,00 lim=2,0
+08:22:19.147 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,00 lim=2,0
+08:22:19.652 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,02_stb minmax=8,00 lim=2,0
+08:22:20.156 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,01_stb minmax=8,00 lim=2,0
+08:22:20.660 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,09_stb minmax=8,00 lim=2,0
+08:22:21.164 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,06_stb minmax=8,00 lim=2,0
+08:22:21.669 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,02_stb minmax=8,00 lim=2,0
+08:22:22.174 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,05_stb minmax=8,00 lim=2,0
+08:22:22.678 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,00 lim=2,0
+08:22:23.184 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,07_stb minmax=8,00 lim=2,0
+08:22:23.689 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,01_stb minmax=8,00 lim=2,0
+08:22:24.192 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,06_stb minmax=8,00 lim=2,0
+08:22:24.699 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,08_stb minmax=8,00 lim=2,0
+08:22:25.204 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,02_stb minmax=8,00 lim=2,0
+08:22:25.721 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,03_stb minmax=8,00 lim=2,0
+08:22:26.226 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,01_stb minmax=8,00 lim=2,0
+08:22:26.731 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,04_stb minmax=8,00 lim=2,0
+08:22:26.875 I: (MeasurementsActivity:2609) [PLAY] onClick
+08:22:26.877 I: (MeasurementsActivity:2690) just next PLAY
+08:22:26.878 I: (FullScreenActivity:190) showSpinner inReconnection=false<MeasurementsActivity>
+08:22:27.235 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,00_stb minmax=8,00 lim=2,0
+08:22:27.739 I: (MeasurementHolder_RISO_LN_S:100) updateVal=8,01_stb minmax=8,00 lim=2,0
+08:22:27.904 I: (MeasurementHolder_RPE:324) ResultItem(RPE)  result=0,090 Ω OK
+08:22:27.905 I: (MeasurementHolder_RISO_LN_PE:143) ResultItem(RISO_LN_PE)  result=5,02 MΩ OK
+08:22:27.907 I: (MeasurementHolder_RISO_LN_S:149) ResultItem(RISO_LN_S)  result=8,00 MΩ OK
+08:22:27.946 I: (MeasurementsActivity:693) HideBigGif()
+08:22:27.948 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=false, forceHide=false)
+08:22:27.951 I: (FullScreenActivity:173) hideSpinner <MeasurementsActivity>
+08:22:28.243 D: (PollingMeasurementUpdaterDemo:564) @ demo measurementType=CHECK_OFF_BEFORE_MAINS
+08:22:30.271 I: (MeasurementsActivity:693) HideBigGif()
+08:22:30.275 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=false, forceHide=false)
+08:23:04.575 I: (MeasurementsActivity:2609) [PLAY] onClick
+08:23:04.584 I: (MeasurementsActivity:2690) just next PLAY
+08:23:04.586 I: (FullScreenActivity:190) showSpinner inReconnection=false<MeasurementsActivity>
+08:23:05.615 I: (MeasurementHolder_RPE:324) ResultItem(RPE)  result=0,090 Ω OK
+08:23:05.616 I: (MeasurementHolder_RISO_LN_PE:143) ResultItem(RISO_LN_PE)  result=5,02 MΩ OK
+08:23:05.618 I: (MeasurementHolder_RISO_LN_S:149) ResultItem(RISO_LN_S)  result=8,00 MΩ OK
+08:23:05.657 I: (MeasurementsActivity:693) HideBigGif()
+08:23:05.658 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=false, forceHide=false)
+08:23:05.661 I: (FullScreenActivity:173) hideSpinner <MeasurementsActivity>
+08:23:05.834 D: (PollingMeasurementUpdaterDemo:564) @ demo measurementType=FUNK
+08:23:05.841 I: (MeasurementHolder_FUNK:345) updateVal U1=230 I1=3,1 P1=709 It=0,056 lim=0,5 Id=2,04 lim=3,5 
+08:23:06.347 I: (MeasurementHolder_FUNK:345) updateVal U1=230 I1=3,1 P1=706 It=0,051 lim=0,5 Id=2,04 lim=3,5 
+08:23:06.852 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,1stb P1=714stb It=0,057stb lim=0,5 Id=2,08stb lim=3,5 
+08:23:07.357 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=701stb It=0,059stb lim=0,5 Id=2,10stb lim=3,5 
+08:23:07.867 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,1stb P1=719stb It=0,059stb lim=0,5 Id=2,07stb lim=3,5 
+08:23:08.373 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=714stb It=0,057stb lim=0,5 Id=2,08stb lim=3,5 
+08:23:08.879 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=710stb It=0,055stb lim=0,5 Id=2,09stb lim=3,5 
+08:23:09.384 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=699stb It=0,055stb lim=0,5 Id=2,07stb lim=3,5 
+08:23:09.890 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=701stb It=0,050stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:10.397 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=714stb It=0,054stb lim=0,5 Id=2,09stb lim=3,5 
+08:23:10.904 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=712stb It=0,057stb lim=0,5 Id=2,04stb lim=3,5 
+08:23:11.410 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=695stb It=0,053stb lim=0,5 Id=2,02stb lim=3,5 
+08:23:11.916 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=698stb It=0,053stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:12.422 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=691stb It=0,051stb lim=0,5 Id=2,09stb lim=3,5 
+08:23:12.929 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=698stb It=0,052stb lim=0,5 Id=2,02stb lim=3,5 
+08:23:13.435 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=696stb It=0,052stb lim=0,5 Id=2,08stb lim=3,5 
+08:23:13.941 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=705stb It=0,054stb lim=0,5 Id=2,00stb lim=3,5 
+08:23:14.447 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,1stb P1=708stb It=0,060stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:14.951 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=692stb It=0,054stb lim=0,5 Id=2,08stb lim=3,5 
+08:23:15.470 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=715 It=0,054stb lim=0,5 Id=2,03stb lim=3,5 
+08:23:15.977 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=712 It=0,056stb lim=0,5 Id=2,06stb lim=3,5 
+08:23:16.483 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=704stb It=0,056stb lim=0,5 Id=2,02stb lim=3,5 
+08:23:16.990 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=703stb It=0,059stb lim=0,5 Id=2,08stb lim=3,5 
+08:23:17.497 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=696stb It=0,057stb lim=0,5 Id=2,05stb lim=3,5 
+08:23:18.003 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=694stb It=0,052stb lim=0,5 Id=2,08stb lim=3,5 
+08:23:18.510 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=712stb It=0,050stb lim=0,5 Id=2,08stb lim=3,5 
+08:23:19.015 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=700stb It=0,055stb lim=0,5 Id=2,00stb lim=3,5 
+08:23:19.521 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=692stb It=0,059stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:20.027 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=699stb It=0,056stb lim=0,5 Id=2,02stb lim=3,5 
+08:23:20.533 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=707stb It=0,056stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:21.039 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=696stb It=0,051stb lim=0,5 Id=2,08stb lim=3,5 
+08:23:21.546 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=699stb It=0,059stb lim=0,5 Id=2,00stb lim=3,5 
+08:23:22.052 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=710stb It=0,055stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:22.557 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=717stb It=0,060stb lim=0,5 Id=2,04stb lim=3,5 
+08:23:23.063 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=701stb It=0,059stb lim=0,5 Id=2,05stb lim=3,5 
+08:23:23.568 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,1stb P1=710stb It=0,052stb lim=0,5 Id=2,00stb lim=3,5 
+08:23:24.074 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=694stb It=0,059stb lim=0,5 Id=2,00stb lim=3,5 
+08:23:24.578 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=706stb It=0,057stb lim=0,5 Id=2,09stb lim=3,5 
+08:23:25.083 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=707stb It=0,058stb lim=0,5 Id=2,04stb lim=3,5 
+08:23:25.601 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=713stb It=0,055stb lim=0,5 Id=2,00stb lim=3,5 
+08:23:26.107 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=711stb It=0,052stb lim=0,5 Id=2,07stb lim=3,5 
+08:23:26.611 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=699stb It=0,050stb lim=0,5 Id=2,05stb lim=3,5 
+08:23:27.114 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=700stb It=0,055stb lim=0,5 Id=2,02stb lim=3,5 
+08:23:27.619 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=694stb It=0,059stb lim=0,5 Id=2,05stb lim=3,5 
+08:23:28.124 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=699stb It=0,060stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:28.211 I: (MeasurementsActivity:2609) [PLAY] onClick
+08:23:28.212 I: (MeasurementsActivity:2690) just next PLAY
+08:23:28.213 I: (FullScreenActivity:190) showSpinner inReconnection=false<MeasurementsActivity>
+08:23:28.627 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=704stb It=0,060stb lim=0,5 Id=2,03stb lim=3,5 
+08:23:29.131 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=697stb It=0,056stb lim=0,5 Id=2,06stb lim=3,5 
+08:23:29.265 I: (MeasurementHolder_RPE:324) ResultItem(RPE)  result=0,090 Ω OK
+08:23:29.266 I: (MeasurementHolder_RISO_LN_PE:143) ResultItem(RISO_LN_PE)  result=5,02 MΩ OK
+08:23:29.267 I: (MeasurementHolder_RISO_LN_S:149) ResultItem(RISO_LN_S)  result=8,00 MΩ OK
+08:23:29.269 I: (MeasurementHolder_FUNK:537) ResultItem(IB)  result=0,060 mA OK
+08:23:29.270 I: (MeasurementHolder_FUNK:549) ResultItem(IDIFF)  result=2,10 mA OK
+08:23:29.271 I: (MeasurementHolder_FUNK:568) ResultItem(U)  result=232 V OK
+08:23:29.272 I: (MeasurementHolder_FUNK:586) ResultItem(I)  result=3,1 A OK
+08:23:29.273 I: (MeasurementHolder_FUNK:605) ResultItem(P)  result=719 W OK
+08:23:29.317 I: (MeasurementsActivity:693) HideBigGif()
+08:23:29.318 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=false, forceHide=false)
+08:23:29.321 I: (FullScreenActivity:173) hideSpinner <MeasurementsActivity>
+08:23:29.635 D: (PollingMeasurementUpdaterDemo:564) @ demo measurementType=UMP
+08:23:30.641 D: (MeasurementsActivity:2155) autoRUN -> onPlayPressed1 inx=de.safetytest.bluetooth1st.measurement.sequence.MeasurementConfiguration@12412e
+08:23:30.645 I: (FullScreenActivity:190) showSpinner inReconnection=false<MeasurementsActivity>
+08:23:31.647 I: (MeasurementHolder_RPE:324) ResultItem(RPE)  result=0,090 Ω OK
+08:23:31.649 I: (MeasurementHolder_RISO_LN_PE:143) ResultItem(RISO_LN_PE)  result=5,02 MΩ OK
+08:23:31.650 I: (MeasurementHolder_RISO_LN_S:149) ResultItem(RISO_LN_S)  result=8,00 MΩ OK
+08:23:31.652 I: (MeasurementHolder_FUNK:537) ResultItem(IB)  result=0,060 mA OK
+08:23:31.653 I: (MeasurementHolder_FUNK:549) ResultItem(IDIFF)  result=2,10 mA OK
+08:23:31.654 I: (MeasurementHolder_FUNK:568) ResultItem(U)  result=232 V OK
+08:23:31.655 I: (MeasurementHolder_FUNK:586) ResultItem(I)  result=3,1 A OK
+08:23:31.657 I: (MeasurementHolder_FUNK:605) ResultItem(P)  result=719 W OK
+08:23:31.691 I: (MeasurementsActivity:693) HideBigGif()
+08:23:31.692 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=false, forceHide=false)
+08:23:31.694 I: (FullScreenActivity:173) hideSpinner <MeasurementsActivity>
+08:23:32.650 D: (PollingMeasurementUpdaterDemo:564) @ demo measurementType=FUNK
+08:23:32.656 I: (MeasurementHolder_FUNK:345) updateVal U1=231 I1=3,0 P1=699 It=0,057 lim=0,5 Id=2,07 lim=3,5 
+08:23:33.162 I: (MeasurementHolder_FUNK:345) updateVal U1=232 I1=3,1 P1=712 It=0,059 lim=0,5 Id=2,09 lim=3,5 
+08:23:33.669 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=705stb It=0,058stb lim=0,5 Id=2,03stb lim=3,5 
+08:23:34.176 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=710stb It=0,053stb lim=0,5 Id=2,05stb lim=3,5 
+08:23:34.682 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=699stb It=0,050stb lim=0,5 Id=2,09stb lim=3,5 
+08:23:35.187 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=700stb It=0,050stb lim=0,5 Id=2,03stb lim=3,5 
+08:23:35.705 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=697stb It=0,057stb lim=0,5 Id=2,06stb lim=3,5 
+08:23:36.210 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=709stb It=0,054stb lim=0,5 Id=2,06stb lim=3,5 
+08:23:36.717 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=696stb It=0,053stb lim=0,5 Id=2,05stb lim=3,5 
+08:23:37.221 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=697stb It=0,053stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:37.726 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=702stb It=0,057stb lim=0,5 Id=2,00stb lim=3,5 
+08:23:38.231 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=709stb It=0,053stb lim=0,5 Id=2,10stb lim=3,5 
+08:23:38.737 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=701stb It=0,054stb lim=0,5 Id=2,02stb lim=3,5 
+08:23:39.243 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=705stb It=0,051stb lim=0,5 Id=2,05stb lim=3,5 
+08:23:39.748 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=692stb It=0,052stb lim=0,5 Id=2,03stb lim=3,5 
+08:23:40.253 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=697stb It=0,056stb lim=0,5 Id=2,08stb lim=3,5 
+08:23:40.759 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=699stb It=0,053stb lim=0,5 Id=2,04stb lim=3,5 
+08:23:41.264 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=697stb It=0,059stb lim=0,5 Id=2,02stb lim=3,5 
+08:23:41.770 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,1stb P1=718 It=0,058stb lim=0,5 Id=2,06stb lim=3,5 
+08:23:42.276 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=695 It=0,054stb lim=0,5 Id=2,04stb lim=3,5 
+08:23:42.782 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=706 It=0,054stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:43.287 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=706stb It=0,055stb lim=0,5 Id=2,02stb lim=3,5 
+08:23:43.793 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=701stb It=0,058stb lim=0,5 Id=2,10stb lim=3,5 
+08:23:44.298 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=696stb It=0,052stb lim=0,5 Id=2,04stb lim=3,5 
+08:23:44.803 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=700stb It=0,056stb lim=0,5 Id=2,06stb lim=3,5 
+08:23:45.310 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=714stb It=0,058stb lim=0,5 Id=2,05stb lim=3,5 
+08:23:45.826 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=711stb It=0,057stb lim=0,5 Id=2,07stb lim=3,5 
+08:23:46.333 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=701stb It=0,056stb lim=0,5 Id=2,03stb lim=3,5 
+08:23:46.839 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=696stb It=0,052stb lim=0,5 Id=2,02stb lim=3,5 
+08:23:47.344 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=708stb It=0,056stb lim=0,5 Id=2,09stb lim=3,5 
+08:23:47.850 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,1stb P1=713stb It=0,051stb lim=0,5 Id=2,05stb lim=3,5 
+08:23:48.354 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=696stb It=0,052stb lim=0,5 Id=2,06stb lim=3,5 
+08:23:48.860 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=705stb It=0,058stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:49.366 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=693stb It=0,059stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:49.871 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=695stb It=0,051stb lim=0,5 Id=2,08stb lim=3,5 
+08:23:50.377 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=697stb It=0,060stb lim=0,5 Id=2,06stb lim=3,5 
+08:23:50.883 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=704stb It=0,058stb lim=0,5 Id=2,07stb lim=3,5 
+08:23:51.392 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=712stb It=0,055stb lim=0,5 Id=2,03stb lim=3,5 
+08:23:51.898 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=696stb It=0,057stb lim=0,5 Id=2,00stb lim=3,5 
+08:23:52.404 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,1stb P1=708stb It=0,058stb lim=0,5 Id=2,03stb lim=3,5 
+08:23:52.910 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=694stb It=0,059stb lim=0,5 Id=2,05stb lim=3,5 
+08:23:53.417 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,1stb P1=710stb It=0,050stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:53.923 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=692stb It=0,058stb lim=0,5 Id=2,10stb lim=3,5 
+08:23:54.430 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=696stb It=0,053stb lim=0,5 Id=2,01stb lim=3,5 
+08:23:54.937 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=710stb It=0,053stb lim=0,5 Id=2,09stb lim=3,5 
+08:23:55.442 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=692stb It=0,053stb lim=0,5 Id=2,02stb lim=3,5 
+08:23:55.959 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=703stb It=0,052stb lim=0,5 Id=2,10stb lim=3,5 
+08:23:56.467 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=696stb It=0,055stb lim=0,5 Id=2,06stb lim=3,5 
+08:23:56.972 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,1stb P1=719 It=0,051stb lim=0,5 Id=2,06stb lim=3,5 
+08:23:57.481 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=703 It=0,050stb lim=0,5 Id=2,03stb lim=3,5 
+08:23:57.987 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=693stb It=0,052stb lim=0,5 Id=2,03stb lim=3,5 
+08:23:58.491 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=699stb It=0,050stb lim=0,5 Id=2,04stb lim=3,5 
+08:23:58.995 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=697stb It=0,055stb lim=0,5 Id=2,07stb lim=3,5 
+08:23:59.499 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=716stb It=0,057stb lim=0,5 Id=2,04stb lim=3,5 
+08:24:00.007 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=707stb It=0,054stb lim=0,5 Id=2,06stb lim=3,5 
+08:24:00.512 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=701stb It=0,050stb lim=0,5 Id=2,05stb lim=3,5 
+08:24:01.016 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=697stb It=0,051stb lim=0,5 Id=2,10stb lim=3,5 
+08:24:01.521 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=706stb It=0,052stb lim=0,5 Id=2,00stb lim=3,5 
+08:24:02.027 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,1stb P1=705stb It=0,057stb lim=0,5 Id=2,10stb lim=3,5 
+08:24:02.532 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,1stb P1=707stb It=0,051stb lim=0,5 Id=2,04stb lim=3,5 
+08:24:03.037 I: (MeasurementHolder_FUNK:345) updateVal U1=230stb I1=3,0stb P1=694stb It=0,059stb lim=0,5 Id=2,02stb lim=3,5 
+08:24:03.541 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=708stb It=0,055stb lim=0,5 Id=2,01stb lim=3,5 
+08:24:04.044 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,1stb P1=710stb It=0,060stb lim=0,5 Id=2,05stb lim=3,5 
+08:24:04.549 I: (MeasurementHolder_FUNK:345) updateVal U1=231stb I1=3,0stb P1=696stb It=0,058stb lim=0,5 Id=2,05stb lim=3,5 
+08:24:04.944 I: (MeasurementsActivity:2609) [PLAY] onClick
+08:24:04.945 I: (MeasurementsActivity:2690) just next PLAY
+08:24:04.947 I: (FullScreenActivity:190) showSpinner inReconnection=false<MeasurementsActivity>
+08:24:05.052 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,0stb P1=696stb It=0,056stb lim=0,5 Id=2,01stb lim=3,5 
+08:24:05.557 I: (MeasurementHolder_FUNK:345) updateVal U1=232stb I1=3,1stb P1=711stb It=0,055stb lim=0,5 Id=2,06stb lim=3,5 
+08:24:05.971 I: (MeasurementHolder_RPE:324) ResultItem(RPE)  result=0,090 Ω OK
+08:24:05.973 I: (MeasurementHolder_RISO_LN_PE:143) ResultItem(RISO_LN_PE)  result=5,02 MΩ OK
+08:24:05.974 I: (MeasurementHolder_RISO_LN_S:149) ResultItem(RISO_LN_S)  result=8,00 MΩ OK
+08:24:05.975 I: (MeasurementHolder_FUNK:537) ResultItem(IB)  result=0,060 mA OK
+08:24:05.977 I: (MeasurementHolder_FUNK:549) ResultItem(IDIFF)  result=2,10 mA OK
+08:24:05.978 I: (MeasurementHolder_FUNK:568) ResultItem(U)  result=232 V OK
+08:24:05.979 I: (MeasurementHolder_FUNK:586) ResultItem(I)  result=3,1 A OK
+08:24:05.980 I: (MeasurementHolder_FUNK:605) ResultItem(P)  result=719 W OK
+08:24:06.030 I: (MeasurementsActivity:693) HideBigGif()
+08:24:06.031 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=false, forceHide=false)
+08:24:06.034 I: (FullScreenActivity:173) hideSpinner <MeasurementsActivity>
+08:24:06.071 D: (PollingMeasurementUpdaterDemo:564) @ demo measurementType=FUNK_OK
+08:24:09.854 I: (MeasurementsActivity:2609) [PLAY] onClick
+08:24:09.856 I: (MeasurementsActivity:2658) FUNK_OK <- OK
+08:24:09.857 I: (FullScreenActivity:190) showSpinner inReconnection=false<MeasurementsActivity>
+08:24:10.881 D: (PollingMeasurementUpdaterDemo:222) DemoThread stopping loops
+08:24:10.882 I: (PollingMeasurementUpdaterDemo:229) DemoThread stopping thread
+08:24:10.883 I: (PollingMeasurementUpdaterDemo:232) stop() >>resume
+08:24:10.884 I: (PollingMeasurementUpdaterDemo:186) DemoThread resuming thread
+08:24:10.886 I: (PollingMeasurementUpdaterDemo:234) stop() <<resume
+08:24:10.886 I: (PollingMeasurementUpdaterDemo:236) stop() >>join
+08:24:11.081 I: (PollingMeasurementUpdaterDemo:238) stop() <<join
+08:24:11.082 I: (PollingMeasurementUpdaterDemo:244) stop() stopped
+08:24:11.085 I: (MeasurementHolder_RPE:324) ResultItem(RPE)  result=0,090 Ω OK
+08:24:11.086 I: (MeasurementHolder_RISO_LN_PE:143) ResultItem(RISO_LN_PE)  result=5,02 MΩ OK
+08:24:11.087 I: (MeasurementHolder_RISO_LN_S:149) ResultItem(RISO_LN_S)  result=8,00 MΩ OK
+08:24:11.089 I: (MeasurementHolder_FUNK:537) ResultItem(IB)  result=0,060 mA OK
+08:24:11.091 I: (MeasurementHolder_FUNK:549) ResultItem(IDIFF)  result=2,10 mA OK
+08:24:11.092 I: (MeasurementHolder_FUNK:568) ResultItem(U)  result=232 V OK
+08:24:11.094 I: (MeasurementHolder_FUNK:586) ResultItem(I)  result=3,1 A OK
+08:24:11.095 I: (MeasurementHolder_FUNK:605) ResultItem(P)  result=719 W OK
+08:24:11.098 I: (MeasurementsActivity:693) HideBigGif()
+08:24:11.101 I: (MeasurementsActivity:753) HideBigResults(rememberStateON=true, forceHide=false)
+08:24:11.106 I: (MeasurementsActivity:942) SaveMeasurements(saveTestResultItems=true saveSafeBackup=false
+08:24:11.109 I: (SafetyTestApplication:3332) dateOfLastTestSaved=Wed Feb 07 08:20:28 GMT+01:00 2024, TestDaysFromLastSync=1, TestDaysFromLastDbPurge=1, dateStartCountingTestDaysFromLastDbPurge=Wed Feb 07 08:24:11 GMT+01:00 2024
+08:24:11.205 I: (TestResultHeaderDataSource:794) saveTestResultHeaderData saveDB=false CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<>
+08:24:11.206 I: (TestResultHeaderDataSource:749) makeTestNumber sCustomerNumber=<00001> IDNumber=<00011>
+08:24:11.209 I: (TestResultHeaderDataSource:782) makeTestNumber ok = <1>
+08:24:11.210 I: (TestResultHeaderDataSource:820) saveTestResultHeaderData ok nosave, t.num=1
+08:24:11.231 I: (TestResultItemDataSource:558) saveTestResultItemData CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+08:24:11.567 I: (TestResultItemDataSource:628) testResultItemData ok
+08:24:11.596 I: (TestResultHeaderDataSource:794) saveTestResultHeaderData saveDB=true CustomerNumber=<00001> IDNumber=<00011 sTestNumber=<1>
+08:24:11.615 log FLUSH
+08:24:11.627 E: (SafetyTestApplication:378) handleUncaughtException Error: ex: java.lang.NullPointerException: Attempt to get length of null array STACK: java.lang.NullPointerException: Attempt to get length of null array
+	at de.safetytest.bluetooth1st.db.TestResultHeaderDataSource.saveTestResultHeaderData(TestResultHeaderDataSource.java:843)
+	at de.safetytest.bluetooth1st.activity.MeasurementsActivity.SaveMeasurements(MeasurementsActivity.java:1007)
+	at de.safetytest.bluetooth1st.activity.MeasurementsActivity.showResultScreenOnThread(MeasurementsActivity.java:1344)
+	at de.safetytest.bluetooth1st.activity.MeasurementsActivity.access$1700(MeasurementsActivity.java:74)
+	at de.safetytest.bluetooth1st.activity.MeasurementsActivity$16.run(MeasurementsActivity.java:932)
+	at android.os.Handler.handleCallback(Handler.java:938)
+	at android.os.Handler.dispatchMessage(Handler.java:99)
+	at android.os.Looper.loopOnce(Looper.java:226)
+	at android.os.Looper.loop(Looper.java:313)
+	at android.app.ActivityThread.main(ActivityThread.java:8751)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:571)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1135)
+
+08:24:11.628 log FLUSH

@@ -1,0 +1,11 @@
+07-02-2024 
+14:07:38.374 I: (SafetyTestApplication:347) ===== START ===== Test Master DUMPNOBUF SFT ver N88 27.09.2023 3.672, DEVICE API=31, Release=<12>, Manufacturer=<samsung>, Model=<SM-T220> RAM=3001782272 FREE=1060970496
+14:07:38.381 I: (SafetyTestApplication:432) deviceScreen Width=1340 Height=736 orientation=LANDSCAPE
+14:07:38.395 I: (SafetyTestApplication:450)  schemaDrawable IntrinsicWidth=1203 .Height=684
+14:07:38.559 I: (FullScreenActivity:104) FullScreenActivity -- onCreate <StartMenuActivity>
+14:07:38.565 I: (Util:2085) SetOrientation SCREEN_ORIENTATION_LANDSCAPE
+14:07:38.576 I: (Util:2116) SetLanguage Deutsch (Deutschland)
+14:07:38.580 I: (StartMenuActivity:114) === onCreate reopen
+14:07:38.584 I: (StartMenuActivity:134) restarted after crash
+14:07:38.589 I: (StartMenuActivity:148) ===== STOP LOG =====
+14:07:38.589 log FLUSH
